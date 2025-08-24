@@ -1,0 +1,7 @@
+@echo off
+title %ARCHIVO%
+cls
+echo.
+perl -w %ARCHIVO% %*
+echo.
+pause
