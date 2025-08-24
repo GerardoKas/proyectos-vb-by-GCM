@@ -1,0 +1,2 @@
+Línea 30: la clase MSComDlg.CommonDialog del control cmdlg1 no era una clase de control cargada.
+Línea 105: la clase RichTextLib.RichTextBox del control rich1 no era una clase de control cargada.

@@ -1,0 +1,377 @@
+c:\WINDOWS\MEDIA\CHORD.WAV::131::97016
+c:\WINDOWS\MEDIA\DING.WAV::406::80856
+c:\WINDOWS\MEDIA\LOGOFF.WAV::214::313116
+c:\WINDOWS\MEDIA\NOTIFY.WAV::265::119384
+c:\WINDOWS\MEDIA\RECYCLE.WAV::222::25434
+c:\WINDOWS\MEDIA\TADA.WAV::300::171100
+c:\WINDOWS\MEDIA\The Microsoft Sound.wav::133::693212
+c:\WINDOWS\MEDIA\START.WAV::193::4184
+c:\WINDOWS\MEDIA\CHIMES.WAV::255::55776
+c:\WINDOWS\TEMP\7zOE182.TMP\FelizAñoNuevo_2003.wav::281::12596
+c:\WINDOWS\ShellNew\SNDREC.WAV::296::58
+c:\WINDOWS\Application Data\Microsoft\WELCOME\WELCOM98.WAV::313::668440
+c:\Archivos de programa\Winamp\demo.mp3::236::37251
+c:\Archivos de programa\Windows Media Components\Tools\Samples\voice.wav::316::151708
+c:\Archivos de programa\Netscape\Communicator\Program\AIM\sounds\dooropen.wav::303::19180
+c:\Archivos de programa\Netscape\Communicator\Program\AIM\sounds\doorslam.wav::253::9388
+c:\Archivos de programa\Netscape\Communicator\Program\AIM\sounds\imrcv.wav::322::18348
+c:\Archivos de programa\Netscape\Communicator\Program\AIM\sounds\imsend.wav::285::17772
+c:\Archivos de programa\Netscape\Communicator\Program\AIM\sounds\ring.wav::254::15724
+c:\Archivos de programa\FruityLoops 3.4\Samples\Used by tunes\DrillNB_170_15.wav::236::72376
+c:\Archivos de programa\FruityLoops 3.4\Samples\Used by tunes\TakeThisOut.wav::306::30714
+c:\Archivos de programa\FruityLoops 3.4\Samples\System\Metronome.wav::347::18492
+c:\Archivos de programa\FruityLoops 3.4\Samples\System\Metronome2.wav::327::2672
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Vintage\HC.WAV::282::44146
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Vintage\RS.wav::243::1260
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Vintage\SD.wav::180::8220
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Vintage\OHH.wav::264::52568
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Vintage\BD.wav::184::28106
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Vintage\TOM.wav::139::31820
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Vintage\MidTom05-10-00.wav::280::27052
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Vintage\RimShot10.wav::197::5508
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Vintage\MA.wav::230::2838
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Vintage\CY.wav::166::176446
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Vintage\OHihat10-00.wav::178::36272
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Vintage\Lc.wav::154::44146
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Vintage\Kick05-10-10-05.wav::277::29854
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Vintage\BD_2.wav::132::76364
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Vintage\Snare05-10-05-05.wav::112::21558
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Vintage\SD_2.wav::107::18614
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Vintage\MC.WAV::348::44146
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Vintage\LowTom05-10-00.wav::0::45100
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Vintage\Crash10-05.wav::0::116914
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Vintage\CL.wav::0::2666
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Vintage\Ride10-05.wav::0::93616
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Vintage\CHH.wav::0::7196
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Vintage\HandClap10.wav::0::45608
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Vintage\CP.wav::0::30660
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Vintage\CHihat10-05.wav::0::10868
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Vintage\CB.wav::0::30028
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Vintage\HighTom05-10-00.wav::0::27820
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Real Drumkit\D_Snare5.wav::0::1684
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Real Drumkit\D_Snare7.wav::0::5890
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Real Drumkit\D_Tambhit.wav::0::5034
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Real Drumkit\D_Snare6.wav::0::4706
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Real Drumkit\D_Triring1.wav::0::4458
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Real Drumkit\D_Clav.wav::0::2398
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Real Drumkit\D_Vibraslap3.wav::0::26782
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Real Drumkit\D_Tri2.wav::0::15072
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Real Drumkit\D_Snare8.wav::0::2818
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Real Drumkit\D_Crash.wav::0::50128
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Real Drumkit\D_Guiro6.wav::0::1570
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Real Drumkit\D_Hat2.wav::0::31178
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Real Drumkit\D_Hat1.wav::0::8810
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Real Drumkit\D_Woodblk.wav::0::4384
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Real Drumkit\D_Shaker.wav::0::2140
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Real Drumkit\D_Tom2.wav::0::40916
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Real Drumkit\D_Hat3.wav::0::3860
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Real Drumkit\D_Hat4.wav::0::7068
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Real Drumkit\D_Tom1.wav::0::44054
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Real Drumkit\D_Hat5.wav::0::8270
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Real Drumkit\D_Trimute1.wav::0::2612
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Real Drumkit\D_Snare1.wav::0::3844
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Real Drumkit\D_Hat6.wav::0::3474
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Real Drumkit\D_Snare2.wav::0::6200
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Real Drumkit\D_Kick1.wav::0::25882
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Real Drumkit\D_Snare3.wav::0::3310
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Real Drumkit\D_Kick2.wav::0::15630
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Real Drumkit\D_Snare4.wav::0::5250
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Real Drumkit\D_MetalTamb.wav::0::5472
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Real Drumkit\D_Kick3.wav::0::16082
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Real Drumkit\D_Clap.wav::0::5146
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Extra\CHH.wav::0::2400
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Extra\HardDrum.wav::0::9770
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Extra\C_Kick.wav::0::12162
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Extra\OrionString.wav::0::224740
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Extra\C_Snare.wav::0::4688
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Extra\SlapBass.wav::0::7258
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Extra\C_HC.wav::0::23462
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Extra\SD.wav::0::3305
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Extra\MuteBass.wav::0::4698
+c:\Archivos de programa\FruityLoops 3.4\Samples\Packs\Extra\GrandPiano.wav::0::40992
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\HQ\HQ_SmoothInvSaw_2.wav::0::90052
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\HQ\HQ_SmoothInvSaw_Dist.wav::0::90052
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\HQ\HQ_Saw.wav::0::88312
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\HQ\HQ_Sine_Dist.wav::0::88312
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\HQ\HQ_SmoothInvSaw.wav::0::88312
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Extra\S_Pulse_Bass.wav::0::10400
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Extra\S_Ntoup_Bass.wav::0::15580
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Extra\S_Mute_Bass.wav::0::9680
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Extra\S_Simple_Bass.wav::0::19704
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Extra\S_Noise_Bass.wav::0::8176
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Extra\S_BlixLow_Synth.wav::0::9964
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Extra\S_LoHiEnd_Synth.wav::0::9692
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Extra\S_ClickLong_Bass.wav::0::9492
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Extra\S_Sawoid_Synth.wav::0::9422
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Extra\S_DeeperWoob_Synth.wav::0::4544
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Extra\S_RaveOid_Synth.wav::0::9824
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Extra\S_PNoise_Synth.wav::0::8318
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Extra\S_ElecDulca_Synth.wav::0::6206
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Extra\S_Machine_Synth.wav::0::8988
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Extra\S_Waw_Bass.wav::0::9552
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Extra\S_Deep_Bass.wav::0::19022
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Extra\S_HiPulse_Synth.wav::0::6298
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Extra\S_Sawing_Synth.wav::0::9168
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Extra\S_EpianoPhaze_Synth.wav::0::9528
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Extra\S_Return_Bass.wav::0::12102
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Extra\S_Wooble_Synth.wav::0::8672
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Extra\S_DeepDrone_Synth.wav::0::4358
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Extra\S_Strange_Bass.wav::0::6128
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Extra\S_Resonate_Bass.wav::0::9100
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Instruments\Guitar.wav::0::28829
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Basic\Ins_Squ+Sine.wav::0::1530
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Basic\Ins_Square.wav::0::570
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Basic\Ins_Sine.wav::0::1534
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Basic\Ins_Saw.wav::0::570
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Basic\Ins_Random.wav::0::816
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Basic\Ins_Piano.wav::0::312
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Basic\Ins_Tri.wav::0::1534
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Basic\Ins_Noise_v1.wav::0::902
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Basic\Ins_Noise_v2.wav::0::962
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Basic\Ins_InvSaw.wav::0::480
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Basic\Ins_Saw+Sine.wav::0::544
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Basic\Ins_Sin+Saw+Squ.wav::0::1950
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Basic\Ins_Round saw.wav::0::22360
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Andrew\Vowel U.wav::0::1638
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Andrew\Rough Step 2.wav::0::964
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Andrew\Vocal-Wire Scan.wav::0::1638
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Andrew\Thin Pulse.wav::0::628
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Andrew\Ramp Saw.wav::0::964
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Andrew\Detuned Saw.wav::0::82558
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Andrew\Rough Step.wav::0::966
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Andrew\Overtone 1.wav::0::966
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Andrew\Overtone 2.wav::0::964
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Andrew\Additive 1.wav::0::962
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Andrew\Thin 1.wav::0::962
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Andrew\Additive 2.wav::0::962
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Andrew\Vowel A.wav::0::1638
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\Andrew\Rough Square.wav::0::964
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\TS404 shapes\shape-2.wav::0::7652
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\TS404 shapes\Noise.wav::0::22180
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\TS404 shapes\Ramp.wav::0::22180
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\TS404 shapes\Pyramid.wav::0::22180
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\TS404 shapes\Round saw.wav::0::22180
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\ml_shapes\ml_sine_1-12-24.wav::0::404
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\ml_shapes\ml_strings.wav::0::29926
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\ml_shapes\ml_whitenoise.wav::0::16258
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\ml_shapes\ml_harmonics.wav::0::934
+c:\Archivos de programa\FruityLoops 3.4\Samples\Instruments\Shapes\ml_shapes\ml_moog.wav::0::2986
+c:\Archivos de programa\FruityLoops 3.4\Artwork\Skins\Default\StartSnd.wav::0::113340
+c:\Archivos de programa\soundforge\tutfill.wav::0::214926
+c:\Archivos de programa\Microsoft Visual Studio\Common\Graphics\Videos\BLUR16.AVI::0::280828
+c:\Archivos de programa\Microsoft Visual Studio\Common\Graphics\Videos\BLUR24.AVI::0::411900
+c:\Archivos de programa\Microsoft Visual Studio\Common\Graphics\Videos\BLUR8.AVI::0::149756
+c:\Archivos de programa\Microsoft Visual Studio\Common\Graphics\Videos\CINEAPK.AVI::0::30444
+c:\Archivos de programa\Microsoft Visual Studio\Common\Graphics\Videos\COUNT16.AVI::0::350524
+c:\Archivos de programa\Microsoft Visual Studio\Common\Graphics\Videos\COUNT24.AVI::0::514364
+c:\Archivos de programa\Microsoft Visual Studio\Common\Graphics\Videos\COUNT8.AVI::0::186684
+c:\Archivos de programa\Microsoft Visual Studio\Common\Graphics\Videos\COUNT8R.AVI::0::24892
+c:\Archivos de programa\Microsoft Visual Studio\Common\Graphics\Videos\download (1).avi::0::5434
+c:\Archivos de programa\Microsoft Visual Studio\Common\Graphics\Videos\DOWNLOAD.AVI::0::6446
+c:\Archivos de programa\Microsoft Visual Studio\Common\Graphics\Videos\DRILLRLE.AVI::0::29110
+c:\Archivos de programa\Microsoft Visual Studio\Common\Graphics\Videos\FILECOPY.AVI::0::9484
+c:\Archivos de programa\Microsoft Visual Studio\Common\Graphics\Videos\FILEDEL.AVI::0::12058
+c:\Archivos de programa\Microsoft Visual Studio\Common\Graphics\Videos\FILEDELR.AVI::0::12722
+c:\Archivos de programa\Microsoft Visual Studio\Common\Graphics\Videos\FILEMOVE.AVI::0::19248
+c:\Archivos de programa\Microsoft Visual Studio\Common\Graphics\Videos\FILENUKE.AVI::0::12432
+c:\Archivos de programa\Microsoft Visual Studio\Common\Graphics\Videos\FINDCOMP.AVI::0::6546
+c:\Archivos de programa\Microsoft Visual Studio\Common\Graphics\Videos\FINDFILE.AVI::0::49884
+c:\Archivos de programa\Microsoft Visual Studio\Common\Graphics\Videos\SEARCH.AVI::0::20796
+c:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Working.avi::0::9484
+c:\Mis documentos\DIGA 123\programacion\javascript\Cornetas.mid::0::99
+c:\Mis documentos\DIGA 123\midis\kkk.mid::0::528
+c:\Mis documentos\DIGA 123\midis\Motif34b.mid::0::397
+c:\Mis documentos\DIGA 123\midis\rapidito1.mid::0::402
+c:\Mis documentos\DIGA 123\midis\coroto.mid::0::147
+c:\Mis documentos\DIGA 123\midis\gcmEEE.mid::0::227
+c:\Mis documentos\DIGA 123\midis\zupab2.mid::0::187
+c:\Mis documentos\DIGA 123\midis\_poramenos66.mid::0::819
+c:\Mis documentos\DIGA 123\midis\_poramenos44.mid::0::561
+c:\Mis documentos\DIGA 123\midis\5por4.mid::0::335
+c:\Mis documentos\DIGA 123\midis\ConTempo.mid::0::587
+c:\Mis documentos\DIGA 123\midis\dibujo.mid::0::294
+c:\Mis documentos\DIGA 123\midis\retse2.mid::0::270
+c:\Mis documentos\DIGA 123\midis\ritmo_melo234.mid::0::928
+c:\Mis documentos\DIGA 123\midis\ritmo234.mid::0::688
+c:\Mis documentos\DIGA 123\midis\2COmpasTRaka_bottlebow.mid::0::203
+c:\Mis documentos\DIGA 123\midis\COnOrgano y piano4_final.mid::0::442
+c:\Mis documentos\DIGA 123\midis\Melodica33333.mid::0::262
+c:\Mis documentos\DIGA 123\midis\Parejo1.mid::0::483
+c:\Mis documentos\DIGA 123\midis\gcm12.mid::0::326
+c:\Mis documentos\DIGA 123\midis\otromas.mid::0::472
+c:\Mis documentos\DIGA 123\midis\unbd_.mid::0::522
+c:\Mis documentos\DIGA 123\midis\bromitaACordion.mid::0::182
+c:\Mis documentos\DIGA 123\midis\gcmX1pizzicato333tambor.mid::0::446
+c:\Mis documentos\Musiquilla-1.00gb\14.- Poor old trashman_Result_Result.mp3::0::1243136
+c:\Mis documentos\Musiquilla-1.00gb\Canciones del Renacimiento\18. My Lady Carey's Dompe.MP3::0::817440
+c:\Mis documentos\Musiquilla-1.00gb\(LP-Rip - Educacion Musical - Musicologia) Ritmos de Africa - African Rhythms - By Diponto.MP3::0::9742096
+c:\Mis documentos\Musiquilla-1.00gb\Air-Love_2-2009-ONe\01-air-do_the_joy.mp3::0::4627706
+c:\Mis documentos\Musiquilla-1.00gb\Air-Love_2-2009-ONe\02-air-love.mp3::0::3538815
+c:\Mis documentos\Musiquilla-1.00gb\Air-Love_2-2009-ONe\03-air-so_light_is_her_footfall.mp3::0::4278269
+c:\Mis documentos\Musiquilla-1.00gb\Air-Love_2-2009-ONe\04-air-be_a_bee.mp3::0::4985850
+c:\Mis documentos\Musiquilla-1.00gb\Air-Love_2-2009-ONe\05-air-missing_the_light_of_the_day.mp3::0::6592700
+c:\Mis documentos\Musiquilla-1.00gb\Air-Love_2-2009-ONe\06-air-tropical_disease.mp3::0::8855197
+c:\Mis documentos\Musiquilla-1.00gb\Air-Love_2-2009-ONe\07-air-heavens_light.mp3::0::4969674
+c:\Mis documentos\Musiquilla-1.00gb\Air-Love_2-2009-ONe\08-air-night_hunter.mp3::0::6200258
+c:\Mis documentos\Musiquilla-1.00gb\Air-Love_2-2009-ONe\09-air-sing_sang_sung.mp3::0::4544133
+c:\Mis documentos\Musiquilla-1.00gb\Air-Love_2-2009-ONe\10-air-eat_my_beat.mp3::0::4235776
+c:\Mis documentos\Musiquilla-1.00gb\Air-Love_2-2009-ONe\11-air-you_can_tell_it_to_everybody.mp3::0::4722281
+c:\Mis documentos\Musiquilla-1.00gb\Air-Love_2-2009-ONe\12-air-african_velvet.mp3::0::5859679
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\01 Alejandro Sanz - Se Vende.mp3::0::9312784
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\01. Cali el Dandee ft David Bisbal No hay 2 sin 3 Gol.mp3::0::5497065
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\01. Efecto Pasillo - Pan y Mantequilla.mp3::0::4869451
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\02 Pablo Alboran - Tanto .mp3::0::10236176
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\02. Flo rida - Whistle.mp3::0::5408017
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\02. Loreen - Euphoria.mp3::0::4315885
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\03 Juan Magan Ft Belinda - Te Voy A Esperar.mp3::0::5245330
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\03. Carly Rae Jepsen - Call Me Maybe.mp3::0::4658853
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\04 Katy Perry - Wide Awake.mp3::0::8956950
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\04. Train - Drive by.mp3::0::4724039
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\05. Pablo Alboran - Tanto.mp3::0::6309245
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\06 Taylor Swift - We Are Never Ever Getting Back Together.mp3::0::7800455
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\06. Gotye ft Kimbra - Somebody that i used to know.mp3::0::5890291
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\07. Nicki Minaj - Starships.mp3::0::5081145
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\08 Adele - Set Fire To The Rain.mp3::0::9740428
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\09. Paulina Rubio - Boys Will Be Boys.mp3::0::4447534
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\10 Efecto Pasillo - Pan y Mantequilla.mp3::0::8117898
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\10. Pablo alboran - Te he echado de menos.mp3::0::5578579
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\10. The Wanted - Chasing the sun.mp3::0::4825696
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\11 Alicia Keys ft Nicky Minaj - Girl On Fire.mp3::0::7178348
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\11. Maroon 5 - Payphone (ft Wiz Khalifa).mp3::0::5559120
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\11. Rasel Ft Carlos Baute - Me Pones Tierno.mp3::0::5432456
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\12 Jose de rico and henry mendez feat. jay santos  - Noche de estrellas (radio edit).mp3::0::6570539
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\12. Kelly Clarkson - Stronger (What Doesn't Kill You).mp3::0::5316823
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\12. Simple plan ft Sean paul - Summer paradise.mp3::0::5607400
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\13. Tacabro - Tacatà.mp3::0::5174143
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\14 Rihanna - Diamonds.mp3::0::9142859
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\14. Cover Drive - Twilight.mp3::0::5122110
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\14. Jose de rico (ft henry mendez) - Rayos de sol.mp3::0::5562845
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\15 Melendi - Lagrimas Desordenadas.mp3::0::9065641
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\15. Juan Magan - Se Vuelve Loca.mp3::0::4510811
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\15. P!nk - Blow Me (One Last Kiss).mp3::0::5462250
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\16. La Musicalité - Última noche en la Tierra.mp3::0::6314260
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\16. Maldita Nerea - En el mundo genial de las cosas que dices.mp3::0::6098921
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\17 Chris Brown - Don't Wake Me Up.mp3::0::9484324
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\17. Fun ft Janelle Monae - We are young.mp3::0::6004210
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\17. Taylor Swift - We Are Never Ever Getting Back Together.mp3::0::4699266
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\18 One Direction - Live While We're Young.mp3::0::7899535
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\18. Cali & El Dandee - Yo Te Esperaré.mp3::0::5532154
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\18. Usher - Scream.mp3::0::5636084
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\19 Robbie Williams - Candy.mp3::0::4921829
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\19. Shakira - Addicted to you.mp3::0::3562331
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\20 Pink - Blow Me (One Last Kiss) (Squeaky Clean Edit).mp3::0::9173171
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\20. Juan Magan Ft Belinda - Te Voy A Esperar.mp3::0::5245330
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\20. Kylie Minogue - Timebomb.mp3::0::4261994
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\21. Gustavo Lima - Balada.mp3::0::4582194
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\21. Sean Paul - She Doesn't Mind.mp3::0::5475773
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\22. Estopa - Me quedaré.mp3::0::4737838
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\23 Pitbull - Don't Stop The Party.mp3::0::8222334
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\23. Coldplay ft Rihanna - Princess of China.mp3::0::5746575
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\23. Jennifer Lopez - Dance Again (ft. Pitbull).mp3::0::5727192
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\24. Adele - Set fire to the rain.mp3::0::5779481
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\24. Macaco - Love is the only way.mp3::0::4557915
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\25 Xuso Jones   Celebrating Life.mp3::0::5017801
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\25. FloRida - Wild Ones.mp3::0::5730635
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\25. La oreja de Van Gogh - Dia cero.mp3::0::5486722
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\26 Bruno Mars - Locked Out Of Heaven.mp3::0::7913234
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\27 Enrique Iglesias - Finally Found You (feat. Sammy Adams).mp3::0::8865351
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\27. Alicia Keys - Girl On Fire.mp3::0::5406453
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\28 Simple plan - Summer paradise (feat. sean paul).mp3::0::9393631
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\28. Carlos Jean - Fight for Life (ft Lucía Scansetti, Alex Shaker, Daniel Martín).mp3::0::5210506
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\29 Will.I.Am ft. Eva Simons - This is love.mp3::0::9954419
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\29. Alejandro Sanz - No Me Compares.mp3::0::5783870
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\29. Jamie Cullum - Everything you didn't do.mp3::0::5479805
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\30. Jason Derulo - Breathing.mp3::0::5690764
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\31. Alexandra Stan ft Carlprit - One Million.mp3::0::5089019
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\31. Carlos Jean - Generation.mp3::0::5239687
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\32 Gustavo Lima - Balada.mp3::0::7639335
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\32. Auryn - Don't give up my game.mp3::0::4678934
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\32. Robbie Williams - Candy.mp3::0::4921829
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\33. Crossfire ft Juan Magan - Lady loca.mp3::0::5132582
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\33. Dover - What Goes Around Comes Around.mp3::0::5688575
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\34 Loreen - My Heart Is Refusing Me.mp3::0::8956950
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\34. Adele - Someone Like You.mp3::0::6820519
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\34. Jose De Rico & Henry Mendez ft Jay Santos - Noche De Estrellas.mp3::0::5144392
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\35 Mika ft. Pharrell Williams - Celebrate.mp3::0::8612023
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\35. Chila Lynn - Real woman.mp3::0::4375453
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\36 La Musicalite - ultima noche en la Tierra.mp3::0::6314260
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\36. Katy Perry - The One That Got Away.mp3::0::5460057
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\37. Xuso Jones - Buy the DJ A Round.mp3::0::4984835
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\38. Pitbull & Chris Brown - International Love.mp3::0::5488280
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\39. Lagarto Amarillo - Dejarse la piel.mp3::0::4584220
+c:\Mis documentos\Musiquilla-1.00gb\Lista Los 40 Principales\40. Avicii - Levels.mp3::0::4851289
+c:\Mis documentos\Musiquilla-1.00gb\Los 40 Principales del 29 al 5 de Julio [2013][Mp3][www.lokotorrents.com]\01 Daft Punk Ft. Pharrell Williams - Get Lucky.mp3::0::7932146
+c:\Mis documentos\Musiquilla-1.00gb\Los 40 Principales del 29 al 5 de Julio [2013][Mp3][www.lokotorrents.com]\02 Macklemore - Ryan Lewis ft. Wanz - Thrift Shop.mp3::0::7545116
+c:\Mis documentos\Musiquilla-1.00gb\Los 40 Principales del 29 al 5 de Julio [2013][Mp3][www.lokotorrents.com]\03 Avicii Feat. Nicky Romero - I Could Be The One.mp3::0::6664894
+c:\Mis documentos\Musiquilla-1.00gb\Los 40 Principales del 29 al 5 de Julio [2013][Mp3][www.lokotorrents.com]\04 Passenger - Let Her Go.mp3::0::8138618
+c:\Mis documentos\Musiquilla-1.00gb\Los 40 Principales del 29 al 5 de Julio [2013][Mp3][www.lokotorrents.com]\05 James Arthur - Impossible.mp3::0::6658207
+c:\Mis documentos\Musiquilla-1.00gb\Los 40 Principales del 29 al 5 de Julio [2013][Mp3][www.lokotorrents.com]\06 Pink - Just Give Me A Reason.mp3::0::7799235
+c:\Mis documentos\Musiquilla-1.00gb\Los 40 Principales del 29 al 5 de Julio [2013][Mp3][www.lokotorrents.com]\07 Rihanna Ft.Mikky Ekko - Stay.mp3::0::7575209
+c:\Mis documentos\Musiquilla-1.00gb\Los 40 Principales del 29 al 5 de Julio [2013][Mp3][www.lokotorrents.com]\08 Cali & El Dandee - No digas nada (Déjà vu).mp3::0::6772728
+c:\Mis documentos\Musiquilla-1.00gb\Los 40 Principales del 29 al 5 de Julio [2013][Mp3][www.lokotorrents.com]\09 David Guetta - Play Hard Ft. Ne-Yo & Akon.mp3::0::6431673
+c:\Mis documentos\Musiquilla-1.00gb\Los 40 Principales del 29 al 5 de Julio [2013][Mp3][www.lokotorrents.com]\10 Malu Ft.Pablo alboran - Vuelvo A Verte.mp3::0::7028519
+c:\Mis documentos\Musiquilla-1.00gb\Los 40 Principales del 29 al 5 de Julio [2013][Mp3][www.lokotorrents.com]\11 The Lumineers - Ho Hey.mp3::0::5174452
+c:\Mis documentos\Musiquilla-1.00gb\Los 40 Principales del 29 al 5 de Julio [2013][Mp3][www.lokotorrents.com]\12 Pablo Alboran - Quién (Versión Ambiental).mp3::0::7236662
+c:\Mis documentos\Musiquilla-1.00gb\Los 40 Principales del 29 al 5 de Julio [2013][Mp3][www.lokotorrents.com]\13 Jennifer Lopez Ft. Pitbull - Live It Up.mp3::0::7551827
+c:\Mis documentos\Musiquilla-1.00gb\Los 40 Principales del 29 al 5 de Julio [2013][Mp3][www.lokotorrents.com]\14 Auryn - Heartbreaker.mp3::0::6631457
+c:\Mis documentos\Musiquilla-1.00gb\Los 40 Principales del 29 al 5 de Julio [2013][Mp3][www.lokotorrents.com]\15 Dani Martin - Cero.mp3::0::8503102
+c:\Mis documentos\Musiquilla-1.00gb\Los 40 Principales del 29 al 5 de Julio [2013][Mp3][www.lokotorrents.com]\16 Jesse & Joy - ¡Corre!.mp3::0::9165962
+c:\Mis documentos\Musiquilla-1.00gb\Los 40 Principales del 29 al 5 de Julio [2013][Mp3][www.lokotorrents.com]\17 Bruno Mars - When I Was Your Man.mp3::0::6701675
+c:\Mis documentos\Musiquilla-1.00gb\Los 40 Principales del 29 al 5 de Julio [2013][Mp3][www.lokotorrents.com]\18 Inna Ft. Daddy Yankee - More Than Friends.mp3::0::7461547
+c:\Mis documentos\Musiquilla-1.00gb\Los 40 Principales del 29 al 5 de Julio [2013][Mp3][www.lokotorrents.com]\19 Marien Baker Ft. Shaun Frank - Unbreakable.mp3::0::6799519
+c:\Mis documentos\Musiquilla-1.00gb\Los 40 Principales del 29 al 5 de Julio [2013][Mp3][www.lokotorrents.com]\20 Melendi - Tu Jardín Con Enanitos.mp3::0::7581897
+c:\Mis documentos\Musiquilla-1.00gb\Los 40 Principales del 29 al 5 de Julio [2013][Mp3][www.lokotorrents.com]\21 Alejandro Sanz - Camino de Rosas.mp3::0::8294935
+c:\Mis documentos\Musiquilla-1.00gb\Los 40 Principales del 29 al 5 de Julio [2013][Mp3][www.lokotorrents.com]\22 Justin Timberlake - Mirrors.mp3::0::8916022
+c:\Mis documentos\Musiquilla-1.00gb\Los 40 Principales del 29 al 5 de Julio [2013][Mp3][www.lokotorrents.com]\23 Soraya Feat. Aquel - Con Fuego.mp3::0::6212662
+c:\Mis documentos\Musiquilla-1.00gb\Los 40 Principales del 29 al 5 de Julio [2013][Mp3][www.lokotorrents.com]\24 Xuso Jones - Turn On The Radio.mp3::0::6419176
+c:\Mis documentos\Musiquilla-1.00gb\Los 40 Principales del 29 al 5 de Julio [2013][Mp3][www.lokotorrents.com]\25 Conor Maynard Ft. Ne Yo - Turn Around.mp3::0::7438119
+c:\Mis documentos\Musiquilla-1.00gb\Los 40 Principales del 29 al 5 de Julio [2013][Mp3][www.lokotorrents.com]\26 Selena Gomez - Come & Get It.mp3::0::7413919
+c:\Mis documentos\Musiquilla-1.00gb\Los 40 Principales del 29 al 5 de Julio [2013][Mp3][www.lokotorrents.com]\27 Efecto Pasillo - Funketón.mp3::0::5765488
+c:\Mis documentos\Musiquilla-1.00gb\Los 40 Principales del 29 al 5 de Julio [2013][Mp3][www.lokotorrents.com]\28 XRIZ - Me Enamore (Feeling Of Love).mp3::0::7012678
+c:\Mis documentos\Musiquilla-1.00gb\Los 40 Principales del 29 al 5 de Julio [2013][Mp3][www.lokotorrents.com]\29 Jason Derülo - The Other Side.mp3::0::7271794
+c:\Mis documentos\Musiquilla-1.00gb\Los 40 Principales del 29 al 5 de Julio [2013][Mp3][www.lokotorrents.com]\30 Kostrok - Right Now.mp3::0::7847761
+c:\Mis documentos\Musiquilla-1.00gb\Los 40 Principales del 29 al 5 de Julio [2013][Mp3][www.lokotorrents.com]\31 Imagine Dragons  - On Top Of The World.mp3::0::6130742
+c:\Mis documentos\Musiquilla-1.00gb\Los 40 Principales del 29 al 5 de Julio [2013][Mp3][www.lokotorrents.com]\32 Rasel - Viven Ft. Jadel.mp3::0::6565420
+c:\Mis documentos\Musiquilla-1.00gb\Los 40 Principales del 29 al 5 de Julio [2013][Mp3][www.lokotorrents.com]\33 The Wanted - Walks Like Rihanna.mp3::0::6478526
+c:\Mis documentos\Musiquilla-1.00gb\Los 40 Principales del 29 al 5 de Julio [2013][Mp3][www.lokotorrents.com]\34 El Viaje de Elliot - Gitana.mp3::0::6297926
+c:\Mis documentos\Musiquilla-1.00gb\Los 40 Principales del 29 al 5 de Julio [2013][Mp3][www.lokotorrents.com]\35 Robin Thicke feat T.I. Pharrell - Blurred Lines.mp3::0::8411128
+c:\Mis documentos\Musiquilla-1.00gb\Los 40 Principales del 29 al 5 de Julio [2013][Mp3][www.lokotorrents.com]\36 Pitbull ft. Christina Aguilera - Feel This Moment.mp3::0::7301864
+c:\Mis documentos\Musiquilla-1.00gb\Los 40 Principales del 29 al 5 de Julio [2013][Mp3][www.lokotorrents.com]\37 Yanela Brooks Feat. Brian Cross - Mondays.mp3::0::6460972
+c:\Mis documentos\Musiquilla-1.00gb\Los 40 Principales del 29 al 5 de Julio [2013][Mp3][www.lokotorrents.com]\38 John Newman - Love Me Again.mp3::0::6926579
+c:\Mis documentos\Musiquilla-1.00gb\Los 40 Principales del 29 al 5 de Julio [2013][Mp3][www.lokotorrents.com]\39 Edurne - Pretty Boy.mp3::0::6406595
+c:\Mis documentos\Musiquilla-1.00gb\Los 40 Principales del 29 al 5 de Julio [2013][Mp3][www.lokotorrents.com]\40 Angy - Boy Toy.mp3::0::7120512
+c:\Mis documentos\Musiquilla-1.00gb\SILVIO\_1978__al_final_de_este_viaje\06___debo_partirme_en_dos.mp3::0::4716544
+c:\Mis documentos\Musiquilla-1.00gb\SILVIO\_1978__al_final_de_este_viaje\07___oleo_de_una_mujer_con_.mp3::0::2347008
+c:\Mis documentos\Musiquilla-1.00gb\SILVIO\_1978__al_final_de_este_viaje\08___aunque_no_est__de_moda.mp3::0::3479552
+c:\Mis documentos\Musiquilla-1.00gb\SILVIO\_1978__al_final_de_este_viaje\09___qu__se_puede_hacer_con.mp3::0::2715648
+c:\Mis documentos\Musiquilla-1.00gb\SILVIO\_1978__al_final_de_este_viaje\10___al_final_de_este_viaje.mp3::0::3641344
+c:\Mis documentos\Musiquilla-1.00gb\SILVIO\_1978__mujeres\01___mujeres.mp3::0::4188160
+c:\Mis documentos\Musiquilla-1.00gb\SILVIO\_1978__mujeres\02___en_estos_d_as.mp3::0::2670592
+c:\Mis documentos\Musiquilla-1.00gb\SILVIO\_1978__mujeres\03___ya_no_te_espero.mp3::0::3969024
+c:\Mis documentos\Musiquilla-1.00gb\SILVIO\_1978__mujeres\04___qu__hago_ahora.mp3::0::1986560
+c:\Mis documentos\Musiquilla-1.00gb\SILVIO\_1978__mujeres\05___R_O.MP3::0::2181120
+c:\Mis documentos\Musiquilla-1.00gb\SILVIO\_1978__mujeres\06___te_doy_una_canci_n.mp3::0::2983936
+c:\Mis documentos\Musiquilla-1.00gb\SILVIO\_1978__mujeres\07___cierta_historia_de_amo.mp3::0::2996224
+c:\Mis documentos\Musiquilla-1.00gb\SILVIO\_1978__mujeres\08___a_d_nde_van.mp3::0::4429824
+c:\Mis documentos\Musiquilla-1.00gb\SILVIO\_1978__mujeres\09___hoy_no_quiero_estar_le.mp3::0::2484224
+c:\Mis documentos\Musiquilla-1.00gb\SILVIO\_1978__mujeres\10___esto_no_es_una_eleg_a.mp3::0::2940928
+c:\Mis documentos\Musiquilla-1.00gb\SILVIO\_1978__mujeres\11___aceitunas.mp3::0::2732032
+c:\Mis documentos\Musiquilla-1.00gb\SILVIO\_1978__mujeres\12___y_nada_m_s.mp3::0::2949120
+c:\Mis documentos\Musiquilla-1.00gb\SILVIO\_1980__rabo_de_nube\01___vamos_a_andar.mp3::0::3792896
+c:\Mis documentos\Musiquilla-1.00gb\SILVIO\_1980__rabo_de_nube\02___rabo_de_nube.mp3::0::3289088
+c:\Mis documentos\Musiquilla-1.00gb\SILVIO\_1980__rabo_de_nube\03___el_d_a_feliz_est__lleg.mp3::0::3764224
+c:\Mis documentos\Musiquilla-1.00gb\SILVIO\_1980__rabo_de_nube\04___te_amar_.mp3::0::3364864
+c:\Mis documentos\Musiquilla-1.00gb\SILVIO\_1980__rabo_de_nube\05___f_bula_de_los_tres_her.mp3::0::5498880
+c:\Mis documentos\Musiquilla-1.00gb\SILVIO\_1980__rabo_de_nube\06___que_ya_viv___que_te_va.mp3::0::2844672
+c:\Mis documentos\Musiquilla-1.00gb\SILVIO\_1980__rabo_de_nube\07___con_diez_a_os_menos.mp3::0::6950912
+c:\Mis documentos\Musiquilla-1.00gb\SILVIO\_1980__rabo_de_nube\08___imag_nate.mp3::0::2400256
+c:\Mis documentos\Musiquilla-1.00gb\SILVIO\_1980__rabo_de_nube\09___testamento.mp3::0::7890944
+c:\Mis documentos\fts - 2014 - ads\atankad_5.mp3::0::1596604
+c:\Mis documentos\fts - 2014 - ads\CarmaComesdscv_4.mp3::0::494445
+c:\Mis documentos\fts - 2014 - ads\CarmaComesdscv.mp3::0::494445
+c:\Mis documentos\fts - 2014 - ads\Sound1btac.wav::0::58072
+c:\tmp\+PROFESIONAL\VIDEO GCM\vario\rota.avi::0::73216
+c:\tmp\RECOLECTADO Nueva carpeta - VB2014\TITULAR PRODUCTIONS GCM.avi::0::589824
+c:\tmp\RECOLECTADO Nueva carpeta - VB2014\Antiguo(Inutiles)\CdesZeta\electro1.wav::0::82760
+c:\Program Files\Hewlett-Packard\HP Web PrintSmart\HPWPSS.AVI::0::12584
+c:\Program Files\Hewlett-Packard\HP Web PrintSmart\HPWPS.AVI::0::60216
