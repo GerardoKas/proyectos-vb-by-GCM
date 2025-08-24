@@ -1,0 +1,38 @@
+.OPTION EXPLICIT
+.Set Cabinet=off
+.Set Compress=off
+.Set MaxDiskSize=CDROM
+.Set ReservePerCabinetSize=6144
+.Set DiskDirectoryTemplate=".."
+.Set CompressionType=MSZIP
+.Set CompressionLevel=7
+.Set CompressionMemory=21
+.Set CabinetNameTemplate="Fonts2015_A.CAB"
+"Setup.Lst"
+"setup.exe"
+.Set Cabinet=on
+.Set Compress=on
+"Fonts2015_A.exe"
+"msvbvm60.dll"
+"oleaut32.dll"
+"olepro32.dll"
+"asycfilt.dll"
+"stdole2.tlb"
+"COMCAT.DLL"
+"VB6ES.DLL"
+"COMDLG32.OCX"
+"CMDLGES.DLL"
+"RICHTX32.OCX"
+"RICHED32.DLL"
+"RCHTXES.DLL"
+"SETUP1.EXE"
+"VB6STKIT.DLL"
+"ST6UNST.EXE"
+"Pastero_2milToTheEnd-NextOne4b.exe"
+"KeyCodesZ3-JUL06.exe"
+"prCSV_SC_EQU_EXEC_3.exe"
+"prMenuPerl_Vers2.exe"
+"prVersionInfo_V3.exe"
+"proCalendario-9_2015.exe"
+"CopiaRutaRemodeled_2mil14-tvvb.exe"
+"prCMD2VB_Vers6_2015-beta.exe"

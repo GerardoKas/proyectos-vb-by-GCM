@@ -1,0 +1,330 @@
+[Root]
+Most Recent Package=pstero
+
+
+[Package|Paquete Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\tmp\+PROFESIONAL\Pegador de textos\PaqueteSetup
+
+[Package|Paquete Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Paquete Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Paquete Setup|Files Found]
+
+[Package|Paquete Setup|Files Released]
+3=
+
+[Package|Paquete Setup|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\SHDOC401.DLL=
+
+[Package|Paquete Setup|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=
+
+[Package|Paquete Setup|Files Added]
+
+[Package|Paquete Setup|Files Removed]
+
+[Package|Paquete Setup|Files In Project]
+C:\tmp\+PROFESIONAL\Pegador de textos\Pastero_2milToTheEnd.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\VB6ES.DLL=Yes
+C:\WINDOWS\SYSTEM\SHDOC401.DLL=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\CMDLGES.DLL=Yes
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\SYSTEM\RCHTXES.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Paquete Setup|Configure Registry Files]
+Applicable=No
+
+[Package|Paquete Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|Paquete Setup|Install Locations]
+C:\tmp\+PROFESIONAL\Pegador de textos\Pastero_2milToTheEnd.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6ES.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SHDOC401.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CMDLGES.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\RCHTXES.DLL=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Paquete Setup|Configure Shared Files]
+Applicable=Yes
+C:\tmp\+PROFESIONAL\Pegador de textos\Pastero_2milToTheEnd.exe=Yes
+
+[Package|Paquete Setup|Distribution]
+Type=single
+Size=
+Title=Pastero_Drop_n_Save
+
+[Package|Paquete Setup|IconGroups]
+Group0=Pastero_Drop_n_Save
+PrivateGroup0=Verdadero
+Parent0=$(Programs)
+
+[Package|Paquete Setup|Pastero_Drop_n_Save]
+Icon1=Pastero_2milToTheEnd.exe
+Title1=Pastero_Drop_n_Save
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Paquete Setup|Package]
+PackageFolder=C:\tmp\+PROFESIONAL\Pegador de textos\PaqueteSetup
+ProjectFolder=C:\tmp\+PROFESIONAL\Pegador de textos
+ServerSideCab=
+File1=C:\tmp\+PROFESIONAL\Pegador de textos\PaqueteSetup\setup.exe
+File2=C:\tmp\+PROFESIONAL\Pegador de textos\PaqueteSetup\Setup.Lst
+File3=C:\tmp\+PROFESIONAL\Pegador de textos\PaqueteSetup\Pastero_2milToTheEnd.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Paquete de instalación estándar 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\PROYECTOS VB\Pastero_2mil
+
+[Package|Paquete de instalación estándar 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Paquete de instalación estándar 1|Files Found]
+
+[Package|Paquete de instalación estándar 1|Files Released]
+3=
+
+[Package|Paquete de instalación estándar 1|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\SHDOC401.DLL=
+
+[Package|Paquete de instalación estándar 1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=
+
+[Package|Paquete de instalación estándar 1|Files Added]
+
+[Package|Paquete de instalación estándar 1|Files Removed]
+
+[Package|Paquete de instalación estándar 1|Files In Project]
+C:\tmp\+PROFESIONAL\Pegador de textos -Pastero 2014\Pastero_2milToTheEnd.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\VB6ES.DLL=Yes
+C:\WINDOWS\SYSTEM\SHDOC401.DLL=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\CMDLGES.DLL=Yes
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\SYSTEM\RCHTXES.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Paquete de instalación estándar 1|Configure Registry Files]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Install Locations]
+C:\tmp\+PROFESIONAL\Pegador de textos -Pastero 2014\Pastero_2milToTheEnd.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6ES.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SHDOC401.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CMDLGES.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\RCHTXES.DLL=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Paquete de instalación estándar 1|Configure Shared Files]
+Applicable=Yes
+C:\tmp\+PROFESIONAL\Pegador de textos -Pastero 2014\Pastero_2milToTheEnd.exe=Yes
+
+[Package|Paquete de instalación estándar 1|Distribution]
+Type=single
+Size=
+Title=Pastero_Drop_n_Save
+
+[Package|Paquete de instalación estándar 1|IconGroups]
+Group0=Pastero_Drop_n_Save
+PrivateGroup0=Verdadero
+Parent0=$(Programs)
+
+[Package|Paquete de instalación estándar 1|Pastero_Drop_n_Save]
+Icon1=Pastero_2milToTheEnd.exe
+Title1=Pastero_Drop_n_Save
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Paquete de instalación estándar 1|Package]
+PackageFolder=C:\PROYECTOS VB\Pastero_2mil
+ProjectFolder=C:\tmp\+PROFESIONAL\Pegador de textos -Pastero 2014
+ServerSideCab=
+File1=C:\PROYECTOS VB\Pastero_2mil\setup.exe
+File2=C:\PROYECTOS VB\Pastero_2mil\Setup.Lst
+File3=C:\PROYECTOS VB\Pastero_2mil\Pastero_2milToTheEnd.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|pstero|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\temp\Pastero_2mil
+
+[Package|pstero|Configure DAO ISAMs]
+Applicable=No
+
+[Package|pstero|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|pstero|Files Found]
+
+[Package|pstero|Files Released]
+3=
+
+[Package|pstero|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\SHDOC401.DLL=
+
+[Package|pstero|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=
+
+[Package|pstero|Files Added]
+C:\Documents and Settings\PePiLio\Escritorio\RENEW 3 APPS BY GCM - 2016MRZ\Pegador de textos -Pastero 2016-binario\Pegador de textos -Pastero 2016-SOURCE.zip=
+
+[Package|pstero|Files Removed]
+
+[Package|pstero|Files In Project]
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Documents and Settings\PePiLio\Escritorio\RENEW 3 APPS BY GCM - 2016MRZ\Pegador de textos -Pastero 2016-binario\Pastero_MMXVI--2016.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\WINDOWS\system32\VB6ES.DLL=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\CMDLGES.DLL=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\WINDOWS\system32\RCHTXES.DLL=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Documents and Settings\PePiLio\Escritorio\RENEW 3 APPS BY GCM - 2016MRZ\Pegador de textos -Pastero 2016-binario\Pegador de textos -Pastero 2016-SOURCE.zip=Yes
+
+[Package|pstero|Configure Registry Files]
+Applicable=No
+
+[Package|pstero|Configure Remote Servers]
+Applicable=No
+
+[Package|pstero|Install Locations]
+C:\tmp\+PROFESIONAL\Pegador de textos -Pastero 2014\Pastero_2milToTheEnd.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6ES.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SHDOC401.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CMDLGES.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\RCHTXES.DLL=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\PePiLio\Escritorio\RENEW 3 APPS BY GCM - 2016MRZ\Pegador de textos -Pastero 2016-binario\Pastero_MMXVI--2016.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6ES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\CMDLGES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RCHTXES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Documents and Settings\PePiLio\Escritorio\RENEW 3 APPS BY GCM - 2016MRZ\Pegador de textos -Pastero 2016-binario\Pegador de textos -Pastero 2016-SOURCE.zip=$(AppPath)
+
+[Package|pstero|Configure Shared Files]
+Applicable=Yes
+C:\tmp\+PROFESIONAL\Pegador de textos -Pastero 2014\Pastero_2milToTheEnd.exe=Yes
+C:\Documents and Settings\PePiLio\Escritorio\RENEW 3 APPS BY GCM - 2016MRZ\Pegador de textos -Pastero 2016-binario\Pastero_MMXVI--2016.exe=No
+C:\Documents and Settings\PePiLio\Escritorio\RENEW 3 APPS BY GCM - 2016MRZ\Pegador de textos -Pastero 2016-binario\Pegador de textos -Pastero 2016-SOURCE.zip=No
+
+[Package|pstero|Distribution]
+Type=single
+Size=
+Title=Pastero_Drop_n_Save
+
+[Package|pstero|IconGroups]
+Group0=Pastero_Drop_n_Save
+PrivateGroup0=Falso
+Parent0=$(Programs)
+
+[Package|pstero|Pastero_Drop_n_Save]
+Icon1=Pastero_2milToTheEnd.exe
+Title1=Pastero_Drop_n_Save
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|pstero|Package]
+PackageFolder=C:\temp\Pastero_2mil
+ProjectFolder=C:\Documents and Settings\PePiLio\Escritorio\RENEW 3 APPS BY GCM - 2016MRZ\Pegador de textos -Pastero 2016-binario
+ServerSideCab=
+File1=C:\temp\Pastero_2mil\setup.exe
+File2=C:\temp\Pastero_2mil\Setup.Lst
+File3=C:\temp\Pastero_2mil\Pastero_MMXVI--2016.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
