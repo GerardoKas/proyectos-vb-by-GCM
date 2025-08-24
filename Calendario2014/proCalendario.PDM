@@ -1,0 +1,113 @@
+[Root]
+Most Recent Package=para Calendarios
+
+
+[Package|para Calendarios|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\PROYECTOS VB\Calendario\Paquete
+
+[Package|para Calendarios|Configure DAO ISAMs]
+Applicable=No
+
+[Package|para Calendarios|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|para Calendarios|Files Found]
+
+[Package|para Calendarios|Files Released]
+
+[Package|para Calendarios|Missing Dependency Information]
+C:\WINDOWS\system32\mshtml.tlb=
+C:\WINDOWS\SYSTEM\MSHTML.TLB=
+
+[Package|para Calendarios|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\Comdlg32.ocx=
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=
+
+[Package|para Calendarios|Files Added]
+
+[Package|para Calendarios|Files Removed]
+c:\windows\system\vb6es.dll=
+
+[Package|para Calendarios|Files In Project]
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\tmp\+PROFESIONAL\Calendario2014\proCalendario - 9.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\WINDOWS\SYSTEM\VB6ES.DLL=No
+C:\WINDOWS\SYSTEM\MSHTML.TLB=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\CMDLGES.DLL=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+
+[Package|para Calendarios|Configure Registry Files]
+Applicable=No
+
+[Package|para Calendarios|Configure Remote Servers]
+Applicable=No
+
+[Package|para Calendarios|Install Locations]
+C:\RECOLECCION\PROYECTOS VB\Calendario\proCalendario - 8.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6ES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\mshtml.tlb=$(WinSysPath)
+C:\WINDOWS\system32\Comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\CMDLGES.DLL=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\tmp\+PROFESIONAL\Calendario2014\proCalendario - 9.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6ES.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSHTML.TLB=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CMDLGES.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+
+[Package|para Calendarios|Configure Shared Files]
+Applicable=Yes
+C:\RECOLECCION\PROYECTOS VB\Calendario\proCalendario - 8.exe=Yes
+C:\tmp\+PROFESIONAL\Calendario2014\proCalendario - 9.exe=Yes
+
+[Package|para Calendarios|Distribution]
+Type=single
+Size=
+Title=GCMCalendario2005
+
+[Package|para Calendarios|Package]
+PackageFolder=C:\PROYECTOS VB\Calendario\Paquete
+ProjectFolder=C:\tmp\+PROFESIONAL\Calendario2014
+ServerSideCab=
+File1=C:\PROYECTOS VB\Calendario\Paquete\setup.exe
+File2=C:\PROYECTOS VB\Calendario\Paquete\Setup.Lst
+File3=C:\PROYECTOS VB\Calendario\Paquete\proCalendario - 9.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|para Calendarios|IconGroups]
+Group0=$(Programs)
+PrivateGroup0=Verdadero
+Parent0=
+
+[Package|para Calendarios|$(Programs)]
+Icon1="proCalendario - 8.exe"
+Title1=Calendarios HTML 2005 By GCM
+StartIn1=$(AppPath)
+Key1=Icon3

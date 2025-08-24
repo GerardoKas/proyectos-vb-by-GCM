@@ -1,0 +1,6 @@
+cBrowseFolder = 0, 0, 0, 0, C
+mBrowseFolder = 0, 0, 0, 0, C
+frmListviewShowFileIcon = 86, 109, 547, 457, , 22, 22, 483, 370, C
+modConnectToWebSite = 0, 0, 0, 0, C
+modInfoAbout = 0, 0, 0, 0, C
+modExtractIcon = 66, 66, 527, 414, Z

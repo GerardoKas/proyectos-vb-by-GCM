@@ -1,0 +1,30 @@
+un reportador de listado en html o en txt
+--
+
+(guardar datos de tamaño de carpetas en pocotiempo)
+
+abrir carpeta desde command$()
+
+abrir en ventana nueva
+
+boton atras para volver al lugar anterior sea cual sea
+
+mostrar tamaño en aproximaciones Bytes Kb Mb
+
+
+intentar poner una especie de MI P
+
+SI SE PUEDE MOSTRAR MINIATURAS??
+
+---
+
+mostrar detalles de la carpeta actual. ver menu del elemento(carpeta) en que se esta. seleccionar en vacio...
+
+mostrar datos del archivo clickeado.
+
+
+
+_____________
+
+ERRORES 
+al cerrar si otro esta abierto, no borrar los iconos

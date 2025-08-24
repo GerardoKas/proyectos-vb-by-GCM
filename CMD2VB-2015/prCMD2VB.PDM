@@ -1,0 +1,86 @@
+[Root]
+Most Recent Package=PAQuETAZO
+
+
+[Package|PAQuETAZO|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=Z:\tmp MIs APPS 2014\CMD2VB-2015\Paquete
+
+[Package|PAQuETAZO|Configure DAO ISAMs]
+Applicable=No
+
+[Package|PAQuETAZO|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|PAQuETAZO|Files Found]
+
+[Package|PAQuETAZO|Files Released]
+
+[Package|PAQuETAZO|Missing Dependency Information]
+
+[Package|PAQuETAZO|Out-of-Date Dependency Information]
+
+[Package|PAQuETAZO|Files Added]
+
+[Package|PAQuETAZO|Files Removed]
+
+[Package|PAQuETAZO|Files In Project]
+Z:\tmp MIs APPS 2014\CMD2VB-2015\prCMD2VB_Vers6_2015-beta.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\VB6ES.DLL=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\RCHTXES.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|PAQuETAZO|Configure Registry Files]
+Applicable=No
+
+[Package|PAQuETAZO|Configure Remote Servers]
+Applicable=No
+
+[Package|PAQuETAZO|Install Locations]
+Z:\tmp MIs APPS 2014\CMD2VB-2015\prCMD2VB_Vers6_2015-beta.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6ES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\RCHTXES.DLL=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|PAQuETAZO|Configure Shared Files]
+Applicable=Yes
+Z:\tmp MIs APPS 2014\CMD2VB-2015\prCMD2VB_Vers6_2015-beta.exe=Yes
+
+[Package|PAQuETAZO|Distribution]
+Type=single
+Size=
+Title=CMDVB OUTPUT DE COMANDOS
+
+[Package|PAQuETAZO|IconGroups]
+Group0=$(Programs)
+PrivateGroup0=Verdadero
+Parent0=
+
+[Package|PAQuETAZO|$(Programs)]
+Icon1=prCMD2VB_Vers6_2015-beta.exe
+Title1=CMD2VB - Salida de Cmandos CMD
+StartIn1=$(AppPath)
+Key1=Icon5
