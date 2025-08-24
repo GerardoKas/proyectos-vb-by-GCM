@@ -1,0 +1,701 @@
+<HTML><HEAD><title>Get Version Number for EXE, DLL or OCX files - visual basic, vb, vbscript</title>
+	<meta name="description" content="This function will retrieve the version numbe">
+	<meta name="keywords" content="EXE,function,will,retrieve,version,number,pro">
+	<meta name="title" content="Get Version Number for EXE, DLL or OCX files - visual basic, vb, vbscript">
+	<meta NAME="Copyright" CONTENT="Copyright 1997, Exhedra Solutions, Inc.">
+	<meta NAME="Creator" CONTENT="Exhedra Solutions, Inc">
+	<meta NAME="Publisher" CONTENT="Exhedra Solutions, Inc.">
+	<meta NAME="Distribution" CONTENT="Global">
+	<meta NAME="Rating" CONTENT="General">
+	
+<script language="Javascript">
+    if (top.location != self.location) 
+		{
+    	top.location = self.location.href
+		}
+</script><link rel="stylesheet" type="text/css" href="/vb/scripts/PSC.css"></HEAD><body text="#000000" text="#000000" link="#000080" vlink="#000080" bgcolor="white"  stats=1>
+<!-- Start of DeepMetrix (.NET) StatScript -->
+<script language="javascript">
+
+var DMNETdomain = "";
+var DMNETpage = window.location;
+var DMNETversion = "86";
+var DMNETsendTo = "//www.1javastreet.com/dm.gif?";
+var DMNETsession;
+
+function dmneterr(){return true;}
+
+window.onerror=dmneterr;
+var s = new Date();
+
+if (navigator.userAgent.indexOf('Mac') >= 0 && s.getTimezoneOffset() >= 720)
+  s.setTime (s.getTime() - 1440*60*1000);
+
+var dmnetURL = location.protocol + DMNETsendTo+"v="+DMNETversion+"&vst=1";
+var dmnetCookieString = document.cookie.toString();
+
+if(dmnetCookieString.indexOf("_dmnid") == -1)
+  {
+    DMNETsession = parseInt( Math.random()*1000000 ) + "_" + s.getTime();
+    var domStr = "";
+    if(DMNETdomain != "")
+    {
+      domStr = "domain="+ DMNETdomain +";";
+    }
+    document.cookie = "_dmnid=" + DMNETsession + ";expires=Mon, 31-Dec-2008 00:00:00 GMT;"+domStr+"path=/;";
+  }
+dmnetCookieString = document.cookie.toString();
+if(dmnetCookieString.indexOf('_dmnid') == -1)
+  {
+    DMNETsession = "";
+  }
+else
+  {
+    if(dmnetCookieString.indexOf(';') == -1)
+      dmnetCookieString = dmnetCookieString.replace(/_dm/g, ';_dm');
+
+    var start = dmnetCookieString.indexOf("_dmnid=") + 7;
+    var end = dmnetCookieString.indexOf(";",start);
+
+    if (end == -1)
+      end = dmnetCookieString.length;
+    DMNETsession = unescape(dmnetCookieString.substring(start,end));
+  }
+dmnetURL += "&id="+DMNETsession+"&url="+escape(DMNETpage) + "&ref="+escape(document.referrer)+"&lng=" + ((!document.all ||  navigator.userAgent.match('Opera')) ? navigator.language : navigator.userLanguage) + "&tz=" + (Math.round(new Date('dec 1, 2002').getTimezoneOffset()/60)*-1);
+if(screen)
+  dmnetURL += "&scr=" + escape( screen.width + "x" + screen.height + " " + screen.colorDepth + "bpp" );
+
+dmnetURL += "&rnd=" + new Date().getTime();
+
+if(document.layers)
+{
+  document.write("<la"+"yer name=\"DMStats\" visibility=hide><img src=\""+dmnetURL+"\" height=1 width=1></la"+"yer>");
+}
+else
+{
+  document.write("<di"+"v id=\"DMStats\" STYLE=\"position:absolute;visibility:hidden;\"><img src=\""+dmnetURL+"\" height=1 width=1></di"+"v>");
+}
+
+</script>
+<!-- End of DeepMetrix (.NET) StatScript -->
+	<script language="JavaScript">document.write("<"+"script language='JavaScript' src='/vb/scripts/includes/DynamicMenuJavaScript_IE.asp?lngWId=1'><\/script\>");</script><font size="3" ><!--menu--><a name=top></a><!--quick search box--><center>
+	<table cellpadding=0 cellspacing=0 width=100%><tr>
+			<td nowrap> <a href="/URLSEO/entrancegeneric/ShowWorldSeOnly!asp/lngWId!1/anyname.htm" alt="All source code in Visual Basic" ><img src="/vb/images/placeholder.gif" border=0 alt="All source code in Visual Basic"></a><!--All source code in Visual Basic-->
+						<a href="/URLSEO/vb/discussion/AskAProMain!asp/blnURLSEO!true/lngWId!1/anyname.htm" alt="Ask a Visual Basic Pro Discussion Forum Categories"><img src="/vb/images/placeholder.gif" border=0 alt="Ask a Visual Basic Pro Discussion Forum Categories"></a><!--Ask a Visual Basic Pro Discussion Forum Categories-->
+						
+						<a href="/URLSEO/vb/jobs/ListJobs!asp/blnURLSEO!true/txtDescription!/txtCity!/cmbStates!ALL%2CUS/cmSearch!Find+Jobs/chkSalary!1%2C+2%2C+3%2C+4%2C+5%2C+6/blnResetAllVariables!true/lngWId!1/anyname.htm" alt="All jobs in Visual Basic"><img src="/vb/images/placeholder.gif" border=0 alt="All jobs in Visual Basic"></a><!--All jobs in Visual Basic--></td>
+			<td valign="top" align="right">  
+				<center><font size="1" color="black"><form action=/vb/scripts/includes/TranslateFormVarsToURLString.asp?txtURL=%2Fvb%2Fscripts%2FBrowseCategoryOrSearchResults%2Easp  method="post" id=frmSearch name=frmSearch>
+			<!--search box--><table>
+			<tr>
+				<td align="right" nowrap><font size="1" color="black">Quick Search for:&nbsp;</td>
+				<td align=left nowrap><font size="1" color="black"><font size="2"><input type="text" name="txtCriteria" size=12 value="" style="font-size: 8pt"><input type="submit" value="Search" name="B1"  style="font-size: 8pt"></td><td align="right" nowrap>
+						<input type=hidden value="1" name="lngWID"></td><td width=1 height=1><iframe src="http://ads2.exhedra.com/ads/ShowAd.Asp?lngSlotId=0&lngWId=1&blnSupressOutput=False&strBgColor=B3C4FF&vstrUniquePageId=20061581282004358&blnJScriptInclude=False" marginwidth=0 marginheight=0 width=1 height=1 bgcolor="B3C4FF" hspace=0 vspace=0 frameborder=0 scrolling=no></iframe></td>
+			</tr>
+		</table></font>
+		<input type=hidden name="optSort" value="Alphabetical">
+		<input type=hidden size="20" name="txtMaxNumberOfEntriesPerPage" value="10">
+		<input type=hidden name=blnResetAllVariables value=TRUE>
+	</td>
+	</form>  </td>
+		</tr>
+	</table><table width=100% height=5 border="0" cellpadding="0" cellspacing="0" bgcolor=#B3C4FF>
+		<tr>
+			<!--blue to black/diagnoal upper left to lower right gradient-->
+			<td background="/vb/images/Gradient/BlueToBlackULToLR.jpg" width=5 height=5></td>
+			<!--blue to black/top to bottom gradient-->
+			<td width=5 background="/vb/images/gradient/BlueToBlackTopToBot.jpg" height=5></td><td width=99% background="/vb/images/gradient/BlueToBlackTopToBot.jpg" height=5></td>
+		</tr>
+	</table>
+	<!--  width=100% to width=740 -->
+	<table width=100% border="0" cellpadding="0" cellspacing="0" bgcolor="#B3C4FF">
+		<tr>   
+			
+			<td width="155" valign="top" align="left" bgcolor=black>
+				<!--table to hold psc logo-->
+				<table border=0 cellpadding=0 cellspacing=0 width="155" bgcolor=black>
+					<tr>
+						<!--blue to black/Left to right gradient-->
+						<td background="/vb/images/Gradient/BlueToBlackLToR.jpg" width=5></td>
+						<!--main logo-->
+						<td bgcolor="#000000"><center>
+							<table border=0 cellpadding=0 cellspacing=0 bgcolor="#000000">
+								<tr>
+									<td><a href="/"> <!http://www.1JavaStreet.com><!--show site logo-->
+									<img src="/vb/images/logos/1JavaStreet.jpg" border=0 alt="EXE,function,will,retrieve,version,number,pro" width=132 height=98></a></center>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<!--1 pixel tall line to fill gap in logo picture-->
+					<tr>
+						<!--blue to black/Left to right gradient-->
+						<td width=5 height=4 background="/vb/images/Gradient/BlueToBlackLToR.jpg">
+						</td>
+						<td>
+						</td>
+					</tr>
+				</table>
+			</td>
+			<!-- width=* to width=585-->
+			<td valign=top width="*">  
+				<table width=100% border=0 cellpadding="0" cellspacing="0">
+					<tr><!--start cell that contains stats/welcome + search box + menu bar-->
+						<td>
+							<table border=0 cellpadding="0" cellspacing="0">
+								<!--start menu bar--><tr><td nowrap bgcolor=black width=100%> <! nowrap background="/vb/toolbar/CreateIt/DropDownMenuBackground2.jpg"><!--colspan=6--><font  size=1 color=white>&nbsp;&nbsp; <a href="javascript:ShowMenu('Code_Articles', '178px', '60px', false)" style="color:white; TEXT-DECORATION:none;" OnMouseOut="if(IE){this.style.backgroundColor='black'};if(IE){this.style.color='white'}; if(IE){event.srcElement.style.cursor='default'};" OnMouseOver="if(IE){this.style.backgroundColor='blue'};if(IE){this.style.color='white'}; if(IE){event.srcElement.style.cursor='hand';};"><b>Code/Articles&nbsp;�</b></a>&nbsp;|&nbsp;
+ <a href="javascript:ShowMenu('Newest_and_Best', '290px', '60px', false)" style="color:white; TEXT-DECORATION:none;" OnMouseOut="if(IE){this.style.backgroundColor='black'};if(IE){this.style.color='white'}; if(IE){event.srcElement.style.cursor='default'};" OnMouseOver="if(IE){this.style.backgroundColor='blue'};if(IE){this.style.color='white'}; if(IE){event.srcElement.style.cursor='hand';};"><b>Newest/Best&nbsp;�</b></a>&nbsp;|&nbsp;
+ <a href="javascript:ShowMenu('Community', '398px', '60px', false)" style="color:white; TEXT-DECORATION:none;" OnMouseOut="if(IE){this.style.backgroundColor='black'};if(IE){this.style.color='white'}; if(IE){event.srcElement.style.cursor='default'};" OnMouseOver="if(IE){this.style.backgroundColor='blue'};if(IE){this.style.color='white'}; if(IE){event.srcElement.style.cursor='hand';};"><b>Community&nbsp;�</b></a>&nbsp;|&nbsp;
+ <a href="javascript:ShowMenu('Jobs', '495px', '60px', false)" style="color:white; TEXT-DECORATION:none;" OnMouseOut="if(IE){this.style.backgroundColor='black'};if(IE){this.style.color='white'}; if(IE){event.srcElement.style.cursor='default'};" OnMouseOver="if(IE){this.style.backgroundColor='blue'};if(IE){this.style.color='white'}; if(IE){event.srcElement.style.cursor='hand';};"><b>Jobs&nbsp;�</b></a>&nbsp;|&nbsp;
+ <a href="javascript:ShowMenu('Other', '554px', '60px', false)" style="color:white; TEXT-DECORATION:none;" OnMouseOut="if(IE){this.style.backgroundColor='black'};if(IE){this.style.color='white'}; if(IE){event.srcElement.style.cursor='default'};" OnMouseOver="if(IE){this.style.backgroundColor='blue'};if(IE){this.style.color='white'}; if(IE){event.srcElement.style.cursor='hand';};"><b>Other&nbsp;�</b></a>&nbsp;|&nbsp;
+ <a href="javascript:ShowMenu('Goto', '621px', '60px', false)" style="color:white; TEXT-DECORATION:none;" OnMouseOut="if(IE){this.style.backgroundColor='black'};if(IE){this.style.color='white'}; if(IE){event.srcElement.style.cursor='default'};" OnMouseOver="if(IE){this.style.backgroundColor='blue'};if(IE){this.style.color='white'}; if(IE){event.srcElement.style.cursor='hand';};"><b>Goto&nbsp;�</b></a>&nbsp;|&nbsp;
+</td><td bgcolor=black width=*></td><!--end menu bar--></tr><!--start stats/welcome + search box-->
+								<tr><!--icon bar/stats box-->
+										<td valign=top align=left>
+											<table border=0 cellpadding="0" cellspacing="0">
+												<tr>
+													<td valign=top nowrap><!--icon bar--><!-- ImageReady Slices (IconBar.psd) -->
+														<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+															<TR>
+																<TD COLSPAN=10>
+																	<IMG SRC="/vb/images/iconbar/IconBar_01.gif" WIDTH=371 HEIGHT=9></TD>
+															</TR>
+															<TR>
+																<TD ROWSPAN=2>
+																	<IMG SRC="/vb/images/iconbar/IconBar_02.gif" WIDTH=4 HEIGHT=81></TD>
+																<TD>
+																	<A HREF="/vb/scripts/BrowseAllCategories.asp?lngWId=1" return true;" ><IMG NAME="Categories" SRC="/vb/images/iconbar/Categories.gif" WIDTH=46 HEIGHT=61 BORDER=0 ALT="Categories"></A></TD><TD><A HREF="/vb/scripts/search.asp?lngWId=1" return true;" ><IMG NAME="Search" SRC="/vb/images/iconbar/Search.gif" WIDTH=42 HEIGHT=61 BORDER=0 ALT="Search"></A></TD><TD>  <A HREF="/vb/scripts/BrowseCategoryOrSearchResults.asp?grpCategories=-1&optSort=DateDescending&txtMaxNumberOfEntriesPerPage=10&blnNewestCode=TRUE&blnResetAllVariables=TRUE&lngWId=1" return true;" ><IMG NAME="NewestCode" SRC="/vb/images/iconbar/Newest-Code.gif" WIDTH=43 HEIGHT=61 BORDER=0 ALT="Newest Code"></A></TD><TD><A HREF="/vb/contest/ContestInfo.asp?lngWId=1" return true;" ><IMG NAME="CodingContest" SRC="/vb/images/iconbar/Coding-Contest.gif" WIDTH=45 HEIGHT=61 BORDER=0 ALT="Coding Contest"></A></TD><TD><A HREF="/vb/CodeOfTheDay/signup.asp?lngWId=1" return true;" ><IMG NAME="CodeoftheDay" SRC="/vb/images/iconbar/Code-of-the-Day.gif" WIDTH=45 HEIGHT=61 BORDER=0 ALT="Code of the Day"></A></TD><TD><A HREF="/vb/discussion/default.asp?lngWId=1" return true;" ><IMG NAME="AskAPro" SRC="/vb/images/iconbar/Ask-A-Pro.gif" WIDTH=39 HEIGHT=61 BORDER=0 ALT="Ask A Pro"></A></TD><TD><A HREF="/vb/jobs/SearchJobs.asp?lngWId=1" return true;" ><IMG NAME="Jobs_Unique" SRC="/vb/images/iconbar/Jobs_Unique.gif" WIDTH=38 HEIGHT=61 BORDER=0 ALT="Jobs"></A></TD><TD><A HREF="/vb/authors/determine_author_type.asp?lngWId=1" return true;" ><IMG NAME="Upload" SRC="/vb/images/iconbar/Upload.gif" WIDTH=39 HEIGHT=61 BORDER=0 ALT="Upload"></A></TD><TD ROWSPAN=2><IMG SRC="/vb/images/iconbar/IconBar_11.gif" WIDTH=30 HEIGHT=81></TD>
+															</TR>
+															<TR><TD COLSPAN=8><IMG SRC="/vb/images/iconbar/IconBar_12.gif" WIDTH=337 HEIGHT=20></TD>
+															</TR>
+														</TABLE>
+													</td>
+													<TD valign=top><center>
+														<!--stats box--><font size=1><center><b><a href="/vb/default.asp?lngWId=1">Visual Basic</a> Stats</b><BR><P align=left><font color=black> &nbsp;<b><a href="/vb/scripts/BrowseAllCategories.asp?lngWId=1">Code:</a></b>&nbsp;4,357,287. lines<BR>
+														&nbsp;<a href="/vb/jobs/SearchJobs.asp?lngWId=1"><b>Jobs:</b></a>&nbsp;</b>511. postings<BR>
+														<br>
+														&nbsp;<a href="/vb/donations/default.asp">How to support the site</a>
+														</TD>
+												</TR>
+											</TABLE>
+										</td>
+										<td valign="middle" align="left" width="11" bgcolor="#B3C4FF" height="60">&nbsp;</td>
+								</tr>
+							</table><!--end cell that contains stats/welcome + search box + menu bar-->
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+			<tr bgcolor=#B3C4FF>
+			    <!-- from "" to width="740"-->
+				<td colspan=2 ><center><font size=1><a href="/vb/advertisement/scripts/rates.asp?lngWId=-1">Sponsored</a> by:<BR>
+				<iframe src="http://ads2.exhedra.com/ads/ShowAd.Asp?lngSlotId=1&lngWId=1&blnSupressOutput=False&strBgColor=B3C4FF&vstrUniquePageId=20061581282004358&blnJScriptInclude=False" marginwidth=0 marginheight=0 width=730 height=96 bgcolor="B3C4FF" hspace=0 vspace=0 frameborder=0 scrolling=no></iframe><BR>&nbsp;
+				</td>
+			</tr>
+			
+	
+	</table>
+	
+	
+	
+	<table border=0 cellpadding=0 cellspacing=0 width=100%><tr><td valign=top bgcolor="#B3C4FF" width="155"><center><table border=0 cellpadding=0 cellspacing=0 width="155"><tr><!--blue to black/Left to right gradient--><td background="/vb/images/Gradient/BlueToBlackLToR.jpg" width=5></td><td background="/vb/images/logos/PscLogo3.jpg" >  <!NOTE:form for world change--has to   be here to prevent spacing problems><table border="0" cellpadding="0" cellspacing="0" width="150">    <tr> <td width="100%" bgcolor="#000000"></td>  </tr>    <TR><td><BR><BR><BR></td></tr></table></td></tr></table>
+			<font size="1"><a href="/vb/authentication/Login.asp?txtReturnURL=%2Fvb%2Fscripts%2FShowCode%2Easp%3FtxtCodeId%3D4976%26lngWId%3D1" style="color: black">Login</a></font><br></font>
+			<BR><center><iframe src="http://ads2.exhedra.com/ads/ShowAd.Asp?lngSlotId=11&lngWId=1&blnSupressOutput=False&strBgColor=B3C4FF&vstrUniquePageId=20061581282004358&blnJScriptInclude=False" marginwidth=0 marginheight=0 width=152 height=600 bgcolor="B3C4FF" hspace=0 vspace=0 frameborder=0 scrolling=no></iframe><br><br>
+					<BR><BR><a name="scrollingCode">
+					<center><font size=2>Latest Code Ticker for Visual Basic.</font>
+					<a name="scrollingCode"><!standard 3d table header>
+<table style="border-left: 1 solid #000000;border-right: 1 solid #D0D5DF;border-top: 1 solid #000000; border-bottom: 1 solid #D0D5DF" bgcolor=white width=140 cellpadding="2" cellspacing="0"><tr>
+<td><marquee behavior=scroll direction=up width=140 height=160 scrollamount=1 scrolldelay=60 onmouseover='this.stop()' onmouseout='this.start()'><table border=0 cellpadding=0 cellspacing=0 width=128 bgcolor=white>
+<tr><td><center><font size=1><font size=1><b><a href="/vb/scripts/ShowCode.asp?txtCodeId=63924&lngWId=1"target="_top" >Account_Format_ Textbox</a></b></font><font size=1><BR>By Jopay&nbsp;on&nbsp;1/5</b><BR></font><BR><BR><font size=1><b><a href="/Upload_PSC/ScreenShots/PIC2006142247508894.jpg" target="_new"><img border=0 src="/vb/images/ScreenShotIcon.gif" alt="Click here to see a screenshot of this code!"></a><a href="/vb/scripts/ShowCode.asp?txtCodeId=63923&lngWId=1"target="_top" >Drawing Control</a></b></font><font size=1><BR>By Christian Coutu&nbsp;on&nbsp;1/4</b><BR></font><BR><a href="/Upload_PSC/ScreenShots/PIC2006142247508894.jpg" target=_new><font size=1>(Screen Shot)</font></a><BR><BR><font size=1><b><a href="/Upload_PSC/ScreenShots/PIC2006141948122842.gif" target="_new"><img border=0 src="/vb/images/ScreenShotIcon.gif" alt="Click here to see a screenshot of this code!"></a><a href="/vb/scripts/ShowCode.asp?txtCodeId=63922&lngWId=1"target="_top" >Automatic Menu</a></b></font><font size=1><BR>By Hoang Hai&nbsp;on&nbsp;1/4</b><BR></font><BR><a href="/Upload_PSC/ScreenShots/PIC2006141948122842.gif" target=_new><font size=1>(Screen Shot)</font></a><BR><BR><font size=1><b><a href="/vb/scripts/ShowCode.asp?txtCodeId=63921&lngWId=1"target="_top" >Not More Graphics Effects</a></b></font><font size=1><BR>By Steven Atkiss&nbsp;on&nbsp;1/4</b><BR></font><BR><BR><font size=1><b><a href="/Upload_PSC/ScreenShots/PIC200614199547416.gif" target="_new"><img border=0 src="/vb/images/ScreenShotIcon.gif" alt="Click here to see a screenshot of this code!"></a><a href="/vb/scripts/ShowCode.asp?txtCodeId=63920&lngWId=1"target="_top" >CommonDialog Enhanced Callback</a></b></font><font size=1><BR>By gibra&nbsp;on&nbsp;1/4</b><BR></font><BR><a href="/Upload_PSC/ScreenShots/PIC200614199547416.gif" target=_new><font size=1>(Screen Shot)</font></a><BR><BR><font size=1><b><a href="/vb/scripts/ShowCode.asp?txtCodeId=63918&lngWId=1"target="_top" >Get Table Structure</a></b></font><font size=1><BR>By Juan Carlos Sanchez Hernandez&nbsp;on&nbsp;1/4</b><BR></font><BR><BR><font size=1><b><a href="/Upload_PSC/ScreenShots/PIC200614131625407.JPG" target="_new"><img border=0 src="/vb/images/ScreenShotIcon.gif" alt="Click here to see a screenshot of this code!"></a><a href="/vb/scripts/ShowCode.asp?txtCodeId=63916&lngWId=1"target="_top" >vinventory</a></b></font><font size=1><BR>By atthur sahadewa&nbsp;on&nbsp;1/4</b><BR></font><BR><a href="/Upload_PSC/ScreenShots/PIC200614131625407.JPG" target=_new><font size=1>(Screen Shot)</font></a><BR><BR><font size=1><b><a href="/vb/scripts/ShowCode.asp?txtCodeId=63915&lngWId=1"target="_top" >More Silly fun With Pixels</a></b></font><font size=1><BR>By Steven Atkiss&nbsp;on&nbsp;1/4</b><BR></font><BR><BR><font size=1><b><a href="/Upload_PSC/ScreenShots/PIC200614929242677.jpg" target="_new"><img border=0 src="/vb/images/ScreenShotIcon.gif" alt="Click here to see a screenshot of this code!"></a><a href="/vb/scripts/ShowCode.asp?txtCodeId=63914&lngWId=1"target="_top" >SystemGraph</a></b></font><font size=1><BR>By TheDailyDevelop er&nbsp;on&nbsp;1/4</b><BR></font><BR><a href="/Upload_PSC/ScreenShots/PIC200614929242677.jpg" target=_new><font size=1>(Screen Shot)</font></a><BR><BR></font></center>  </td>  </tr></table></marquee></td></tr></table><!click here to put on your own site><table><tr><td><center><font  size=1>Click <a href="/vb/LinkToUs/default.asp?lngWId=1#NewCodeTicker">here</a> to <a href="/vb/LinkToUs/default.asp?lngWId=1#NewCodeTicker">put this ticker on your site!</a></font><font size=1><BR><BR><a href="/vb/LinkToUs/default.asp?lngWId=1#ActiveDesktop"><img border=0 src="/vb/channel/AddtoActiveDesktop.jpg"></a><br><b><a href="/vb/LinkToUs/default.asp?lngWId=1#ActiveDesktop">Add</a> this ticker to your desktop!</b><BR></font></td></tr></table><font size=1><BR><BR><font size=2>Daily Code Email</font><br><table border="0" cellpadding="0" cellspacing="0" width="80%">  <tr>  <td width="63" valign=top><font ><a href="/vb/CodeOfTheDay/signup.asp?lngWId=1"><img border="0" src="/vb/CodeOfTheDay/images/CodeOfTheDayMailbox.gif" width="63" height="50"></a></font></td>  <td><font size=1>To join the <a href="/vb/CodeOfTheDay/signup.asp?lngWId=1">'Code of the Day'</a> Mailing List <a href="/vb/CodeOfTheDay/signup.asp?lngWId=1">click</a> here!<BR></td>  </tr></table><BR><center></center>
+					<table width=100% bgcolor=black ID="Table3">
+						<tr>
+							<td><font size=2 color=white><center>Affiliate Sites</td>
+						</tr>
+					</table> 
+	<table border=0 cellpadding=0 cellspacing=0>
+		<tr>
+			<td>
+				<ul>
+					
+					
+					
+						<li><font size="1"><a target="_blank" href="http://www.RentACoder.com">Need to hire a coder?</a></font></li>
+					
+					<li><font size="1"><a target="_blank" href="http://www.vbexplorer.com">VB Explorer</a></font></li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+	
+	<!a href="http://www.pipeboost.com/psc.asp" target=_blank>
+	
+	<a href="/vb/scripts/ShowCode.asp?txtCodeId=7164&amp;lngWId=4" target="_blank">
+	<img border="0" width="88" height="33" src="/Ads/images/psc/PipeBoost/AcceleratedByPipeboost.gif">
+	</a>
+	<BR>
+					
+					<br>
+					
+					<br>
+					<HR>Other Programming Sites<br>
+&nbsp;<a href="http://www.codeproject.com">Code Project</a><br>
+&nbsp;<a href="http://www.DevelopersDex.com">Developers Dex</a><br>
+&nbsp;<a href="http://www.developerfusion.com">Developer Fusion</a><BR>
+&nbsp;<a href="http://www.programmersheaven.com">Programmer&#39;s Heaven</a><br>
+&nbsp;<a href="http://www.tek-tips.com">Tek-Tips Forums</a><br>
+<br>
+&nbsp;<A href="http://www.devguru.com" target=_blank>DevGuru</A><BR>
+&nbsp;<A href="http://www.needscripts.com" target=_blank>Scripts</A><BR>
+&nbsp;<A href="http://www.visualbuilder.com" target=_blank>VisualBuilder.com</A><BR>
+&nbsp;<A href="http://www.webdevforums.com">Web Design</A><BR><A href="http://aspalliance.com" target=_blank>ASPAlliance</A><BR>
+&nbsp;<a href="http://www.topxml.com">What is XML?</a><BR>
+&nbsp;<A href="http://www.xmlpitstop.com" target=_blank>XML Pitstop</A><BR>
+&nbsp;<A href="http://www.yourhtmlsource.com" target=_blank>Your HTML Source</A><BR>
+&nbsp;<A href="http://www.zvon.org" target=_blank>ZVON.ORG</A><BR>
+
+</font>
+
+
+
+					</td>
+					
+					<!--spacer--><td width=10>&nbsp;<BR>&nbsp;</td><!--start of main page column-->
+					<td valign="top" align="left" width="*" >
+						<font size="1">
+					
+		<!--*******************************-->
+		<!--Main td for content (90% table)-->
+		<!--*******************************--><font size="3"><SCRIPT LANGUAGE=JAVASCRIPT><!--
+			function ShowPopupWindowXY(fileName,x,y) {
+			myFloater = window.open('','myWindow','scrollbars=no,status=no,width=' + x + ',height=' + y)
+			myFloater.location.href = fileName;
+		}
+		//--></SCRIPT>
+
+		<SCRIPT LANGUAGE=JAVASCRIPT><!--
+			function ShowPopupWindowXYWithScrollbars(fileName,x,y) {
+			myFloater = window.open('','myWindow','scrollbars=yes,status=no,width=' + x + ',height=' + y)
+			myFloater.location.href = fileName;
+		}
+		//--></SCRIPT><script LANGUAGE="JavaScript">
+	
+    function mShowWindow(strURL) {
+    frmWindow=window.open (strURL, 'newWin', 'width=300,height=400,toolbar=no,status=yes,resizable=no,menubar=no');
+    }
+</script>
+<script type="text/javascript" language="JavaScript">
+	// -- toggle links //
+	function toggle( targetId ){
+  	if (document.getElementById){
+  		target = document.getElementById( targetId );
+  			if (target.style.display == "none"){
+  				target.style.display = "";
+  			} else {
+  				target.style.display = "none";
+  			}
+  		}
+	}
+	function ShowDiv( targetId ){
+  	if (document.getElementById){
+  		target = document.getElementById( targetId );
+		target.style.display = "";
+  		}
+	}
+	function HideDiv( targetId ){
+  	if (document.getElementById){
+  		target = document.getElementById( targetId );
+		target.style.display = "none";
+  		}
+	}
+</script>	
+
+  <!--dirty hack table to fix IE problem with long resize code lines--> <table border="0" cellpadding="0" cellspacing="0" width="90%"><tr><td width="20">&nbsp;&nbsp;&nbsp;</td><td width="400"><table>   <tr><td><!--note:must put in table to get around formatting problems--><!--with long code-->
+	<table border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td width="419" colspan="3" bgcolor="#000000">
+			<!--title start-->
+				<!SPAN id=iAd>
+				
+				<table border="0" cellpadding="0" cellspacing="0" width="419">
+					<tr>
+						
+						<td bgcolor="#000000" valign="middle" colspan="3">  
+							<p align="left"><font color="#FFFFFF" size="3">
+								Get Version Number for EXE, DLL or OCX files
+							</font> </td>
+						<td bgcolor="#000000" valign="middle">
+							 <table>
+								<tr>
+									<td><p align="right"><font color="#FFFFFF" size="1">  <a href="javascript::void" onClick="window.print()">    <img border="0" src="/vb/scripts/images/print.jpg" width="17" height="14"></a></p></td>
+									<td><a href="javascript::void" onClick="window.print()">  <font color="white">Print</font></a></td>
+								</tr>
+								<tr>
+									<td>  <a href="/vb/scripts/EmailToFriend.asp?lngWId=1&txtCodeId=4976&txtCodeName=Get%2520Version%2520Number%2520for%2520EXE%2C%2520DLL%2520or%2520OCX%2520files&txtCodeDescription=This%2520function%2520will%2520retrieve%2520the%2520version%2520number%2C%2520product%2520name%2C%2520original%2520program%2520name%2520%28like%2520if%2520you%2520right%2520click%2520on%2520the%2520EXE%2520file%2520and%2520select%2520properties%2C%2520then%2520select%2520Version%2520tab%2C%2520it%2520shows%2520you%2520all%2520that%2520information%29%2520etc">  <img border="0" src="/vb/scripts/images/email.jpg"></td>
+									<td>
+										<a href="/vb/scripts/EmailToFriend.asp?lngWId=1&txtCodeId=4976&txtCodeName=Get%2520Version%2520Number%2520for%2520EXE%2C%2520DLL%2520or%2520OCX%2520files&txtCodeDescription=This%2520function%2520will%2520retrieve%2520the%2520version%2520number%2C%2520product%2520name%2C%2520original%2520program%2520name%2520%28like%2520if%2520you%2520right%2520click%2520on%2520the%2520EXE%2520file%2520and%2520select%2520properties%2C%2520then%2520select%2520Version%2520tab%2C%2520it%2520shows%2520you%2520all%2520that%2520information%29%2520etc">  <font color="white">Email</font></a></font></td>
+								</tr>
+							</table>
+						</td>
+						
+						<td width="*" bgcolor="#000000" valign="middle">&nbsp;<br> </td>
+					</tr>
+				</table> <!--title end--> 
+				<!/span>
+				
+			</td>
+		</tr>
+											
+		<tr> <td width="108">    <center>  <!source code><img src="/vb/images/vbiconbg2.gif" alt="VB icon" align="middle"> <!width="131" height="104"><br>  <iframe src="http://ads2.exhedra.com/ads/ShowAd.Asp?lngSlotId=7&lngWId=1&blnSupressOutput=False&strBgColor=white&vstrUniquePageId=20061581282004358&blnJScriptInclude=False" marginwidth=0 marginheight=0 width=108 height=86 bgcolor="white" hspace=0 vspace=0 frameborder=0 scrolling=no></iframe> </td>          <td width="386" rowspan="2" valign="top"><table bgcolor="white"><tr valign="top"><td valign="top"><font color="#000080"><font size="2"><b>Submitted on:</b> 12/17/1999<br>
+						<b>By:</b> Serge&nbsp;
+						<br>
+						<b>Level:</b> Advanced<br><b>User Rating:</b> 
+			<img src="/vb/scripts/voting/images/RatingSmall.jpg">
+			
+			<img src="/vb/scripts/voting/images/RatingSmall.jpg">
+			
+			<img src="/vb/scripts/voting/images/RatingSmall.jpg">
+			
+			<img src="/vb/scripts/voting/images/RatingSmall.jpg">
+			
+			<img src="/vb/scripts/voting/images/RatingSmall.jpg">
+			By 1 Users<br>  <b>Compatibility:</b>VB 5.0,&nbsp;VB 6.0<br><br>Users have accessed this&nbsp;code&nbsp;17193 times.<br>&nbsp;</font></font></td> <td><center></td></tr></table></td>    </tr>  <tr>  <td width="419" colspan="3"><font color="#000080">&nbsp;</font></td>  </tr><tr>  <td width="419" colspan="3" bgcolor="white">    <font size="2" color="#000000">  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This function will retrieve the version number, product name, original program name (like if you right click on the EXE file and select properties, then select Version tab, it shows you all that information) etc<br>    </font>  </td></tr></table></td></tr><tr><td colspan="3">&nbsp;</td></tr><tr><td colspan bgcolor="white">
+<h3>Windows API/Global Declarations:</h3>  <font size="2"><i>Can't Copy and Paste this?<!/i><br>  <!font size="1">Click here for a <a href="/vb/scripts/ShowCodeAsText.asp?txtCodeId=4976&amp;lngWId=1">copy-and-paste friendly</a> version of this code!<!/font><i><br>  </font></center></center><!table border="0" width="100%" bgcolor="#DBDBDB"><tr><td width="100%" colspan="3" bgcolor="#DBDBDB"><pre><span style="font-family: Courier New; font-size: 10pt"><font face="Courier New" size="2" color="black">
+<pre><font face="Courier New" size=2><font color=#186125>'**************************************
+</font></pre><pre><font face="Courier New" size=2><font color=#186125>'Windows API/Global Declarations for :Ge
+</font></pre><pre><font face="Courier New" size=2><font color=#186125>'     t Version Number for EXE, DLL or OCX fil
+</font></pre><pre><font face="Courier New" size=2><font color=#186125>'     es
+</font></pre><pre><font face="Courier New" size=2><font color=#186125>'**************************************
+</font></pre><pre><font face="Courier New" size=2>
+<font color=#000080>Private</font> <font color=#000080>Declare</font> <font color=#000080>Function</font> GetFileVersionInfo <font color=#000080>Lib</font> "Version.dll" <font color=#000080>Alias</font> "GetFileVersionInfoA" (ByVal lptstrFilename As String, ByVal dwhandle As Long, ByVal dwlen As Long, lpData As Any) As Long
+</pre><pre><font face="Courier New" size=2>
+<font color=#000080>Private</font> <font color=#000080>Declare</font> <font color=#000080>Function</font> GetFileVersionInfoSize <font color=#000080>Lib</font> "Version.dll" <font color=#000080>Alias</font> "GetFileVersionInfoSizeA" (ByVal lptstrFilename As String, lpdwHandle As Long) As Long
+</pre><pre><font face="Courier New" size=2>
+<font color=#000080>Private</font> <font color=#000080>Declare</font> <font color=#000080>Function</font> VerQueryValue <font color=#000080>Lib</font> "Version.dll" <font color=#000080>Alias</font> "VerQueryValueA" (pBlock As Any, ByVal lpSubBlock As String, lplpBuffer As Any, puLen As Long) As Long
+</pre><pre><font face="Courier New" size=2>
+<font color=#000080>Private</font> <font color=#000080>Declare</font> <font color=#000080>Sub</font> MoveMemory <font color=#000080>Lib</font> "kernel32" <font color=#000080>Alias</font> "RtlMoveMemory" (dest As Any, ByVal Source As Long, ByVal Length As Long)
+</pre><pre><font face="Courier New" size=2>
+<font color=#000080>Private</font> <font color=#000080>Declare</font> <font color=#000080>Function</font> lstrcpy <font color=#000080>Lib</font> "kernel32" <font color=#000080>Alias</font> "lstrcpyA" (ByVal lpString1 As String, ByVal lpString2 As Long) As Long
+</pre><pre><font face="Courier New" size=2>
+<font color=#000080>Public</font> <font color=#000080>Type</font> FILEINFO
+</pre><pre><font face="Courier New" size=2>    CompanyName As <font color=#000080>String</font>
+</pre><pre><font face="Courier New" size=2>    FileDescription As <font color=#000080>String</font>
+</pre><pre><font face="Courier New" size=2>    FileVersion As <font color=#000080>String</font>
+</pre><pre><font face="Courier New" size=2>    InternalNameAs <font color=#000080>String</font>
+</pre><pre><font face="Courier New" size=2>    LegalCopyright As <font color=#000080>String</font>
+</pre><pre><font face="Courier New" size=2>    OriginalFileName As <font color=#000080>String</font>
+</pre><pre><font face="Courier New" size=2>    ProductName As <font color=#000080>String</font>
+</pre><pre><font face="Courier New" size=2>    ProductVersion As <font color=#000080>String</font>
+</pre><pre><font face="Courier New" size=2>    <font color=#000080>End</font> <font color=#000080>Type</font>
+</pre><pre><font face="Courier New" size=2>
+<font color=#000080>Public</font> <font color=#000080>Enum</font> VerisonReturnValue
+</pre><pre><font face="Courier New" size=2>    eOK = 1
+</pre><pre><font face="Courier New" size=2>    eNoVersion = 2
+</pre><pre><font face="Courier New" size=2><font color=#000080>End</font> <font color=#000080>Enum</font>
+</pre><br></pre></font></span></center></center></tr></td><!/table></td></tr><tr bgcolor="white"><td colspan="3"><font size="2">code:</font><br>  <font size="2"><i>Can't Copy and Paste this?<!/i><br>  <!font size="1">Click here for a <a href="/vb/scripts/ShowCodeAsText.asp?txtCodeId=4976&amp;lngWId=1">copy-and-paste friendly</a> version of this code!<!/font><i><br>    </font></center></center><table border="0" width="100%"> <!bgcolor="#DBDBDB"><tr><td colspan="3">  <font size="1"> &nbsp;<br> <!center> Terms of Agreement:&nbsp;&nbsp;&nbsp;<br>
+	 By using this code, you agree to the following terms...&nbsp;&nbsp;&nbsp;<br>
+	 1) You may use 
+	 this code in your own programs (and may compile it into a program and distribute it in compiled format for languages that allow it) freely and with no charge.&nbsp;&nbsp;&nbsp;<br>
+	 2) You MAY NOT redistribute this code (for example to a web site) without written permission from the original author. Failure to do so is a violation of copyright laws.&nbsp;&nbsp;&nbsp;<br>
+	 3) You may link to this code from another website, but ONLY if it is not wrapped in a frame.&nbsp;<br>
+	 4) You will abide by any additional copyright restrictions which the author may have placed in the code or code's description. </font> </td></tr><tr><td width="90%"><pre><span style="font-family: Courier New; font-size: 10pt"><font face="Courier New" size="2" color="black">
+<pre><font face="Courier New" size=2><font color=#186125>'**************************************
+</font></pre><pre><font face="Courier New" size=2><font color=#186125>' Name: Get Version Number for EXE, DLL 
+</font></pre><pre><font face="Courier New" size=2><font color=#186125>'     or OCX files
+</font></pre><pre><font face="Courier New" size=2><font color=#186125>' Description:This function will retriev
+</font></pre><pre><font face="Courier New" size=2><font color=#186125>'     e the version number, product name, orig
+</font></pre><pre><font face="Courier New" size=2><font color=#186125>'     inal program name (like if you right cli
+</font></pre><pre><font face="Courier New" size=2><font color=#186125>'     ck on the EXE file and select properties
+</font></pre><pre><font face="Courier New" size=2><font color=#186125>'     , then select Version tab, it shows you 
+</font></pre><pre><font face="Courier New" size=2><font color=#186125>'     all that information) etc
+</font></pre><pre><font face="Courier New" size=2><font color=#186125>' By: Serge
+</font></pre><pre><font face="Courier New" size=2><font color=#186125>'
+</font></pre><pre><font face="Courier New" size=2><font color=#186125>' Returns:FileInfo structure
+</font></pre><pre><font face="Courier New" size=2><font color=#186125>'
+</font></pre><pre><font face="Courier New" size=2><font color=#186125>' Assumes:Label (named Label1 and make i
+</font></pre><pre><font face="Courier New" size=2><font color=#186125>'     t wide enough, also increase the height 
+</font></pre><pre><font face="Courier New" size=2><font color=#186125>'     of the label to have size of the form), 
+</font></pre><pre><font face="Courier New" size=2><font color=#186125>'     Common Dilaog Box (CommonDialog1) and a 
+</font></pre><pre><font face="Courier New" size=2><font color=#186125>'     Command Button (Command1)
+</font></pre><pre><font face="Courier New" size=2><font color=#186125>'
+</font></pre><pre><font face="Courier New" size=2><font color=#186125>'This code is copyrighted and has</font></pre><pre><font face="Courier New" size=2><font color=#186125>' limited warranties.Please see http://w
+</font></pre><pre><font face="Courier New" size=2><font color=#186125>'     ww.1JavaStreet.com/vb/scripts/ShowCode.a
+</font></pre><pre><font face="Courier New" size=2><font color=#186125>'     sp?txtCodeId=4976&lngWId=1</font></pre><pre><font face="Courier New" size=2><font color=#186125>'for details.</font></pre><pre><font face="Courier New" size=2><font color=#186125>'**************************************
+</font></pre><pre><font face="Courier New" size=2>
+</pre><pre><font face="Courier New" size=2>
+<font color=#000080>Public</font> <font color=#000080>Function</font> GetFileVersionInformation(ByRef pstrFieName As String, ByRef tFileInfo As FILEINFO) As VerisonReturnValue
+</pre><br><pre><font face="Courier New" size=2>    <font color=#000080>Dim</font> lBufferLen As Long, lDummy As Long
+</pre><pre><font face="Courier New" size=2>    <font color=#000080>Dim</font> sBuffer() As <font color=#000080>Byte</font>
+</pre><pre><font face="Courier New" size=2>    <font color=#000080>Dim</font> lVerPointer As <font color=#000080>Long</font>
+</pre><pre><font face="Courier New" size=2>    <font color=#000080>Dim</font> lRet As <font color=#000080>Long</font>
+</pre><pre><font face="Courier New" size=2>    <font color=#000080>Dim</font> Lang_Charset_String As String
+</pre><pre><font face="Courier New" size=2>    <font color=#000080>Dim</font> HexNumber As <font color=#000080>Long</font>
+</pre><pre><font face="Courier New" size=2>    <font color=#000080>Dim</font> i As <font color=#000080>Integer</font>
+</pre><pre><font face="Courier New" size=2>    <font color=#000080>Dim</font> strTemp As <font color=#000080>String</font>
+</pre><pre><font face="Courier New" size=2>    <font color=#186125>'Clear the Buffer tFileInfo
+</font></pre><pre><font face="Courier New" size=2>    tFileInfo.CompanyName = ""
+</pre><pre><font face="Courier New" size=2>    tFileInfo.FileDescription = ""
+</pre><pre><font face="Courier New" size=2>    tFileInfo.FileVersion = ""
+</pre><pre><font face="Courier New" size=2>    tFileInfo.InternalName = ""
+</pre><pre><font face="Courier New" size=2>    tFileInfo.LegalCopyright = ""
+</pre><pre><font face="Courier New" size=2>    tFileInfo.OriginalFileName = ""
+</pre><pre><font face="Courier New" size=2>    tFileInfo.ProductName = ""
+</pre><pre><font face="Courier New" size=2>    tFileInfo.ProductVersion = ""
+</pre><pre><font face="Courier New" size=2>    lBufferLen = GetFileVersionInfoSize(pstrFieName, lDummy)
+</pre><pre><font face="Courier New" size=2>
+    <font color=#000080>If</font> lBufferLen &lt; 1 <font color=#000080>Then</font>
+</pre><pre><font face="Courier New" size=2>        GetFileVersionInformation = eNoVersion
+</pre><pre><font face="Courier New" size=2>        <font color=#000080>Exit</font> <font color=#000080>Function</font>
+</pre><pre><font face="Courier New" size=2>    <font color=#000080>End</font> <font color=#000080>If</font>
+</pre><br><pre><font face="Courier New" size=2>    ReDim sBuffer(lBufferLen)
+</pre><pre><font face="Courier New" size=2>    lRet = GetFileVersionInfo(pstrFieName, 0&, lBufferLen, sBuffer(0))
+</pre><pre><font face="Courier New" size=2>
+    <font color=#000080>If</font> lRet = 0 <font color=#000080>Then</font>
+</pre><pre><font face="Courier New" size=2>        GetFileVersionInformation = eNoVersion
+</pre><pre><font face="Courier New" size=2>        <font color=#000080>Exit</font> <font color=#000080>Function</font>
+</pre><pre><font face="Courier New" size=2>    <font color=#000080>End</font> <font color=#000080>If</font>
+</pre><br><pre><font face="Courier New" size=2>    lRet = VerQueryValue(sBuffer(0), "\VarFileInfo\Translation", lVerPointer, lBufferLen)
+</pre><pre><font face="Courier New" size=2>
+    <font color=#000080>If</font> lRet = 0 <font color=#000080>Then</font>
+</pre><pre><font face="Courier New" size=2>        GetFileVersionInformation = eNoVersion
+</pre><pre><font face="Courier New" size=2>        <font color=#000080>Exit</font> <font color=#000080>Function</font>
+</pre><pre><font face="Courier New" size=2>    <font color=#000080>End</font> <font color=#000080>If</font>
+</pre><br><pre><font face="Courier New" size=2>    <font color=#000080>Dim</font> bytebuffer(255) As Byte
+</pre><pre><font face="Courier New" size=2>    MoveMemory bytebuffer(0), lVerPointer, lBufferLen
+</pre><pre><font face="Courier New" size=2>    HexNumber = bytebuffer(2) + bytebuffer(3) * &H100 + bytebuffer(0) * &H10000 + bytebuffer(1) * &H1000000
+</pre><pre><font face="Courier New" size=2>    Lang_Charset_String = Hex(HexNumber)
+</pre><pre><font face="Courier New" size=2>    <font color=#186125>'Pull it all apart:
+</font></pre><pre><font face="Courier New" size=2>    <font color=#186125>'04------= SUBLANG_ENGLISH_USA
+</font></pre><pre><font face="Courier New" size=2>    <font color=#186125>'--09----= LANG_ENGLISH
+</font></pre><pre><font face="Courier New" size=2>    <font color=#186125>' ----04E4 = 1252 = Codepage for Windows
+</font></pre><pre><font face="Courier New" size=2>    <font color=#186125>'     :Multilingual
+</font></pre><pre><font face="Courier New" size=2>
+    <font color=#000080>Do</font> <font color=#000080>While</font> Len(Lang_Charset_String) &lt; 8
+</pre><pre><font face="Courier New" size=2>        Lang_Charset_String = "0" & Lang_Charset_String
+</pre><pre><font face="Courier New" size=2>    Loop
+</pre><br><pre><font face="Courier New" size=2>    <font color=#000080>Dim</font> strVersionInfo(7) As <font color=#000080>String</font>
+</pre><pre><font face="Courier New" size=2>    strVersionInfo(0) = "CompanyName"
+</pre><pre><font face="Courier New" size=2>    strVersionInfo(1) = "FileDescription"
+</pre><pre><font face="Courier New" size=2>    strVersionInfo(2) = "FileVersion"
+</pre><pre><font face="Courier New" size=2>    strVersionInfo(3) = "InternalName"
+</pre><pre><font face="Courier New" size=2>    strVersionInfo(4) = "LegalCopyright"
+</pre><pre><font face="Courier New" size=2>    strVersionInfo(5) = "OriginalFileName"
+</pre><pre><font face="Courier New" size=2>    strVersionInfo(6) = "ProductName"
+</pre><pre><font face="Courier New" size=2>    strVersionInfo(7) = "ProductVersion"
+</pre><pre><font face="Courier New" size=2>    <font color=#000080>Dim</font> buffer As <font color=#000080>String</font>
+</pre><pre><font face="Courier New" size=2>
+    <font color=#000080>For</font> i = 0 <font color=#000080>To</font> 7
+</pre><pre><font face="Courier New" size=2>        buffer = String(255, 0)
+</pre><pre><font face="Courier New" size=2>        strTemp = "\StringFileInfo\" & Lang_Charset_String _
+</pre><pre><font face="Courier New" size=2>        & "\" & strVersionInfo(i)
+</pre><pre><font face="Courier New" size=2>        lRet = VerQueryValue(sBuffer(0), strTemp, _
+</pre><pre><font face="Courier New" size=2>        lVerPointer, lBufferLen)
+</pre><pre><font face="Courier New" size=2>
+        <font color=#000080>If</font> lRet = 0 <font color=#000080>Then</font>
+</pre><pre><font face="Courier New" size=2>            GetFileVersionInformation = eNoVersion
+</pre><pre><font face="Courier New" size=2>            <font color=#000080>Exit</font> <font color=#000080>Function</font>
+</pre><pre><font face="Courier New" size=2>        <font color=#000080>End</font> <font color=#000080>If</font>
+</pre><br><pre><font face="Courier New" size=2>        lstrcpy buffer, lVerPointer
+</pre><pre><font face="Courier New" size=2>        buffer = Mid$(buffer, 1, InStr(buffer, vbNullChar) - 1)
+</pre><pre><font face="Courier New" size=2>
+        <font color=#000080>Select</font> <font color=#000080>Case</font> i
+</pre><pre><font face="Courier New" size=2>            <font color=#000080>Case</font> 0
+</pre><pre><font face="Courier New" size=2>            tFileInfo.CompanyName = buffer
+</pre><pre><font face="Courier New" size=2>            <font color=#000080>Case</font> 1
+</pre><pre><font face="Courier New" size=2>            tFileInfo.FileDescription = buffer
+</pre><pre><font face="Courier New" size=2>            <font color=#000080>Case</font> 2
+</pre><pre><font face="Courier New" size=2>            tFileInfo.FileVersion = buffer
+</pre><pre><font face="Courier New" size=2>            <font color=#000080>Case</font> 3
+</pre><pre><font face="Courier New" size=2>            tFileInfo.InternalName = buffer
+</pre><pre><font face="Courier New" size=2>            <font color=#000080>Case</font> 4
+</pre><pre><font face="Courier New" size=2>            tFileInfo.LegalCopyright = buffer
+</pre><pre><font face="Courier New" size=2>            <font color=#000080>Case</font> 5
+</pre><pre><font face="Courier New" size=2>            tFileInfo.OriginalFileName = buffer
+</pre><pre><font face="Courier New" size=2>            <font color=#000080>Case</font> 6
+</pre><pre><font face="Courier New" size=2>            tFileInfo.ProductName = buffer
+</pre><pre><font face="Courier New" size=2>            <font color=#000080>Case</font> 7
+</pre><pre><font face="Courier New" size=2>            tFileInfo.ProductVersion = buffer
+</pre><pre><font face="Courier New" size=2>        <font color=#000080>End</font> <font color=#000080>Select</font>
+</pre><br><pre><font face="Courier New" size=2><font color=#000080>Next</font> i
+</pre><br><pre><font face="Courier New" size=2>GetFileVersionInformation = eOK
+</pre><pre><font face="Courier New" size=2><font color=#000080>End</font> <font color=#000080>Function</font>
+</pre><br><pre><font face="Courier New" size=2><font color=#186125>'-----------
+</font></pre><pre><font face="Courier New" size=2>
+<font color=#000080>Private</font> <font color=#000080>Sub</font> Command1_Click()
+</pre><br><pre><font face="Courier New" size=2>    <font color=#000080>Dim</font> strFile As <font color=#000080>String</font>
+</pre><pre><font face="Courier New" size=2>    <font color=#000080>Dim</font> udtFileInfo As FILEINFO
+</pre><pre><font face="Courier New" size=2>    <font color=#000080>On</font> <font color=#000080>Error</font> <font color=#000080>Resume</font> <font color=#000080>Next</font>
+</pre><pre><font face="Courier New" size=2>
+    <font color=#000080>With</font> CommonDialog1
+</pre><pre><font face="Courier New" size=2>        .Filter = "All Files (*.*)|*.*"
+</pre><pre><font face="Courier New" size=2>        .ShowOpen
+</pre><pre><font face="Courier New" size=2>        strFile = .FileName
+</pre><pre><font face="Courier New" size=2>        <font color=#000080>If</font> Err.Number = cdlCancel Or strFile = "" <font color=#000080>Then</font> <font color=#000080>Exit</font> <font color=#000080>Sub</font>
+</pre><pre><font face="Courier New" size=2>    <font color=#000080>End</font> <font color=#000080>With</font>
+</pre><br><pre><font face="Courier New" size=2>
+    <font color=#000080>If</font> GetFileVersionInformation(strFile, udtFileInfo) = eNoVersion <font color=#000080>Then</font>
+</pre><pre><font face="Courier New" size=2>        <font color=#000080>MsgBox</font> "No version available <font color=#000080>For</font> this file", vbInformation
+</pre><pre><font face="Courier New" size=2>        <font color=#000080>Exit</font> <font color=#000080>Sub</font>
+</pre><pre><font face="Courier New" size=2>    <font color=#000080>End</font> <font color=#000080>If</font>
+</pre><br><pre><font face="Courier New" size=2>    Label1 = "Company Name: " & udtFileInfo.CompanyName & vbCrLf
+</pre><pre><font face="Courier New" size=2>    Label1 = Label1 & "File Description:" & udtFileInfo.FileDescription & vbCrLf
+</pre><pre><font face="Courier New" size=2>    Label1 = Label1 & "File Version:" & udtFileInfo.FileVersion & vbCrLf
+</pre><pre><font face="Courier New" size=2>    Label1 = Label1 & "Internal Name: " & udtFileInfo.InternalName & vbCrLf
+</pre><pre><font face="Courier New" size=2>    Label1 = Label1 & "Legal Copyright: " & udtFileInfo.LegalCopyright & vbCrLf
+</pre><pre><font face="Courier New" size=2>    Label1 = Label1 & "Original FileName:" & udtFileInfo.OriginalFileName & vbCrLf
+</pre><pre><font face="Courier New" size=2>    Label1 = Label1 & "Product Name:" & udtFileInfo.ProductName & vbCrLf
+</pre><pre><font face="Courier New" size=2>    Label1 = Label1 & "Product Version: " & udtFileInfo.ProductVersion & vbCrLf
+</pre><pre><font face="Courier New" size=2><font color=#000080>End</font> <font color=#000080>Sub</font>
+</pre><br></pre></font></span></center></center></tr></td></table></p></td></tr><!/form><!/td><!/tr><!/table><tr><td><!center><iframe src="http://ads2.exhedra.com/ads/ShowAd.Asp?lngSlotId=15&lngWId=1&blnSupressOutput=False&strBgColor=white&vstrUniquePageId=20061581282004358&blnJScriptInclude=False" marginwidth=0 marginheight=0 width=340 height=300 bgcolor="white" hspace=0 vspace=0 frameborder=0 scrolling=no></iframe></td></tr><tr><td colspan="3" bgcolor="white"><p align="left"><br><a href="/vb/scripts/BrowseCategoryOrSearchResults.asp?lngWId=1&blnAuthorSearch=TRUE&lngAuthorId=33208122&strAuthorName=Serge&txtMaxNumberOfEntriesPerPage=25"><font size="2" color="#000080">  Other 2 submission(s) by this author</font></a></td></tr><tr><td colspan="3"><p>&nbsp;</p></td>  </tr><tr><td width="419" colspan="3">&nbsp;</td></tr><tr><td width="419" colspan="3" bgcolor="black">
+		<font color="white"><img   border="0"  width="16" height="16" src="/RentACoder/images/PNGPH.gif" style="width: 16px; height: 16px; filter:
+progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/IconExperience/ApplicationBasics/16x16/shadow/delete2.png', sizingMethod='scale')" />&nbsp;Report Bad Submission</font></td></tr><tr>  <td colspan="3" bgcolor="#B3C4FF"><form method="POST" action="/vb/scripts/ReportBadItem.asp?lngWId=1&amp;txtCodeDescription=This+function+will+retrieve+the+version+number%2C+product+name%2C+original+program+name+%28like+if+you+right+click+on+the+EXE+file+and+select+properties%2C+then+select+Version+tab%2C+it+shows+you+all+that+information%29+etc" name="BadCode">  <!img src="/vb/scripts/comments/images/PscWorldSmall.jpg" border="0" valign="left" align="left"><small><font size="2">Use this form to notify us if this entry should be deleted (i.e contains no code, is a virus, etc.).<br>This submission should be removed because: <input type="text" name="txtReason" value="" size=30><input type="submit" name="cmSubmit" value="Report it!"></font></small><input type="hidden" name="blnReportingBadCode" value="true"><input type="hidden" name="lngCodeId" value="4976"><input type="hidden" name="txtCodeName" value="Get Version Number for EXE, DLL or OCX files"><input type="hidden" name="lngWorldPrefix" value="vb"></form></td></tr> <!table border="0" cellpadding="0" cellspacing="0" width="90%"><tr><td width="419" colspan="3">&nbsp;</td></tr><tr><td width="419" colspan="3" bgcolor="black"><font color="white">Your Vote!</font></td></tr><tr><td width="419" colspan="3" bgcolor="#B3C4FF"><script Language="JavaScript" Type="text/javascript"><!--
+function FrontPage_Form6_Validator(theForm)
+{
+
+  var radioSelected = false;
+  for (i = 0;  i < theForm.optCodeRatingValue.length;  i++)
+  {
+    if (theForm.optCodeRatingValue[i].checked)
+        radioSelected = true;
+  }
+  if (!radioSelected)
+  {
+    alert("Please select one of the \"Code Rating\" options.");
+    return (false);
+  }
+  return (true);
+}
+//--></script><form method="POST" action="/vb/scripts/voting/VoteOnCodeRating.asp?lngWId=1" onsubmit="return FrontPage_Form6_Validator(this)" name="FrontPage_Form6" language="JavaScript"> 
+	
+	<font><font size="2"><br>
+	<font>What do you think of this code(in the Advanced category)?</font><br>
+	<font size="1">(The code with your highest vote will win this month's <a href="/vb/contest/contest.asp?lngWId=1">coding contest!)</a></font><br>
+	 <input type="radio" value="5" name="optCodeRatingValue">Excellent &nbsp;<input type="radio" value="4" name="optCodeRatingValue">Good &nbsp;<input type="radio" value="3" name="optCodeRatingValue">Average &nbsp;<input type="radio" value="2" name="optCodeRatingValue">Below Average  &nbsp;<input type="radio" value="1" name="optCodeRatingValue">Poor <input type="submit" value="Rate&nbsp;It!" name="cmdRateIt"> <input type="hidden" name="txtCodeId" value="4976"> <input type="hidden" name="txtCodeName" value="Get Version Number for EXE, DLL or OCX files"> <input type="hidden" name="intUserRatingTotal" value="5"> <input type="hidden" name="intNumOfUserRatings" value="1">
+</form>
+<a href="/vb/scripts/voting/VoteLog.asp?txtCodeId=4976&amp;txtCodeName=Get%20Version%20Number%20for%20EXE,%20DLL%20or%20OCX%20files&amp;intUserRatingTotal=5&amp;intNumOfUserRatings=1&amp;lngWid=1">See Voting Log</a> </td></tr><!/table><!table border="0" cellpadding="0" cellspacing="0" width="90%"><tr><td colspan="3">&nbsp;</td></tr><!/table><tr><td width="419" colspan="3" bgcolor="#000000"><font color="#FFFFFF">Other User Comments</font></td></tr><tr bgcolor="white"><td colspan="3"><font size="2"><a name="FeedbackId_19186"></a><font size="1" color="black"><font size="2"><img   border="0"  width="16" height="16" src="/RentACoder/images/PNGPH.gif" style="width: 16px; height: 16px; filter:
+progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/IconExperience/ApplicationBasics/16x16/shadow/document.png', sizingMethod='scale')" /><i>12/17/1999 9:33:58 AM</i></font>:&nbsp;<a href="/vb/feedback/EmailUser.asp?lngWId=1&amp;lngToPersonId=&amp;txtReferralPage=http%3A%2F%2Fwww%2E1javastreet%2Ecom%2Fvb%2Fscripts%2FShowCode%2Easp%3FtxtCodeId%3D4976%26lngWId%3D1"><!xmp>don<!/xmp></a><br><BR>This is a great code. I've been trying to achieve this for ages. Thank you very much.<font size="1"><br>(If this comment was disrespectful, please <a href="#" onclick="toggle('ReportBadItem_19186');return false;" title="click to toggle description">report it</a>.)
+								<div id="ReportBadItem_19186" style="display:none;">
+								<form method="POST" action="/vb/scripts/ReportBadItem.asp?lngWId=1" id="form4" name="form4">
+								<img   border="0"  width="16" height="16" src="/RentACoder/images/PNGPH.gif" style="width: 16px; height: 16px; filter:
+progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/IconExperience/ApplicationBasics/16x16/shadow/delete2.png', sizingMethod='scale')" />
+								<!img src="/vb/scripts/images/ReportBadItemIcon.gif" border="0" valign="left" align="left"><small><!br>
+								Thanks for helping to "Keep the Planet Clean".<BR>This comment should be removed because:<input size=30 type="text" name="txtReason" value><input type="submit" name="cmSubmit" value="Report it"></font></small><input type="hidden" name="blnReportingBadCode" value="false"><input type="hidden" name="lngCommentId" value="19186"><input type="hidden" name="lngCodeId" value="4976"><input type="hidden" name="txtCodeName" value="Get Version Number for EXE, DLL or OCX files"><input type="hidden" name="txtComment" value="This is a great code. I've been trying to achieve this for ages. Thank you very much."><input type="hidden" name="lngWorldPrefix" value="vb"></form>
+								</div><br>&nbsp;<br></span></pre></td></tr><tr bgcolor="white"><td colspan="3"><font size="2"><a name="FeedbackId_19217"></a><font size="1" color="black"><font size="2"><img   border="0"  width="16" height="16" src="/RentACoder/images/PNGPH.gif" style="width: 16px; height: 16px; filter:
+progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/IconExperience/ApplicationBasics/16x16/shadow/document.png', sizingMethod='scale')" /><i>12/17/1999 3:58:57 PM</i></font>:&nbsp;<a href="/vb/feedback/EmailUser.asp?lngWId=1&amp;lngToPersonId=&amp;txtReferralPage=http%3A%2F%2Fwww%2E1javastreet%2Ecom%2Fvb%2Fscripts%2FShowCode%2Easp%3FtxtCodeId%3D4976%26lngWId%3D1"><!xmp>Alex<!/xmp></a><br><BR>I agree. This is a great code. I've asked many people how to do that, but no one actually gave me the answer. You're great programmer Serge. Keep it up.<font size="1"><br>(If this comment was disrespectful, please <a href="#" onclick="toggle('ReportBadItem_19217');return false;" title="click to toggle description">report it</a>.)
+								<div id="ReportBadItem_19217" style="display:none;">
+								<form method="POST" action="/vb/scripts/ReportBadItem.asp?lngWId=1" id="form4" name="form4">
+								<img   border="0"  width="16" height="16" src="/RentACoder/images/PNGPH.gif" style="width: 16px; height: 16px; filter:
+progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/IconExperience/ApplicationBasics/16x16/shadow/delete2.png', sizingMethod='scale')" />
+								<!img src="/vb/scripts/images/ReportBadItemIcon.gif" border="0" valign="left" align="left"><small><!br>
+								Thanks for helping to "Keep the Planet Clean".<BR>This comment should be removed because:<input size=30 type="text" name="txtReason" value><input type="submit" name="cmSubmit" value="Report it"></font></small><input type="hidden" name="blnReportingBadCode" value="false"><input type="hidden" name="lngCommentId" value="19217"><input type="hidden" name="lngCodeId" value="4976"><input type="hidden" name="txtCodeName" value="Get Version Number for EXE, DLL or OCX files"><input type="hidden" name="txtComment" value="I agree. This is a great code. I've asked many people how to do that, but no one actually gave me the answer. You're great programmer Serge. Keep it up."><input type="hidden" name="lngWorldPrefix" value="vb"></form>
+								</div><br>&nbsp;<br></span></pre></td></tr><tr bgcolor="white"><td colspan="3"><font size="2"><a name="FeedbackId_20386"></a><font size="1" color="black"><font size="2"><img   border="0"  width="16" height="16" src="/RentACoder/images/PNGPH.gif" style="width: 16px; height: 16px; filter:
+progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/IconExperience/ApplicationBasics/16x16/shadow/document.png', sizingMethod='scale')" /><i>1/2/2000 12:14:56 PM</i></font>:&nbsp;<a href="/vb/feedback/EmailUser.asp?lngWId=1&amp;lngToPersonId=&amp;txtReferralPage=http%3A%2F%2Fwww%2E1javastreet%2Ecom%2Fvb%2Fscripts%2FShowCode%2Easp%3FtxtCodeId%3D4976%26lngWId%3D1"><!xmp>The_Lung<!/xmp></a><br><BR>If no one paid attention my code can manually read and write this info from executable type files with out the help of the api.<BR><BR>http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=4224<font size="1"><br>(If this comment was disrespectful, please <a href="#" onclick="toggle('ReportBadItem_20386');return false;" title="click to toggle description">report it</a>.)
+								<div id="ReportBadItem_20386" style="display:none;">
+								<form method="POST" action="/vb/scripts/ReportBadItem.asp?lngWId=1" id="form4" name="form4">
+								<img   border="0"  width="16" height="16" src="/RentACoder/images/PNGPH.gif" style="width: 16px; height: 16px; filter:
+progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/IconExperience/ApplicationBasics/16x16/shadow/delete2.png', sizingMethod='scale')" />
+								<!img src="/vb/scripts/images/ReportBadItemIcon.gif" border="0" valign="left" align="left"><small><!br>
+								Thanks for helping to "Keep the Planet Clean".<BR>This comment should be removed because:<input size=30 type="text" name="txtReason" value><input type="submit" name="cmSubmit" value="Report it"></font></small><input type="hidden" name="blnReportingBadCode" value="false"><input type="hidden" name="lngCommentId" value="20386"><input type="hidden" name="lngCodeId" value="4976"><input type="hidden" name="txtCodeName" value="Get Version Number for EXE, DLL or OCX files"><input type="hidden" name="txtComment" value="If no one paid attention my code can manually read and write this info from executable type files with out the help of the api.
+
+http://www.planet-source-code.com/vb/scripts/ShowCode.asp?txtCodeId=4224"><input type="hidden" name="lngWorldPrefix" value="vb"></form>
+								</div><br>&nbsp;<br></span></pre></td></tr><tr bgcolor="white"><td colspan="3"><font size="2"><a name="FeedbackId_22713"></a><font size="1" color="black"><font size="2"><img   border="0"  width="16" height="16" src="/RentACoder/images/PNGPH.gif" style="width: 16px; height: 16px; filter:
+progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/IconExperience/ApplicationBasics/16x16/shadow/document.png', sizingMethod='scale')" /><i>1/27/2000 9:19:54 AM</i></font>:&nbsp;<a href="/vb/feedback/EmailUser.asp?lngWId=1&amp;lngToPersonId=&amp;txtReferralPage=http%3A%2F%2Fwww%2E1javastreet%2Ecom%2Fvb%2Fscripts%2FShowCode%2Easp%3FtxtCodeId%3D4976%26lngWId%3D1"><!xmp>Steven Lee<!/xmp></a><br><BR>I think the codes are very useful but I won't place it in "advanced" category.<font size="1"><br>(If this comment was disrespectful, please <a href="#" onclick="toggle('ReportBadItem_22713');return false;" title="click to toggle description">report it</a>.)
+								<div id="ReportBadItem_22713" style="display:none;">
+								<form method="POST" action="/vb/scripts/ReportBadItem.asp?lngWId=1" id="form4" name="form4">
+								<img   border="0"  width="16" height="16" src="/RentACoder/images/PNGPH.gif" style="width: 16px; height: 16px; filter:
+progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/IconExperience/ApplicationBasics/16x16/shadow/delete2.png', sizingMethod='scale')" />
+								<!img src="/vb/scripts/images/ReportBadItemIcon.gif" border="0" valign="left" align="left"><small><!br>
+								Thanks for helping to "Keep the Planet Clean".<BR>This comment should be removed because:<input size=30 type="text" name="txtReason" value><input type="submit" name="cmSubmit" value="Report it"></font></small><input type="hidden" name="blnReportingBadCode" value="false"><input type="hidden" name="lngCommentId" value="22713"><input type="hidden" name="lngCodeId" value="4976"><input type="hidden" name="txtCodeName" value="Get Version Number for EXE, DLL or OCX files"><input type="hidden" name="txtComment" value="I think the codes are very useful but I won't place it in advanced category."><input type="hidden" name="lngWorldPrefix" value="vb"></form>
+								</div><br>&nbsp;<br></span></pre></td></tr><tr bgcolor="white"><td colspan="3"><font size="2"><a name="FeedbackId_40180"></a><font size="1" color="black"><font size="2"><img   border="0"  width="16" height="16" src="/RentACoder/images/PNGPH.gif" style="width: 16px; height: 16px; filter:
+progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/IconExperience/ApplicationBasics/16x16/shadow/document.png', sizingMethod='scale')" /><i>9/4/2000 9:25:28 AM</i></font>:&nbsp;<a href="/vb/feedback/EmailUser.asp?lngWId=1&amp;lngToPersonId=553296324&amp;txtReferralPage=http%3A%2F%2Fwww%2E1javastreet%2Ecom%2Fvb%2Fscripts%2FShowCode%2Easp%3FtxtCodeId%3D4976%26lngWId%3D1"><!xmp>Mug<!/xmp></a><br><BR>Guys wake up!!! Have you ever heard about the MSDN library?????<BR>Go there and you will find exact copy of the code above. Shame of you!<font size="1"><br>(If this comment was disrespectful, please <a href="#" onclick="toggle('ReportBadItem_40180');return false;" title="click to toggle description">report it</a>.)
+								<div id="ReportBadItem_40180" style="display:none;">
+								<form method="POST" action="/vb/scripts/ReportBadItem.asp?lngWId=1" id="form4" name="form4">
+								<img   border="0"  width="16" height="16" src="/RentACoder/images/PNGPH.gif" style="width: 16px; height: 16px; filter:
+progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/IconExperience/ApplicationBasics/16x16/shadow/delete2.png', sizingMethod='scale')" />
+								<!img src="/vb/scripts/images/ReportBadItemIcon.gif" border="0" valign="left" align="left"><small><!br>
+								Thanks for helping to "Keep the Planet Clean".<BR>This comment should be removed because:<input size=30 type="text" name="txtReason" value><input type="submit" name="cmSubmit" value="Report it"></font></small><input type="hidden" name="blnReportingBadCode" value="false"><input type="hidden" name="lngCommentId" value="40180"><input type="hidden" name="lngCodeId" value="4976"><input type="hidden" name="txtCodeName" value="Get Version Number for EXE, DLL or OCX files"><input type="hidden" name="txtComment" value="Guys wake up!!! Have you ever heard about the MSDN library?????
+Go there and you will find exact copy of the code above. Shame of you!"><input type="hidden" name="lngWorldPrefix" value="vb"></form>
+								</div><br>&nbsp;<br></span></pre></td></tr><tr bgcolor="white"><td colspan="3"><font size="2"><a name="FeedbackId_206425"></a><font size="1" color="black"><font size="2"><img   border="0"  width="16" height="16" src="/RentACoder/images/PNGPH.gif" style="width: 16px; height: 16px; filter:
+progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/IconExperience/ApplicationBasics/16x16/shadow/document.png', sizingMethod='scale')" /><i>1/27/2004 8:50:46 PM</i></font>:&nbsp;<a href="/vb/feedback/EmailUser.asp?lngWId=1&amp;lngToPersonId=2166937939&amp;txtReferralPage=http%3A%2F%2Fwww%2E1javastreet%2Ecom%2Fvb%2Fscripts%2FShowCode%2Easp%3FtxtCodeId%3D4976%26lngWId%3D1"><!xmp><!/xmp></a><br><BR>It works for most standard exe's, but dosnt work for any ive created in vb.  any ideas.? just get message no version info available for this file.<font size="1"><br>(If this comment was disrespectful, please <a href="#" onclick="toggle('ReportBadItem_206425');return false;" title="click to toggle description">report it</a>.)
+								<div id="ReportBadItem_206425" style="display:none;">
+								<form method="POST" action="/vb/scripts/ReportBadItem.asp?lngWId=1" id="form4" name="form4">
+								<img   border="0"  width="16" height="16" src="/RentACoder/images/PNGPH.gif" style="width: 16px; height: 16px; filter:
+progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/IconExperience/ApplicationBasics/16x16/shadow/delete2.png', sizingMethod='scale')" />
+								<!img src="/vb/scripts/images/ReportBadItemIcon.gif" border="0" valign="left" align="left"><small><!br>
+								Thanks for helping to "Keep the Planet Clean".<BR>This comment should be removed because:<input size=30 type="text" name="txtReason" value><input type="submit" name="cmSubmit" value="Report it"></font></small><input type="hidden" name="blnReportingBadCode" value="false"><input type="hidden" name="lngCommentId" value="206425"><input type="hidden" name="lngCodeId" value="4976"><input type="hidden" name="txtCodeName" value="Get Version Number for EXE, DLL or OCX files"><input type="hidden" name="txtComment" value="It works for most standard exe's, but dosnt work for any ive created in vb.  any ideas.? just get message no version info available for this file."><input type="hidden" name="lngWorldPrefix" value="vb"></form>
+								</div><br>&nbsp;<br></span></pre></td></tr><tr bgcolor="white"><td colspan="3"><font size="2"><a name="FeedbackId_222743"></a><font size="1" color="black"><font size="2"><img   border="0"  width="16" height="16" src="/RentACoder/images/PNGPH.gif" style="width: 16px; height: 16px; filter:
+progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/IconExperience/ApplicationBasics/16x16/shadow/document.png', sizingMethod='scale')" /><i>6/5/2004 9:48:46 AM</i></font>:&nbsp;<a href="/vb/feedback/EmailUser.asp?lngWId=1&amp;lngToPersonId=2286275671&amp;txtReferralPage=http%3A%2F%2Fwww%2E1javastreet%2Ecom%2Fvb%2Fscripts%2FShowCode%2Easp%3FtxtCodeId%3D4976%26lngWId%3D1"><!xmp><!/xmp></a><br><BR>better if it would have been complied in a project and submitted as an zip on PSC... but good code anyway? :)<font size="1"><br>(If this comment was disrespectful, please <a href="#" onclick="toggle('ReportBadItem_222743');return false;" title="click to toggle description">report it</a>.)
+								<div id="ReportBadItem_222743" style="display:none;">
+								<form method="POST" action="/vb/scripts/ReportBadItem.asp?lngWId=1" id="form4" name="form4">
+								<img   border="0"  width="16" height="16" src="/RentACoder/images/PNGPH.gif" style="width: 16px; height: 16px; filter:
+progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/IconExperience/ApplicationBasics/16x16/shadow/delete2.png', sizingMethod='scale')" />
+								<!img src="/vb/scripts/images/ReportBadItemIcon.gif" border="0" valign="left" align="left"><small><!br>
+								Thanks for helping to "Keep the Planet Clean".<BR>This comment should be removed because:<input size=30 type="text" name="txtReason" value><input type="submit" name="cmSubmit" value="Report it"></font></small><input type="hidden" name="blnReportingBadCode" value="false"><input type="hidden" name="lngCommentId" value="222743"><input type="hidden" name="lngCodeId" value="4976"><input type="hidden" name="txtCodeName" value="Get Version Number for EXE, DLL or OCX files"><input type="hidden" name="txtComment" value="better if it would have been complied in a project and submitted as an zip on PSC... but good code anyway? :)"><input type="hidden" name="lngWorldPrefix" value="vb"></form>
+								</div><br>&nbsp;<br></span></pre></td></tr><tr bgcolor="white"><td colspan="3"><font size="2"><a name="FeedbackId_235095"></a><font size="1" color="black"><font size="2"><img   border="0"  width="16" height="16" src="/RentACoder/images/PNGPH.gif" style="width: 16px; height: 16px; filter:
+progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/IconExperience/ApplicationBasics/16x16/shadow/document.png', sizingMethod='scale')" /><i>9/11/2004 9:33:02 AM</i></font>:&nbsp;<a href="/vb/feedback/EmailUser.asp?lngWId=1&amp;lngToPersonId=8853834137&amp;txtReferralPage=http%3A%2F%2Fwww%2E1javastreet%2Ecom%2Fvb%2Fscripts%2FShowCode%2Easp%3FtxtCodeId%3D4976%26lngWId%3D1"><!xmp><!/xmp></a><br><BR>Very GOOD!! Helped me a lot!!<BR>Thanks &amp; Regards <font size="1"><br>(If this comment was disrespectful, please <a href="#" onclick="toggle('ReportBadItem_235095');return false;" title="click to toggle description">report it</a>.)
+								<div id="ReportBadItem_235095" style="display:none;">
+								<form method="POST" action="/vb/scripts/ReportBadItem.asp?lngWId=1" id="form4" name="form4">
+								<img   border="0"  width="16" height="16" src="/RentACoder/images/PNGPH.gif" style="width: 16px; height: 16px; filter:
+progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/IconExperience/ApplicationBasics/16x16/shadow/delete2.png', sizingMethod='scale')" />
+								<!img src="/vb/scripts/images/ReportBadItemIcon.gif" border="0" valign="left" align="left"><small><!br>
+								Thanks for helping to "Keep the Planet Clean".<BR>This comment should be removed because:<input size=30 type="text" name="txtReason" value><input type="submit" name="cmSubmit" value="Report it"></font></small><input type="hidden" name="blnReportingBadCode" value="false"><input type="hidden" name="lngCommentId" value="235095"><input type="hidden" name="lngCodeId" value="4976"><input type="hidden" name="txtCodeName" value="Get Version Number for EXE, DLL or OCX files"><input type="hidden" name="txtComment" value="Very GOOD!! Helped me a lot!!
+Thanks & Regards "><input type="hidden" name="lngWorldPrefix" value="vb"></form>
+								</div><br>&nbsp;<br></span></pre></td></tr><tr bgcolor="white"><td colspan="3"><font size="2"><a name="FeedbackId_243784"></a><font size="1" color="black"><font size="2"><img   border="0"  width="16" height="16" src="/RentACoder/images/PNGPH.gif" style="width: 16px; height: 16px; filter:
+progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/IconExperience/ApplicationBasics/16x16/shadow/document.png', sizingMethod='scale')" /><i>11/25/2004 1:06:59 PM</i></font>:&nbsp;<a href="/vb/feedback/EmailUser.asp?lngWId=1&amp;lngToPersonId=2296820541&amp;txtReferralPage=http%3A%2F%2Fwww%2E1javastreet%2Ecom%2Fvb%2Fscripts%2FShowCode%2Easp%3FtxtCodeId%3D4976%26lngWId%3D1"><!xmp><!/xmp></a><br><BR>Hi Serge,<BR>your code is somthing i'm looking for.<BR>As i'm rather new in vb6 programming, can you please tell me more about what should be place where in my app. Wich part goes into a module, wich part into a form etc...<BR>Thanks in advance.<font size="1"><br>(If this comment was disrespectful, please <a href="#" onclick="toggle('ReportBadItem_243784');return false;" title="click to toggle description">report it</a>.)
+								<div id="ReportBadItem_243784" style="display:none;">
+								<form method="POST" action="/vb/scripts/ReportBadItem.asp?lngWId=1" id="form4" name="form4">
+								<img   border="0"  width="16" height="16" src="/RentACoder/images/PNGPH.gif" style="width: 16px; height: 16px; filter:
+progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/IconExperience/ApplicationBasics/16x16/shadow/delete2.png', sizingMethod='scale')" />
+								<!img src="/vb/scripts/images/ReportBadItemIcon.gif" border="0" valign="left" align="left"><small><!br>
+								Thanks for helping to "Keep the Planet Clean".<BR>This comment should be removed because:<input size=30 type="text" name="txtReason" value><input type="submit" name="cmSubmit" value="Report it"></font></small><input type="hidden" name="blnReportingBadCode" value="false"><input type="hidden" name="lngCommentId" value="243784"><input type="hidden" name="lngCodeId" value="4976"><input type="hidden" name="txtCodeName" value="Get Version Number for EXE, DLL or OCX files"><input type="hidden" name="txtComment" value="Hi Serge,
+your code is somthing i'm looking for.
+As i'm rather new in vb6 programming, can you please tell me more about what should be place where in my app. Wich part goes into a module, wich part into a form etc...
+Thanks in advance."><input type="hidden" name="lngWorldPrefix" value="vb"></form>
+								</div><br>&nbsp;<br></span></pre></td></tr><tr bgcolor="white"><td colspan="3"><font size="2"><a name="FeedbackId_243786"></a><font size="1" color="black"><font size="2"><img   border="0"  width="16" height="16" src="/RentACoder/images/PNGPH.gif" style="width: 16px; height: 16px; filter:
+progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/IconExperience/ApplicationBasics/16x16/shadow/document.png', sizingMethod='scale')" /><i>11/25/2004 1:08:24 PM</i></font>:&nbsp;<a href="/vb/feedback/EmailUser.asp?lngWId=1&amp;lngToPersonId=2296820541&amp;txtReferralPage=http%3A%2F%2Fwww%2E1javastreet%2Ecom%2Fvb%2Fscripts%2FShowCode%2Easp%3FtxtCodeId%3D4976%26lngWId%3D1"><!xmp><!/xmp></a><br><BR>Serge, can you please tell me what should be placed where in my app, i'm rather new in using api calls.<font size="1"><br>(If this comment was disrespectful, please <a href="#" onclick="toggle('ReportBadItem_243786');return false;" title="click to toggle description">report it</a>.)
+								<div id="ReportBadItem_243786" style="display:none;">
+								<form method="POST" action="/vb/scripts/ReportBadItem.asp?lngWId=1" id="form4" name="form4">
+								<img   border="0"  width="16" height="16" src="/RentACoder/images/PNGPH.gif" style="width: 16px; height: 16px; filter:
+progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/IconExperience/ApplicationBasics/16x16/shadow/delete2.png', sizingMethod='scale')" />
+								<!img src="/vb/scripts/images/ReportBadItemIcon.gif" border="0" valign="left" align="left"><small><!br>
+								Thanks for helping to "Keep the Planet Clean".<BR>This comment should be removed because:<input size=30 type="text" name="txtReason" value><input type="submit" name="cmSubmit" value="Report it"></font></small><input type="hidden" name="blnReportingBadCode" value="false"><input type="hidden" name="lngCommentId" value="243786"><input type="hidden" name="lngCodeId" value="4976"><input type="hidden" name="txtCodeName" value="Get Version Number for EXE, DLL or OCX files"><input type="hidden" name="txtComment" value="Serge, can you please tell me what should be placed where in my app, i'm rather new in using api calls."><input type="hidden" name="lngWorldPrefix" value="vb"></form>
+								</div><br>&nbsp;<br></span></pre></td></tr><tr bgcolor="white"><td colspan="3"><font size="2"><a name="FeedbackId_259306"></a><font size="1" color="black"><font size="2"><img   border="0"  width="16" height="16" src="/RentACoder/images/PNGPH.gif" style="width: 16px; height: 16px; filter:
+progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/IconExperience/ApplicationBasics/16x16/shadow/document.png', sizingMethod='scale')" /><i>3/24/2005 1:44:00 AM</i></font>:&nbsp;<a href="/vb/feedback/EmailUser.asp?lngWId=1&amp;lngToPersonId=22104497021&amp;txtReferralPage=http%3A%2F%2Fwww%2E1javastreet%2Ecom%2Fvb%2Fscripts%2FShowCode%2Easp%3FtxtCodeId%3D4976%26lngWId%3D1"><!xmp><!/xmp></a><br><BR>Hi Serge,<BR>your code is somthing i'm <BR>looking for.<BR>As i'm rather new in vb6 <BR>programming, can you please tell me <BR>more about what should be place where <BR>in my app. Wich part goes into a <BR>module, wich part into a form <BR>etc...<BR>Thanks in advance.<BR><font size="1"><br>(If this comment was disrespectful, please <a href="#" onclick="toggle('ReportBadItem_259306');return false;" title="click to toggle description">report it</a>.)
+								<div id="ReportBadItem_259306" style="display:none;">
+								<form method="POST" action="/vb/scripts/ReportBadItem.asp?lngWId=1" id="form4" name="form4">
+								<img   border="0"  width="16" height="16" src="/RentACoder/images/PNGPH.gif" style="width: 16px; height: 16px; filter:
+progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/IconExperience/ApplicationBasics/16x16/shadow/delete2.png', sizingMethod='scale')" />
+								<!img src="/vb/scripts/images/ReportBadItemIcon.gif" border="0" valign="left" align="left"><small><!br>
+								Thanks for helping to "Keep the Planet Clean".<BR>This comment should be removed because:<input size=30 type="text" name="txtReason" value><input type="submit" name="cmSubmit" value="Report it"></font></small><input type="hidden" name="blnReportingBadCode" value="false"><input type="hidden" name="lngCommentId" value="259306"><input type="hidden" name="lngCodeId" value="4976"><input type="hidden" name="txtCodeName" value="Get Version Number for EXE, DLL or OCX files"><input type="hidden" name="txtComment" value="Hi Serge,
+your code is somthing i'm 
+looking for.
+As i'm rather new in vb6 
+programming, can you please tell me 
+more about what should be place where 
+in my app. Wich part goes into a 
+module, wich part into a form 
+etc...
+Thanks in advance.
+"><input type="hidden" name="lngWorldPrefix" value="vb"></form>
+								</div><br>&nbsp;<br></span></pre></td></tr><tr><td colspan="3"><font size="2"></td></tr>  <tr>  <td width="419" colspan="3" bgcolor="#000000"><b><font color="#FFFFFF">
+						<a name="AddYourFeedback"></a>
+					  Add Your Feedback!</font></b></td>  </tr>  <tr>  <td width="419" colspan="3" bgcolor="#B3C4FF"><font><font size="2">Note:Not only will your feedback be posted, but an email will be sent to the code's author from the email account you registered on the site, so you can correspond directly.<br></font><br><b><font size="2">NOTICE: The author of this code has been kind enough to share it with you.&nbsp; If you have a criticism, please state it politely or it will be deleted.<br><br><font size="1">For feedback not related to this particular code,&nbsp;please click <a href="/vb/feedback/feedback.asp?lngWId=1&amp;intTypeOfInquiry=3">here</a>.<br>&nbsp;</font></font></b></font>  </td>  </tr>  
+				<tr><td colspan="3" bgcolor="#D0D5DF"><center>To post feedback, first please <a href="/vb/authentication/Login.asp?txtReturnURL=%2Fvb%2Fscripts%2FShowCode%2Easp%3FtxtCodeId%3D4976%26lngWId%3D1#AddYourFeedback">login</a>.</center><br><!/td>  <!/tr><!/table><!/div>   <!--dirty hack table to fix IE problem with long resize code lines--></table> </td></tr></table>  <!*******************************><! end td content (90% table)><! end td content (90% table)></font><BR>&nbsp;<BR></td> </tr></table> <!--end main content content (90% table)--></td></tr><!--end index and main pane--></table><!--lower menu and copyight columns--><table><tr><td colspan=2 width=600><!disclaimer/copyright><center><font size=1><BR></font><table border="0" cellpadding="0" cellspacing="0"><tr><td><font ><center><font size=1><a target=_top href="/vb/scripts/BrowseAllCategories.asp?lngWId=1">Categories</a>&nbsp;|&nbsp;<a target=_top href="/vb/Tutorial/default.asp?lngWId=1">Articles and Tutorials</a>&nbsp;|&nbsp;<a target=_top href="/vb/scripts/search.asp?lngWId=1">Advanced Search</a>&nbsp;|&nbsp;<a target=_top href="/vb/Bookstore/default.asp?lngWId=1">Recommended Reading</a>&nbsp;|&nbsp;<a target=_top href="/vb/authors/determine_author_type.asp?lngWId=1">Upload</a>&nbsp;|&nbsp;<a target=_top href="/vb/scripts/BrowseCategoryOrSearchResults.asp?grpCategories=-1&optSort=DateDescending&txtMaxNumberOfEntriesPerPage=10&blnNewestCode=TRUE&blnResetAllVariables=TRUE&lngWId=1">Newest Code</a>&nbsp;|&nbsp;<a target=_top href="/vb/contest/ContestAndLeaderBoard.asp?lngWId=1">Code of the Month</a>&nbsp;|&nbsp;<a target=_top href="/vb/CodeOfTheDay/signup.asp?lngWId=1">Code of the Day</a>&nbsp;|&nbsp;<a target=_top href="/vb/scripts/BrowseCategoryOrSearchResults.asp?grpCategories=-1&txtMaxNumberOfEntriesPerPage=10&blnTopCode=True&blnResetAllVariables=TRUE&lngWId=1">All Time Hall of Fame</a>&nbsp;|&nbsp;<a target=_top href="/vb/contest/ContestInfo.asp?lngWId=1">Coding Contest</a>&nbsp;|&nbsp;<a target=_top href="/vb/jobs/SearchJobs.asp?lngWId=1">Search for a job</a>&nbsp;|&nbsp;<a target=_top href="/vb/jobs/PostJob.asp?lngWId=1">Post a Job</a>&nbsp;|&nbsp;<a target=_top href="/vb/discussion/default.asp?lngWId=1">Ask a Pro Discussion Forum</a>&nbsp;|&nbsp;<a target=_top href="/vb/chat/chat.asp?lngWId=1">Live Chat</a>&nbsp;|&nbsp;<a target=_top href="/vb/feedback/feedback.asp?lngWId=1">Feedback</a>&nbsp;|&nbsp;<a target=_top href="/vb/authentication/MyPlanetSourceCode/CustomizeInfo.asp?lngWId=1">Customize</a>&nbsp;|&nbsp;<a target=_top href="/vb/default.asp?lngWId=1">Visual Basic Home</a>&nbsp;|&nbsp;<a target=_top href="/default.asp?lngWId=">Site Home</a>&nbsp;|&nbsp;<a target=_top href="/vb/scripts/OtherLinks.asp?lngWId=1">Other Sites</a>&nbsp;|&nbsp;<a target=_top href="/vb/misc/OpenLetterFromPSCModerators.asp?lngWId=1">Open Letter from Moderators</a>&nbsp;|&nbsp;<a target=_top href="/vb/about/AboutTheSiteAndAuthor.asp?lngWId=1">About the Site</a>&nbsp;|&nbsp;<a target=_top href="/vb/feedback/feedback.asp?lngWId=1">Feedback</a>&nbsp;|&nbsp;<a target=_top href="/vb/LinkToUs/default.asp?lngWId=1">Link to the Site</a>&nbsp;|&nbsp;<a target=_top href="/vb/about/Awards.asp?lngWId=1">Awards</a>&nbsp;|&nbsp;<a target=_top href="/vb/advertisement/scripts/rates.asp?lngWId=1">Advertising</a>&nbsp;|&nbsp;<a target=_top href="/vb/scripts/privacy.asp?lngWId=1">Privacy</a></font><BR><BR><center><font  size="1">Copyright� 1997-2006 by <a href="http://www.exhedra.com">Exhedra Solutions, Inc.</a> All Rights Reserved.&nbsp;&nbsp;By using this site you agree to its <a href="/vb/scripts/TermsAndConditions.asp?lngWId=1">Terms and Conditions.</a>&nbsp;&nbsp;1 Java Street (tm) and the phrase &quot;Dream It. Code It&quot; (tm) are trademarks of Exhedra Solutions, Inc.<br><BR></td><td valign=top width=*></td><td valign=top width=15></td></tr></table></td></tr></table></center><!/td> <!/tr><!/table><!--interstitial-->	
+<!-- start Vibrant Media IntelliTXT Tooltip style sheet -->
+<style type="text/css">
+.iTt{
+    FONT-FAMILY:       Verdana, Arial, Helvetica;
+    FONT-SIZE:         11px;
+    FONT-STYLE:        normal;
+    FONT-WEIGHT:       normal;
+    COLOR:             black;
+    BACKGROUND-COLOR:  lightyellow;
+    BORDER:            black 1px solid;
+    PADDING:           2px;
+}
+</style>
+<!-- end Vibrant Media IntelliTXT style sheet -->
+<!-- start Vibrant Media IntelliTXT script section -->
+<script type="text/javascript" src="http://planet-source-code.us.intellitxt.com/intellitxt/front.asp?ipid=2417"></script>
+<!-- end Vibrant Media IntelliTXT script section --></BODY></HTML>

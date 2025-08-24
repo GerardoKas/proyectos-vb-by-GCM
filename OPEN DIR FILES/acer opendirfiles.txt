@@ -1,0 +1,14 @@
+que muestre los datos de exes... copany ecte
+
+--
+que permite ajecutar exes con "/?"
+
+---
+
+que permita acer searces desde el propio prorama
+
+---
+
+poniendo  
+
+cmd /A Usa ansi para la salida!!! envez de uinicode /U

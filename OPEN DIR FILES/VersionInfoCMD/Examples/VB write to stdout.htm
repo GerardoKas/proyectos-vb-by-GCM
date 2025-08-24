@@ -1,0 +1,230 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><!-- #BeginTemplate "/Templates/index.dwt" --><!-- DW6 -->
+<head>
+<!-- #BeginEditable "doctitle" -->
+<title>Welcome to vbAdvance</title>
+<link href="vbAdvance.css" rel="stylesheet" type="text/css">
+<!-- #EndEditable --> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<META HTTP-EQUIV="description" CONTENT="Welcome to vbAdvance, a unique and powerful add-in for Visual Basic.">
+<META HTTP-EQUIV="keywords" CONTENT="Visual Basic, VB, programming, basic, visual, IDE, build, export, exports, function, function exports, exported functions, console, app, application, icon, app icon, application icon">
+<META HTTP-EQUIV="keywords" CONTENT="DLL, Immediate window, code, debug, strip private, symbolic debug info, pdb, Make Project, DllRegisterServer, DllUnregisterServer, Control Panel, Applets, Resource, Resource File, MAP, DBG, Conditional Compile, Args, arguments, Resource-Only DLL">
+<META HTTP-EQUIV="keywords" CONTENT="standard DLL, DllMain, control panels, control panel applet, CPlApplet, XP Manifest, XP Manifest Resource, TSAWARE, Terminal Server Aware, Revision, Version Resource, XP Icon, XP themes">
+<script language="JavaScript">
+<!--
+
+
+
+
+<!--
+
+
+
+
+<!--
+
+
+
+
+<!--
+
+
+
+
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+//-->
+//-->
+//-->
+//-->
+</script>
+<style type="text/css">
+<!--
+a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+}
+a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #0000FF;
+	text-decoration: underline;
+}
+a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+}
+a:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+}
+.heading {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	background-color: #CCCC99;
+	border: 1px none #000000;
+}
+.body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+}
+li {
+	list-style-type: circle;
+}
+.faq {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	border-top: 1px none #000000;
+	border-right: 1px none #000000;
+	border-bottom: 1px solid #000000;
+	border-left: 1px none #000000;
+}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" link="#3366CC" vlink="#3366CC">
+<table width="799" height="480" border="0" cellpadding="0" cellspacing="0">
+  <!--DWLayoutTable-->
+  <tr bgcolor="#6666FF"> 
+    <td height="52" colspan="3" valign="top"><img src="logo_new_4.gif" width="640" height="50"></td>
+    <td width="1"></td>
+  </tr>
+  <tr> 
+    <td width="24" rowspan="3" valign="top" bgcolor="#F1F1F1"><!--DWLayoutEmptyCell-->&nbsp;</td>
+    <td width="122" height="372" valign="top" bgcolor="#F1F1F1"><p><a href="index.html"><br>
+        Home</a><br>
+        <a href="overview.htm">Overview</a><br>
+        <a href="download.aspx">Downloads</a><br>
+        <a href="purchase.htm">Purchase</a><br>
+        <a href="faq.htm">FAQ</a><br>
+        <a href="links.htm">Links</a><br>
+        <a href="code.htm">Code Samples<br>
+        </a><a href="contactinfo.htm">Contact Us</a></p></td>
+    <td width="652" rowspan="2" valign="top"><!-- #BeginEditable "body" --> 
+      <blockquote> 
+        <p>&nbsp;</p>
+        <p class="faq">Console Apps </p>
+        <p> <img src="stdoutcode.png" width="280" height="32" alt="console code"></p>
+        <p><img src="simpleconsole.png" width="396" height="143" alt="console screenshot"></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="-1">It's almost trivial
+          to create console applications in VB.</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="-1">There are only 
+          two things you need to create a Console app in VB:<br>
+          1) The necessary support code to read or write to the console.<br>
+          2) The EXE must be compiled as a Console Subsystem application.</font></p>
+        <p><font size="-1" face="Arial, Helvetica, sans-serif"><strong><u>Requirement 
+          #1, support code:</u></strong></font></p>
+        <p><font size="-1" face="Arial, Helvetica, sans-serif">All that is required 
+          to write text to the console is two API calls:</font></p>
+        <p><font face="Courier New" color="#000000" size="-1"><font color="#0000FF">Private&nbsp;Declare&nbsp;Function</font>&nbsp;GetStdOutHandle&nbsp;<font color="#0000FF">Lib</font>&nbsp;&quot;kernel32&quot;&nbsp;_<br>
+          <font color="#0000FF">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alias</font>&nbsp;&quot;GetStdHandle&quot;&nbsp;_<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(<font color="#0000FF">Optional&nbsp;ByVal</font>&nbsp;HandleType&nbsp;<font color="#0000FF">As&nbsp;Long</font>&nbsp;=&nbsp;-11)&nbsp;<font color="#0000FF">As&nbsp;Long</font><br>
+          <br>
+          <font color="#0000FF">Private&nbsp;Declare&nbsp;Function</font>&nbsp;WriteFile&nbsp;<font color="#0000FF">Lib</font>&nbsp;&quot;kernel32&quot;&nbsp;_<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(<font color="#0000FF">ByVal</font>&nbsp;hFile&nbsp;<font color="#0000FF">As&nbsp;Long</font>,&nbsp;_<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#0000FF">ByVal</font>&nbsp;lpBuffer&nbsp;<font color="#0000FF">As&nbsp;String</font>,&nbsp;_<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#0000FF">ByVal</font>&nbsp;cToWrite&nbsp;<font color="#0000FF">As&nbsp;Long</font>,&nbsp;_<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#0000FF">ByRef</font>&nbsp;cWritten&nbsp;<font color="#0000FF">As&nbsp;Long</font>,&nbsp;_<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#0000FF">Optional&nbsp;ByVal</font>&nbsp;lpOverlapped&nbsp;<font color="#0000FF">As&nbsp;Long</font>)&nbsp;<font color="#0000FF">As&nbsp;Long</font></font></p>
+        <p><font size="-1" face="Arial, Helvetica, sans-serif">To keep things 
+          simple, wrap these two APIs in a single helper function like so:<br>
+          </font><font face="Courier New" color="#000000" size="-1"><br>
+          <font color="#0000FF">Private&nbsp;Function</font>&nbsp;ConsoleWrite(sText&nbsp;<font color="#0000FF">As&nbsp;String</font>)&nbsp;<font color="#0000FF">As&nbsp;Long</font><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;WriteFile&nbsp;GetStdOutHandle,&nbsp;<font color="#0000FF">ByVal</font>&nbsp;sText,&nbsp;Len(sText),&nbsp;ConsoleWrite<br>
+          <font color="#0000FF">End&nbsp;Function</font><br>
+          <br>
+          <font face="Arial, Helvetica, sans-serif">And now all you need to do 
+          is call your helper function when you want to write to the console:<br>
+          </font> <br>
+          <font face="Courier New" color="#000000" size="-1"><font color="#0000FF">Private</font></font><font color="#0000FF">&nbsp;Sub</font>&nbsp;Main()<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;ConsoleWrite&nbsp;&quot;Hello&nbsp;Console&nbsp;World!&quot;<br>
+          <font color="#0000FF">End&nbsp;Sub</font></font></p>
+        <p><font color="#000000" size="-1" face="Arial, Helvetica, sans-serif">If 
+          all you need to do is output a bit of text to the console, then the 
+          above code will suffice. However, if you need more advanced capabilities, 
+          like detecting Ctrl-C keypresses and system shutdown, or retrieving 
+          piped input, then the code involved gets a lot more complicated. </font></p>
+        <p><font color="#000000" size="-1" face="Arial, Helvetica, sans-serif">Fortunately, 
+          we have a remarkable new Console support BAS module courtesy of Karl 
+          E. Peterson </font><a href="http://www.mvps.org/vb/" target="_blank"><font size="-1" face="Arial, Helvetica, sans-serif">(http://www.mvps.org/vb/)</font></a> 
+          <font color="#000000" size="-1" face="Arial, Helvetica, sans-serif"> 
+          included in the vbAdvance download. This module is the most comprehensive 
+          console support code available. Housed in a single BAS module, this 
+          code provides full support for debugging console apps from within the 
+          VB IDE, provides control handler callback notification for things like 
+          Ctrl-C keypresses, allows you to capture piped input, allows you to 
+          determine if your app was started from a console session or from Explorer, 
+          allows you to read from and write to the console, change colors, control 
+          cursor positioning, set window visibility, width and height, and more.</font></p>
+        <p><font color="#000000" size="-1" face="Arial, Helvetica, sans-serif">This 
+          module is included with the samples installed with vbAdvance. You can 
+          also pick up the latest copy of this code directly from Karl's website:</font><br>
+          <a href="http://www.mvps.org/vb/code/Console.zip" target="_self"><font size="-1" face="Arial, Helvetica, sans-serif">http://www.mvps.org/vb/code/Console.zip</font></a></p>
+        <p><u><font size="-1" face="Arial, Helvetica, sans-serif"><strong>Requirement 
+          #2, the Console Subsystem switch:</strong></font></u></p>
+        <p><font size="-1" face="Arial, Helvetica, sans-serif">The second requirement is 
+          that the app be compiled as a Console subsystem<br>
+          application. VB has the ability to do this, but doesn't give you a way 
+          to enable the<br>
+          feature. This is where vbAdvance comes in. Simply check the &quot;Build 
+          As Console<br>
+          Application&quot; checkbox and vbAdvance will tell VB at compile time 
+          that your app is<br>
+          to be compiled as a Console subsystem application. (Remember, vbAdvance 
+          is<br>
+          free for use in creating console applications!)</font></p>
+        <p><font size="-1" face="Arial, Helvetica, sans-serif">Even though vbAdvance 
+          makes it incredibly easy to build Console apps, and even though this 
+          is a freebie feature and wouldn't cost you a thing, some people might 
+          prefer to control the build step themselves. In this case, all you need 
+          to do is call the VB linker after you build your EXE. The VB linker 
+          is capable of altering your compiled EXE so that it is a true console 
+          subsystem application. The usage looks like so:</font><font size="-1" face="Arial, Helvetica, sans-serif"><br>
+          link /edit /subsystem:console myapp.exe</font></p>
+        <p><font size="-1" face="Arial, Helvetica, sans-serif">Again, this is 
+          a seperate build step and is not required if you use vbAdvance. </font></p>
+        <p><font size="-1" face="Arial, Helvetica, sans-serif">There are many 
+          other utilities out there that accomplish the same thing. vbAdvance<br>
+          makes it painless by building the feature into the VB IDE, so building 
+          a Console app is as simple as building a Windows app. Once your project 
+          is marked as a Console app, it will always compile as a Console subsystem 
+          app, because vbAdvance remembers the project setting automatically.</font></p>
+        <p><a href="#top">Top</a></p>
+      </blockquote>
+      <!-- #EndEditable --></td>
+    <td></td>
+  <tr> <!-- #BeginEditable "EditRegion2" -->
+    <td rowspan="2" valign="top" bgcolor="#F1F1F1"><!--DWLayoutEmptyCell-->&nbsp;</td>
+    <!-- #EndEditable -->
+    <td height="25"></td>
+  <tr> 
+    <td height="31" valign="top" bgcolor="#FFFFFF"> <div align="center"> <br>
+        <font size="-2"> &copy; 2001 - 2004 Young Dynamic Software. All rights 
+        reserved.</font></div></td>
+    <td></td>
+</table>
+</body>
+<!-- #EndTemplate --></html>

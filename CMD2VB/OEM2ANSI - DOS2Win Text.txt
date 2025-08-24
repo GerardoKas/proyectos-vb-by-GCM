@@ -1,0 +1,5 @@
+Declare Function OemToChar Lib "user32" Alias "OemToCharA" (ByVal lpszSrc As 
+String, ByVal lpszDst As String) As Long 
+Declare Function CharToOem Lib "user32" Alias "CharToOemA" (ByVal lpszSrc As 
+String, ByVal lpszDst As String) As Long 
+

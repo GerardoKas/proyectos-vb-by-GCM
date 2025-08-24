@@ -1,0 +1,4 @@
+-modulate 100,255
+-despeckle -despeckle -despeckle -despeckle -despeckle 
+-sharpen 11.8,45.9
+-modulate 100,74

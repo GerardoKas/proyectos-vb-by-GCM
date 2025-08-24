@@ -1,0 +1,63 @@
+Beginning ... 
+
+Leido..
+
+BootDevice = \Device\HarddiskVolume2
+BuildNumber = 2600
+BuildType = Uniprocessor Free
+Caption = Microsoft Windows XP Professional
+CodeSet = 1252
+CountryCode = 34
+CreationClassName = Win32_OperatingSystem
+CSCreationClassName = Win32_ComputerSystem
+CSDVersion = 
+CSName = FERNILLO
+CurrentTimeZone = 60
+Debug = Falso
+Description = porta
+Distributed = Falso
+EncryptionLevel = 168
+ForegroundApplicationBoost = 2
+FreePhysicalMemory = 25276
+FreeSpaceInPagingFiles = 144204
+FreeVirtualMemory = 169480
+InstallDate = 20030312201600.000000+060
+LargeSystemCache = 1
+LastBootUpTime = 20060108105433.500000+060
+LocalDateTime = 20060108130723.870000+060
+Locale = 0c0a
+Manufacturer = Microsoft Corporation
+MaxNumberOfProcesses = -1
+MaxProcessMemorySize = 2097024
+Name = Microsoft Windows XP Professional|C:\WINDOWS|\Device\Harddisk0\Partition2
+NumberOfLicensedUsers = 
+NumberOfProcesses = 36
+NumberOfUsers = 2
+Organization = GCM Software
+OSLanguage = 3082
+OSProductSuite = 
+OSType = 18
+OtherTypeDescription = 
+PlusProductID = 
+PlusVersionNumber = 
+Primary = Verdadero
+ProductType = 1
+QuantumLength = 0
+QuantumType = 0
+RegisteredUser = Lucas Diponto
+SerialNumber = 55274-640-0000356-23542
+ServicePackMajorVersion = 0
+ServicePackMinorVersion = 0
+SizeStoredInPagingFiles = 315084
+Status = OK
+SuiteMask = 272
+SystemDevice = \Device\HarddiskVolume2
+SystemDirectory = C:\WINDOWS\System32
+SystemDrive = C:
+TotalSwapSpaceSize = 
+TotalVirtualMemorySize = 445628
+TotalVisibleMemorySize = 130544
+Version = 5.1.2600
+WindowsDirectory = C:\WINDOWS
+
+--------------------------------------------------------------------------------

@@ -1,0 +1,19 @@
+Línea 46: la clase SHDocVwCtl.WebBrowser del control web1 no era una clase de control cargada.
+Línea 52: el nombre de la propiedad ExtentX de web1 no es válido.
+Línea 53: el nombre de la propiedad ExtentY de web1 no es válido.
+Línea 54: el nombre de la propiedad ViewMode de web1 no es válido.
+Línea 55: el nombre de la propiedad Offline de web1 no es válido.
+Línea 56: el nombre de la propiedad Silent de web1 no es válido.
+Línea 57: el nombre de la propiedad RegisterAsBrowser de web1 no es válido.
+Línea 58: el nombre de la propiedad RegisterAsDropTarget de web1 no es válido.
+Línea 59: el nombre de la propiedad AutoArrange de web1 no es válido.
+Línea 60: el nombre de la propiedad NoClientEdge de web1 no es válido.
+Línea 61: el nombre de la propiedad AlignLeft de web1 no es válido.
+Línea 62: el nombre de la propiedad NoWebView de web1 no es válido.
+Línea 63: el nombre de la propiedad HideFileNames de web1 no es válido.
+Línea 64: el nombre de la propiedad SingleClick de web1 no es válido.
+Línea 65: el nombre de la propiedad SingleSelection de web1 no es válido.
+Línea 66: el nombre de la propiedad NoFolders de web1 no es válido.
+Línea 67: el nombre de la propiedad Transparent de web1 no es válido.
+Línea 68: el nombre de la propiedad ViewID de web1 no es válido.
+Línea 69: el nombre de la propiedad Location de web1 no es válido.
