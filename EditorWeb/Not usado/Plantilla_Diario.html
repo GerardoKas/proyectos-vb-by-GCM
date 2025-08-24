@@ -1,0 +1,32 @@
+<HTML><HEAD><TITLE>Diario 000</TITLE>
+<script>
+function AddItem(){
+var objNew=null
+var objAdded=null
+  objNew=itemClone.cloneNode(true)
+  objNew.id="itemNew"
+  objNew.innerHTML="<span contentEditable=false>Dia: <b>" + GetData() + "<b></span><hr width=50% align=left>"
+  objAdded=Contenido.appendChild(objNew)
+  objAdded.style.display='block'
+}
+function GetData(){
+var sDate=new Date()
+return (sDate.toLocaleString())
+}
+</script>
+<style>
+.ITEM{
+display:block;margin:6px;border:1 solid green;background-color:#223344;width:90%;color:ivory
+}
+</style>
+</HEAD>
+<BODY contentEditable=false bgcolor=223322 onscroll='Funciones.style.bottom:10px'>
+<div id='Funciones' style=";padding:1px;border:1 solid blue;width:50%;">
+  <a href='javascript:void(0)' onclick='AddItem()'>Añadir Nuevo Registro</a> - 
+</div>
+<div id=Contenido contentEditable=true>
+  <div id=itemClone class=ITEM style='display:none'>
+
+  </div>
+</div>
+</BODY></HTML>

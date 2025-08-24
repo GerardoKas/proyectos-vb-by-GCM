@@ -1,0 +1,43 @@
+How about this, borrowed from www dot vbcode dot com, although it works, it does not provide any status that I know of.
+
+Well it does provide whether or not the file was downloaded.
+
+
+Option Explicit
+
+Private Declare Function URLDownloadToFile _
+Lib "urlmon" _
+Alias "URLDownloadToFileA" ( _
+ByVal pCaller As Long, _
+ByVal szURL As String, _
+ByVal szFileName As String, _
+ByVal dwReserved As Long, _
+ByVal lpfnCB As Long) As Long
+
+Public Function DownloadFile(URL As String, LocalFilename As String) As Boolean
+Dim RETVAL As Long
+Print
+Print RETVAL = URLDownloadToFile(0, URL, LocalFilename, 0, 0)
+Print
+If RETVAL = 0 Then DownloadFile = True
+
+End Function
+
+'replace the first argument with the URL of the file you want to download,
+'and the second argument with the local file you want to save this file to.
+'
+' USE
+' Dim RET As Boolean
+' RET = DownloadFile("http://www.vbdesign.net/images/llamalogo.jpg", "C:\llamalogo.jpg")
+
+Sub EXAMPLE_GET_THE_FILE()
+Dim URL As String
+Dim LocalFilename As String
+
+URL = "http://www.vbdesign.net/images/llamalogo.jpg"
+LocalFilename = "C:\llamalogo.jpg"
+
+Debug.Print DownloadFile(URL, LocalFilename)
+
+End Sub
+(...)

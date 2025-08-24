@@ -1,0 +1,124 @@
+Try this one, I added some error stuff. Feel free to tame down
+the const and variable names.
+
+Use as class module or uh... er... module module, yeah thats
+what its called.
+
+I believe also this will overwrite the old 'LocalFileName'
+
+
+Option Explicit
+
+Private Declare Function URLDownloadToFile _
+Lib "urlmon" _
+Alias "URLDownloadToFileA" ( _
+ByVal pCaller As Long, _
+ByVal szURL As String, _
+ByVal szFileName As String, _
+ByVal dwReserved As Long, _
+ByVal lpfnCB As Long) As Long
+
+Public Enum URLDownloadErrConstants
+ErrSuccess = &H0
+ErrErrorUnknown = &H1
+ErrAborted = &H80004004
+ErrDestFileExists = &H800C0001
+ErrInvalidUrl = &H800C0002
+ErrNoSession = &H800C0003
+ErrCannotConnect = &H800C0004
+ErrResourceNotFound = &H800C0005
+ErrObjectNotFound = &H800C0006
+ErrDataNotAvailable = &H800C0007
+ErrDownloadFailure = &H800C0008
+ErrAuthenticationRequired = &H800C0009
+ErrNoValidMedia = &H800C000A
+ErrConnectionTimeout = &H800C000B
+ErrInvalidRequest = &H800C000C
+ErrUnknownProtocol = &H800C000D
+ErrSecurityProblem = &H800C000E
+ErrCannotLoadData = &H800C000F
+ErrCannotInstantiateObject = &H800C0010
+ErrRedirectFailed = &H800C0014
+ErrRedirectToDir = &H800C0015
+ErrCannotLockRequest = &H800C0016
+End Enum
+
+Public URLDownloadError As URLDownloadErrConstants
+Public URLDownloadErrorDescription As String
+
+Public Function DownloadFile(URL As String, LocalFileName As String) As Boolean
+
+On Error GoTo ERR_REPORT
+
+URLDownloadError = URLDownloadToFile(0, URL, LocalFileName, 0, 0)
+
+DownloadFile = URLDownloadError = ErrSuccess
+
+GetDownloadErrorDescription
+
+Exit Function
+
+ERR_REPORT:
+Debug.Print "Err.Number", Err.Number
+Debug.Print "Err.Description", Err.Description
+Debug.Print "Err.LastDllError", Err.LastDllError
+Debug.Print "Err.Source", Err.Source
+DownloadFile = False
+URLDownloadError = ErrErrorUnknown
+GetDownloadErrorDescription
+Err.Clear
+End Function
+
+Private Sub GetDownloadErrorDescription()
+
+Select Case URLDownloadError
+Case ErrSuccess
+URLDownloadErrorDescription = "ErrSuccess"
+Case ErrErrorUnknown
+URLDownloadErrorDescription = "ErrErrorUnknown"
+Case ErrAborted
+URLDownloadErrorDescription = "ErrAborted"
+Case ErrDestFileExists
+URLDownloadErrorDescription = "ErrDestFileExists"
+Case ErrInvalidUrl
+URLDownloadErrorDescription = "ErrInvalidUrl"
+Case ErrNoSession
+URLDownloadErrorDescription = "ErrNoSession"
+Case ErrCannotConnect
+URLDownloadErrorDescription = "ErrCannotConnect"
+Case ErrResourceNotFound
+URLDownloadErrorDescription = "ErrResourceNotFound"
+Case ErrObjectNotFound
+URLDownloadErrorDescription = "ErrObjectNotFound"
+Case ErrDataNotAvailable
+URLDownloadErrorDescription = "ErrDataNotAvailable"
+Case ErrDownloadFailure
+URLDownloadErrorDescription = "ErrDownloadFailure"
+Case ErrAuthenticationRequired
+URLDownloadErrorDescription = "ErrAuthenticationRequired"
+Case ErrNoValidMedia
+URLDownloadErrorDescription = "ErrNoValidMedia"
+Case ErrConnectionTimeout
+URLDownloadErrorDescription = "ErrConnectionTimeout"
+Case ErrInvalidRequest
+URLDownloadErrorDescription = "ErrInvalidRequest"
+Case ErrUnknownProtocol
+URLDownloadErrorDescription = "ErrUnknownProtocol"
+Case ErrSecurityProblem
+URLDownloadErrorDescription = "ErrSecurityProblem"
+Case ErrCannotLoadData
+URLDownloadErrorDescription = "ErrCannotLoadData"
+Case ErrCannotInstantiateObject
+URLDownloadErrorDescription = "ErrCannotInstantiateObject"
+Case ErrRedirectFailed
+URLDownloadErrorDescription = "ErrRedirectFailed"
+Case ErrRedirectToDir
+URLDownloadErrorDescription = "ErrRedirectToDir"
+Case ErrCannotLockRequest
+URLDownloadErrorDescription = "ErrCannotLockRequest"
+Case Else
+URLDownloadErrorDescription = "ErrErrorUnknown"
+End Select
+
+End Sub
+(...)

@@ -1,0 +1,6 @@
+guardar la lista de items-urls en un txt
+cargar una lista de url en txt
+
+---
+
+permitir darle a supr y eliminar items en vez de desmarcar

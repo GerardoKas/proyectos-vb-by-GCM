@@ -1,0 +1,117 @@
+[INIT]
+Fuentes=FONT
+Fondos=BACKGROUND
+Marcos=LAYOUT
+Mostrar=DISPLAY
+Posiciones=POSITION
+Pagina=PAGE
+Varios=PSEUDO
+ScrollBar=SCROLL
+
+[FONT]
+ font 
+ @font-face 
+ font-family 
+ font-size 
+ font-style 
+ font-variant 
+ font-weight  
+ line-height 
+ letter-spacing 
+ text-align 
+ text-decoration 
+ text-indent 
+ text-transform 
+ unicode-bidi 
+ vertical-align 
+ 
+[BACKGROUND]
+ background-attachment 
+ background-color 
+ background-image 
+ background-position 
+ background-repeat 
+ color 
+ 
+[LAYOUT]
+ border 
+ border-bottom 
+ border-bottom-color 
+ border-bottom-style 
+ border-bottom-width 
+ border-color 
+ border-left 
+ border-left-color 
+ border-left-style 
+ border-left-width 
+ border-right 
+ border-right-color 
+ border-right-style 
+ border-right-width 
+ border-style 
+ border-top 
+ border-top-color 
+ border-top-style 
+ border-top-width 
+ border-width 
+ clear 
+ float 
+ margin 
+ margin-bottom 
+ margin-left 
+ margin-right 
+ margin-top 
+ padding 
+ padding-bottom 
+ padding-left 
+ padding-right 
+ padding-top 
+ 
+ 
+[DISPLAY]
+ display 
+ list-style 
+ list-style-image 
+ list-style-position 
+ list-style-type 
+ 
+[POSITION]
+ bottom 
+ clip 
+ height 
+ left 
+ overflow 
+ position 
+ right 
+ top 
+ visibility 
+ width 
+ z-index 
+ 
+[PAGE]
+ page-break-after 
+ page-break-before 
+ 
+ 
+[PSEUDO]
+ active 
+ cursor 
+ hover 
+ @import 
+ !important 
+ link 
+ visited 
+ 
+[UNSUP]
+ first-letter  
+ first-line  
+ white-space 
+ 
+[SCROLL]
+  scrollbar-face-color
+  scrollbar-shadow-color
+  scrollbar-highlight-color
+  scrollbar-3dlight-color
+  scrollbar-darkshadow-color
+  scrollbar-track-color
+  scrollbar-arrow-color

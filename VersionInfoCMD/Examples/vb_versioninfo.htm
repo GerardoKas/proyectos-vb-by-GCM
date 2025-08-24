@@ -1,0 +1,513 @@
+
+      
+    <html>	 
+     <TITLE>Visual Basic 6.0 - Use all of these API</TITLE>
+	 <HEAD>
+
+    <script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+    <script type="text/javascript">
+       _uacct = "UA-142061-1";
+       urchinTracker();
+    </script>
+
+     
+ 
+	  <SCRIPT LANGUAGE="JavaScript" src="/behaviors/HiLite.js" ></script>
+
+     <SCRIPT LANGUAGE="JavaScript1.2"> 
+
+       var  baseURL = 'http://www.eggheadcafe.com'; 
+
+       try
+       {
+           if (self.parent.frames.length != 0)
+	          self.parent.location=document.location;
+	   }
+   	   catch (Exception) {}
+
+       function PrintThisPage()
+	   {
+	      var sOption="toolbar=yes,location=no,directories=yes,menubar=yes,";
+              sOption+="scrollbars=yes,width=750,height=650,left=100,top=25";
+                      					                 
+              var winprint=window.open("/print.asp","Print",sOption);
+                            
+              winprint.focus();
+ 
+	   }
+              
+     </SCRIPT> 
+  
+     <META content="7" name="revisit-after">
+     <META content='Web Programming' name=classification>
+     
+     <META NAME=KEYWORDS content='C#,VB.NET,ASP.NET,ado,ado.net,activex,robbe morris,peter bromberg,adsi,authors,book,code,coding,com,component,components,database,databases,debug,develop,developer,download,downloads,examples,forums,iis,ajax,javascript,jobs,how to,sample,samples,scripts,search,server,sessions,software,source,source code,sql,sql 7,sql server,vb,vbscript,vc++, .net, xmlhttp' >
+	<META NAME=DESCRIPTION content='The niche portal for experienced ASP.NET and Windows developers. Articles, forums, sample code and a customized user experience.' >
+     <META http-equiv=Content-Type content='text/html; charset=utf-8'>
+     <META content='MSHTML 5.50.4134.600' name=GENERATOR>
+<!--
+body,td		{ font-family: tahoma, helvetica; font-size: 11px; color: #838383; line-height: 14px; }
+	form		{ margin: 0px; }
+-->
+<style type="text/css">
+ 
+ 
+	br.short	{ line-height: 4px; }
+	.bright		{ font-weight: bold; color: #FF7800; }	
+.bright9	{ font-weight: bold; color: #FFFFFF; font-size: 8pt; font-family: Arial}	
+ 
+
+
+
+	body,td		{ font-family: arial, helvetica; font-size: 11px; font-color: #444444; }
+	b		{ color: #333333; }
+	.sidelink	{ font-family: verdana, arial, helvetica; color: #666666; font-size: 10px; letter-spacing: -1px; }
+	.carea		{ color: #777777; line-height: 20px; }
+	A:visited	{ text-decoration: none; }
+	A:link		{ text-decoration: none; }
+	A:hover		{ text-decoration: underline; }
+	.bottom		{ color: #EDEDED; }
+	a.bottom	{ font-weight: bold; }
+ 
+</style>
+<link rel="alternate" title="RSS" href="http://www.eggheadcafe.com/rss.xml" type="application/rss+xml">
+  <LINK href=/eggheadcafe.css rel=Stylesheet>
+
+  </HEAD>
+   
+   
+<body  onload="KeyWordHiLite();" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" style="background-color:#FFFFFF">
+ 
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+	<td>
+		<table width="100%" cellpadding="0" cellspacing="0" border="0">
+		<tr>
+			<td rowspan="2"><a href="/default.asp"><img src="/images/template2/top1.jpg" border="0"></a></td>
+			<td>
+				<table cellpadding="0" cellspacing="0" border="0">
+				<tr>
+ 
+					<td><a href="/articles/multisearch/default.aspx"><img src="/images/template2/l1.jpg" border="0"></a></td>
+					<td><img src="/images/template2/tbdiv.jpg"></td>
+ 
+					<td><a href="/aboutus.asp"><img src="/images/template2/l4.jpg" border="0"></a></td>
+					<td><img src="/images/template2/tbdiv.jpg"></td>
+
+					<td><a href="mailto:info@eggheadcafe.com?cc=pbromberg@yahoo.com"><img src="/images/template2/l5.jpg" border="0"></a></td>
+
+				</tr>
+				</table>
+			</td>
+			<td background="/images/template2/tbbg.jpg" width="100%"><img src="/images/template2/spacer.gif"></td>
+		</tr>
+		<tr>
+			<td colspan="2" width="100%" background="/images/template2/top1bg.jpg"><img src="/images/template2/top1bg.jpg"></td>
+		</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td>
+		<table width="100%" cellpadding="0" cellspacing="0" border="0">
+		<tr>
+			<td valign="top">
+
+	<table cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td colspan="3"><img src="/images/template2/top2.jpg"></td>
+				</tr>
+				<tr>
+      <td><img src="/images/template2/folder.gif" border="0"></td>
+      <td align="left" nowrap colspan="2"><a href="/login/default.asp" class="sidelink">Member Details</a></td>
+				</tr>
+				<tr>
+     <td align="right"></td>
+     <td><img src="/images/template2/technotes.gif"></td>
+					<td  align="left" nowrap><a href="/login/default.asp" class="sidelink">Login To Website</a></td>
+				</tr>
+				<tr>
+                    <td align="right"></td>
+                    <td></td>
+					<td  align="left" nowrap><br></td>
+				</tr>
+				 
+				 
+</table>
+
+	<table cellpadding="1" cellspacing="0" border="0">
+ 
+				<tr>
+      <td><img src="/images/template2/folder.gif" border="0"></td>
+      <td align="left" nowrap colspan="2"><a href="/articles.asp" class="sidelink">Content Archive</a></td>
+				</tr>
+ 				<tr>
+     <td align="right"></td>
+     <td><img src="/images/template2/technotes.gif"></td>
+					<td  align="left" nowrap><a href="/articles/multisearch/default.aspx" class="sidelink" title="Search Eggheadcafe.com Content">Search</a></td>
+				</tr >
+				<tr>
+     <td align="right"></td>
+     <td><img src="/images/template2/technotes.gif"></td>
+					<td  align="left" nowrap><a href="/articles.asp" class="sidelink" title="Full Articles on Eggheadcafe.com">Articles</a></td>
+				</tr>
+				<tr>
+     <td align="right"></td>
+     <td><img src="/images/template2/technotes.gif"></td>
+					<td  align="left" nowrap><a href="/tipstricks.asp" class="sidelink" title="Short Tips and Tricks submitted to the site">Tips &amp; Tricks</a></td>
+				</tr>
+ 
+ 
+				<tr>
+     <td align="right"></td>
+     <td><img src="/images/template2/technotes.gif"></td>
+					<td  align="left" nowrap><a href="/sharedlinks/main.aspx" class="sidelink" title="View the best of the best urls and job interviews Dr. Dotnetsky has found on the net.">Best of the Best</a></td>
+				</tr>
+
+ 
+
+
+				<tr>
+					<td colspan="3"><img src="/images/template2/spacer.gif" height="10" width="1"></td>
+				</tr>
+
+ 
+				<tr>
+      <td><img src="/images/template2/folder.gif" border="0"></td>
+      <td align="left" nowrap colspan="2"><a href="/forums/default.asp" class="sidelink" title="Eggheadcafe.com Forums!">Ask A Question</a></td>
+				</tr>
+ 
+				<tr>
+     <td align="right"></td>
+     <td><img src="/images/template2/technotes.gif"></td>
+					<td  align="left" nowrap><a href="/forums/merit.asp" class="sidelink" title="Monthly Member Forum Post Standings">Member Rankings</a></td>
+				</tr>
+
+ 
+
+				<tr>
+     <td align="right"></td>
+     <td><img src="/images/template2/technotes.gif"></td>
+					<td  align="left" nowrap><a href="/forums/forumtree.asp?ID=12" class="sidelink" title="Javascript Forum">Ask. Dr. Dotnetsky</a></td>
+				</tr>
+				<tr>
+     <td align="right"></td>
+     <td><img src="/images/template2/technotes.gif"></td>
+					<td  align="left" nowrap><a href="/forums/forumtree.asp?ID=10" class="sidelink" title="ADO and ADO.NET Forum">ADO / ADO.NET</a></td>
+				</tr>
+				<tr>
+     <td align="right"></td>
+     <td><img src="/images/template2/technotes.gif"></td>
+					<td  align="left" nowrap><a href="/forums/forumtree.asp?ID=2" class="sidelink" title="C# Forum">C#</a> / <a href="/forums/forumtree.asp?ID=14" class="sidelink" title="VB.NET Forum">VB.NET</a></td>
+				</tr>
+ 
+				<tr>
+     <td align="right"></td>
+     <td><img src="/images/template2/technotes.gif"></td>
+					<td  align="left" nowrap><a href="/forums/forumtree.asp?ID=6" class="sidelink" title="ASP.NET 1.1 Forum">ASP.NET 1.1</a></td>
+				</tr>
+
+				<tr>
+     <td align="right"></td>
+     <td><img src="/images/template2/technotes.gif"></td>
+					<td  align="left" nowrap><a href="/forums/forumtree.asp?ID=17" class="sidelink" title="ASP.NET 2.0 (Whidbey)">ASP.NET 2.0</a></td>
+				</tr>
+ 
+				<tr>
+     <td align="right"></td>
+     <td><img src="/images/template2/technotes.gif"></td>
+					<td  align="left" nowrap><a href="/forums/forumtree.asp?ID=7" class="sidelink" title="Visual Studio.Net 2005 Forum">VS.NET 2005</a></td>
+				</tr>
+ 
+				<tr>
+     <td align="right"></td>
+     <td><img src="/images/template2/technotes.gif"></td>
+					<td  align="left" nowrap><a href="/forums/forumtree.asp?ID=8" class="sidelink" title="Visual Basic 6.0 Forum">Visual Basic 6.0</a></td>
+				</tr>
+
+				<tr>
+     <td align="right"></td>
+     <td><img src="/images/template2/technotes.gif"></td>
+					<td  align="left" nowrap><a href="/forums/forumtree.asp?ID=9" class="sidelink" title="SQL Server 2000 Forum">SQL Server 2000</a></td>
+					</tr>
+
+				<tr>
+     <td align="right"></td>
+     <td><img src="/images/template2/technotes.gif"></td>
+					<td  align="left" nowrap><a href="/forums/forumtree.asp?ID=13" class="sidelink" title="SQL Server 2005 Forum">SQL Server 2005</a></td>
+					</tr>
+ 
+				<tr>
+     <td align="right"></td>
+     <td><img src="/images/template2/technotes.gif"></td>
+					<td  align="left" nowrap><a href="/forums/forumtree.asp?ID=3" class="sidelink" title="Javascript Forum">JavaScript</a></td>
+				</tr>
+
+				<tr>
+     <td align="right"></td>
+     <td><img src="/images/template2/technotes.gif"></td>
+					<td  align="left" nowrap><a href="/forums/forumtree.asp?ID=5" class="sidelink" title="Classic ASP Forum">ASP</a> /  <a href="/forums/forumtree.asp?ID=4" class="sidelink" title="XML Forum">XML</a></td>
+				</tr>
+ 
+ 
+ 
+				<tr>
+     <td align="right"></td>
+     <td><img src="/images/template2/technotes.gif"></td>
+					<td  align="left" nowrap><a href="/forums/forumtree.asp?ID=18" class="sidelink" title="WebServices Forum">Web Services</a></td>
+				</tr>
+
+				<tr>
+					<td colspan="3"><img src="/images/template2/spacer.gif" height="10" width="1"></td>
+				</tr>
+				<tr>
+      <td><img src="/images/template2/folder.gif" border="0"></td>
+      <td align="left" nowrap colspan="2"><a href="/forumarchives/" class="sidelink">Other Resources</a></td>
+				</tr>
+
+
+
+				<tr>
+     <td align="right"></td>
+     <td><img src="/images/template2/technotes.gif"></td>
+					<td  align="left" nowrap>
+            <a href=/sharedlinks/addlink.aspx class=sidelink title="Submit Content Here!">Submit Articles</a>
+      </td>
+				</tr>
+				<tr>
+     <td align="right"></td>
+     <td><img src="/images/template2/technotes.gif"></td>
+					<td  align="left" nowrap><a href="http://blog.petesbloggerama.blogspot.com" class="sidelink" title="Peter Bromberg's UnBlog" target=_blank>Pete's Blog</a></td>
+				</tr>
+				<tr>
+     <td align="right"></td>
+     <td><img src="/images/template2/technotes.gif"></td>
+					<td  align="left" nowrap><a href="/articles/pbrombergresume.asp" class="sidelink" title="Peter's Online Resume" target=_blank>Pete's Resume</a></td>
+				</tr>
+				<tr>
+     <td align="right"></td>
+     <td><img src="/images/template2/technotes.gif"></td>
+					<td  align="left" nowrap><a href="http://robbemorris.blogspot.com/" class="sidelink" title="Robbe's Blog" target=_blank>Robbe's Blog</a></td>
+				</tr>
+				<tr>
+     <td align="right"></td>
+     <td><img src="/images/template2/technotes.gif"></td>
+					<td  align="left" nowrap><a href="http://www.robbemorris.com" class="sidelink" title="Robbe's Online Resume" target=_blank>Robbe's Resume</a></td>
+				</tr>
+				<tr>
+     <td align="right"></td>
+     <td><img src="/images/template2/technotes.gif"></td>
+					<td  align="left" nowrap><a href="/free_graphics_icons/internal/free_clipart.asp?q=4&start=1" class="sidelink" title="Free Icon Images collection">Free Icons</a></td>
+				</tr>
+				<tr>
+     <td align="right"></td>
+     <td><img src="/images/template2/technotes.gif"></td>
+					<td  align="left" nowrap><a href="/reviews.asp" class="sidelink" title="Book and Product Reviews">Reviews</a></td>
+				</tr>
+ 
+ 
+
+				<tr>
+     <td align="right"></td>
+     <td><img src="/images/template2/technotes.gif"></td>
+					<td  align="left" nowrap><a href="/index/" class="sidelink" title="2004 Content Archive">2004 Content</a></td>
+				</tr>
+				<tr>
+     <td align="right"></td>
+     <td><img src="/images/template2/technotes.gif"></td>
+					<td  align="left" nowrap><a href="http://www.crystalreportsbook.com" class="sidelink" target=_blank title="Crystal Reports Book">Crystal Reports</a></td>
+				</tr>
+
+				<tr>
+     <td></td>
+     <td><img src="/images/template2/technotes.gif"></td>
+					<td  align="left"><a href="/sharedlinks/dotnet_sqlserver_web_cache" class="sidelink" title=".NET Framework and ADO.NET" target=_self>.NET Resources</a></td>
+				</tr>
+					<tr>
+     <td></td>
+     <td><img src="/images/template2/technotes.gif"></td>
+					<td  align="left"><a href="/articles/multisearch/recentlinks.aspx" class="sidelink" title="RSS Blog Archive" target=_blank>RSS Archive</a></td>
+				</tr>
+ 
+ 
+
+
+				<tr>
+     <td></td>
+     <td></td>
+					<td  align=left nowrap>&nbsp;</td>
+				</tr>
+ 
+ 
+				</table>
+
+			</td>
+			<td valign="top" background="/images/template2/linebg.gif"><img src="/images/template2/linebg.gif"></td>
+			<td valign="top">
+ 
+				<table cellpadding="0" cellspacing="0" border="0">
+		
+				<tr>
+					<td class="carea">
+ 
+ 
+<script language=JavaScript  >
+
+   function LogPageView()
+   {
+var theIP='213.60.136.247';
+var thePage='/forums/ForumPost.asp' ;
+var theQueryString='ID=50412&INTID=8';
+var contentid ='';
+var theTitle ='Visual+Basic+6%2E0+%2D+Use+all+of+these+API';
+var docRef='';
+var ImgLoc='';
+ var theDate = new Date();
+var seconds;
+
+try
+{
+     if (thePage.indexOf('/ng/') > -1) { return; }
+     if (thePage.indexOf('/forum') > -1) { return; }
+     seconds = theDate.getSeconds();
+    docRef = document.referrer;
+}
+catch (Exception) { } 
+
+var logImg = new Image();
+ 
+ ImgLoc='/includes/ViewLogvb.ashx?r=' + docRef + '&p=' + thePage + '&m=' + contentid + '&t=' + theTitle + '&ip=' + theIP + '&q=' +theQueryString + '&MyDate=' +  seconds; 
+ 
+ logImg.src=ImgLoc;
+
+}
+
+//LogPageView();
+
+</script>
+
+
+
+        <DIV id=contentstart name=contentstart align=center width=675> 
+
+ 
+
+       
+
+ 
+ <script language=JavaScript src=forums.js ></script><form name=frmSubmit method=post action='/forums/forumpost.asp?SAVE_ID=1'><table   border=0 align=center bordercolor=#000000 cellspacing=2 width=675><tr><td align=center valign=top><table   border=0 align=center bordercolor=#000000 cellspacing=2 width='90%'><input type=hidden name=txtPOSTID value=50412><input type=hidden name=txtFK_INTEREST_ID value=8><input type=hidden name=txtEMAIL value='lokeshnow@yahoo.com'><input type=hidden name=txtTITLE value='Visual Basic 6.0'><tr><td colspan=2 valign=top align=left class=clsLabelHeading nowrap>Visual Basic 6.0&nbsp;&nbsp;&nbsp;(<a href=/forums/forumtree.asp?ID=8 target=_self class=keywordroll>Return To Forum Posts</a>)&nbsp;&nbsp;&nbsp;&nbsp;<a href=/forums/forumsearchbranch.asp?THREADID=49355&INTID=8 class=keywordroll target=_self >View Conversation</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=/articles/cstovbweb/converter.aspx target=_blank class=keywordroll>Convert C# to VB.NET</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=/forums/ForumPost.asp?ID=50411 target=_self class=forumroll>Archived Post</a></td></tr><tr><td colspan=2 class=clsBodyText><br></td></tr><tr align=left><td valign=top align=left class=clsFieldLabel colspan=2>Use all of these API</td></tr><tr align=left><td align=left colspan=2> <div id=Keyword name=Keyword>
+<table width='100%' border=0 align=center bordercolor=#FFFFFF cellspacing=1>
+
+
+<tr><td colspan=  class=clsBodyText width=600 >Private Declare Function lstrcpy Lib "kernel32" _ <br>        Alias "lstrcpyA" _ <br>        (ByVal lpString1 As String, _ <br>        ByVal lpString2 As Long) As Long <br> <br>Private Declare Sub MoveMemory Lib "kernel32" _ <br>        Alias "RtlMoveMemory" _ <br>        (dest As Any, _ <br>        ByVal Source As Long, _ <br>        ByVal Length As Long) <br> <br>Private Declare Function VerQueryValue Lib "Version.dll" _ <br>        Alias "VerQueryValueA" _ <br>        (pBlock As Any, _ <br>        ByVal lpSubBlock As String, _ <br>        lplpBuffer As Any, _ <br>        puLen As Long) As Long <br> <br>Private Declare Function GetFileVersionInfo Lib "Version.dll" _ <br>        Alias "GetFileVersionInfoA" _ <br>        (ByVal lptstrFilename As String, _ <br>        ByVal dwhandle As Long, _ <br>        ByVal dwlen As Long, _ <br>        lpData As Any) As Long <br> <br>Private Declare Function GetFileVersionInfoSize Lib "Version.dll" _ <br>        Alias "GetFileVersionInfoSizeA" _ <br>        (ByVal lptstrFilename As String, _ <br>        lpdwHandle As Long) As Long <br> <br>Function GetFileVersion(FullFileName As String) As String <br> <br>Dim Buffer As String <br>Dim rc As Long <br>Dim lBufferLen As Long, lDummy As Long <br>Dim sBuffer()  As Byte <br>Dim lVerPointer As Long <br>Dim bytebuffer(255) As Byte <br>Dim Lang_Charset_String As String <br>Dim HexNumber As Long <br>Dim strVersionInfo(7) As String <br>Dim i As Integer <br>Dim strTemp As String <br> <br>   '*** Get size **** <br>   lBufferLen = GetFileVersionInfoSize(FullFileName, lDummy) <br>   If lBufferLen &lt; 1 Then <br>       Exit Function <br>   End If <br> <br> <br>   ReDim sBuffer(lBufferLen) <br>   rc = GetFileVersionInfo(FullFileName, 0&, lBufferLen, sBuffer(0)) <br>   If rc = 0 Then <br>     Exit Function <br>   End If <br> <br>   rc = VerQueryValue(sBuffer(0), "\VarFileInfo\Translation", _ <br>                          lVerPointer, _ <br>                          lBufferLen) <br> <br>   If rc = 0 Then <br>       Exit Function <br>   End If <br>        'lVerPointer is a pointer to four 4 bytes of Hex number, <br>        'first two bytes are language id, and last two bytes are code <br>        'page. However, Lang_Charset_String needs a  string of <br>        '4 hex digits, the first two characters correspond to the <br>        'language id and last two the last two character correspond <br>        'to the code page id. <br> <br> <br>   MoveMemory bytebuffer(0), lVerPointer, lBufferLen <br> <br>   HexNumber = bytebuffer(2) + bytebuffer(3) * &H100 + _ <br>   bytebuffer(0) * &H10000 + bytebuffer(1) * &H1000000 <br>   Lang_Charset_String = Hex(HexNumber) <br>        'now we change the order of the language id and code page <br>        'and convert it into a string representation. <br>        'For example, it may look like 040904E4 <br>        'Or to pull it all apart: <br>        '04------        = SUBLANG_ENGLISH_USA <br>        '--09----        = LANG_ENGLISH <br>        ' ----04E4 = 1252 = Codepage for Windows:Multilingual <br> <br>   Do While Len(Lang_Charset_String) &lt; 8 <br>       Lang_Charset_String = "0" & Lang_Charset_String <br>   Loop <br> <br> <br>   strVersionInfo(0) = "CompanyName" <br>   strVersionInfo(1) = "FileDescription" <br>   strVersionInfo(2) = "FileVersion" <br>   strVersionInfo(3) = "InternalName" <br>   strVersionInfo(4) = "LegalCopyright" <br>   strVersionInfo(5) = "OriginalFileName" <br>   strVersionInfo(6) = "ProductName" <br>   strVersionInfo(7) = "ProductVersion" <br> <br>   For i = 7 To 7 <br>       Buffer = String(255, 0) <br>       strTemp = "\StringFileInfo\" & Lang_Charset_String _ <br>           & "\" & strVersionInfo(i) <br>       rc = VerQueryValue(sBuffer(0), strTemp, _ <br>           lVerPointer, lBufferLen) <br> <br>       If rc = 0 Then <br>           Exit Function <br>       End If <br> <br>       lstrcpy Buffer, lVerPointer <br>       Buffer = Mid$(Buffer, 1, InStr(Buffer, Chr(0)) - 1) <br>       GetFileVersion = Trim$(Buffer) <br>   Next i <br> <br>End Function <br> <br></td></tr></table></div></td></tr><tr><td><br></td></tr><tr><td colspan=2><br></td></tr><tr ><td width="97%" align=center valign="top" colspan="2"   >
+<script type="text/javascript"><!--
+google_ad_client = "pub-8682474657542641";
+google_alternate_ad_url = "http://www.eggheadcafe.com/alternateads468.asp";
+google_ad_width = 468;
+google_ad_height = 60;
+google_ad_format = "468x60_as";
+google_ad_channel ="7250599242";
+google_color_border = "FFFFFF";
+google_color_bg = "FFFFFF";
+google_color_link = "008000";
+google_color_url = "3F73AD";
+google_color_text = "000000";
+//--></script>
+<script type="text/javascript"  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</td></tr><tr><td colspan=2><br></td></tr><tr><td colspan=2 class=clsBodyText><br></td></tr><tr align=left><td valign=top align=left class=clsFieldLabel colspan=2>lokesh kumar</td></tr><tr align=left> <td valign=top align=left class=clsFieldLabel colspan=2>12/13/2005&nbsp;&nbsp;11:02:40 PM</td></tr><tr><td colspan=2 class=clsBodyText><i>You have not logged into EggHeadCafe.com.&nbsp;&nbsp;<a href=/login/default.asp target=_self class=bright>Click here to log in or create your account</a> prior to attempting to reply to this forum post.</i></td></tr><tr><td colspan=2 class=clsBodyText><br></td></tr><tr><td colspan=2 align=left class=clsFieldLabel><u>Current Thread</u></td></tr><tr><td align=left colspan=2 nowrap><table width='100%' border=0 align=left cellspacing=1>
+<tr><td align=left class=clsLabelHeading><td></td></tr>
+<tr align=left><td></td></tr>
+<tr><td align=left valign=absmiddle nowrap></a><image src=/images/template2/folder.gif align=absmiddle border=0 height=15 width=15>&nbsp;<a href=/forums/ForumPost.asp?ID=49355&INTID=8 target=_self class=forumroll>Determining the version number of an exe&nbsp;-&nbsp;Lewis Gee 12-08 02:15 PM
+</td></tr><tr><td align=left valign=absmiddle nowrap></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<image src=/images/template2/merit1.gif align=absmiddle border=0 height=15 width=15>&nbsp;<a href=/forums/ForumPost.asp?ID=49546&INTID=8 target=_self class=forumtoproll>  Link&nbsp;-&nbsp;Sathish S 12-09 04:43 AM
+</td></tr><tr><td align=left valign=absmiddle nowrap></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<image src=/images/template2/merit1.gif align=absmiddle border=0 height=15 width=15>&nbsp;<a href=/forums/ForumPost.asp?ID=49558&INTID=8 target=_self class=forumtoproll>  Easier way - FSO&nbsp;-&nbsp;Sathish S 12-09 06:19 AM
+</td></tr><tr><td align=left valign=absmiddle nowrap></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<image src=/images/template2/merit1.gif align=absmiddle border=0 height=15 width=15>&nbsp;<a href=/forums/ForumPost.asp?ID=50412&INTID=8 target=_self class=forumtoproll>  Use all of these API&nbsp;-&nbsp;lokesh kumar 12-13 11:02 PM
+</td></tr></table>
+</td></tr>
+<tr><td colspan=2><br></td></tr><tr align=left><td valign=top align=left class=clsFieldLabel colspan=2>Biography</td></tr><tr><td colspan=2 class=clsFieldLabel>History:&nbsp;&nbsp;&nbsp;<a href=myposts.asp?aid=52C3EA41A7C225E5A3921A7C2252C3EA41A7C225E5A3921A7C225E5A3921A7C22|32A5DF|1829BD target=_self class=forumroll>lokesh kumar's Message Board History</a></td></tr><tr><td colspan=2 class=clsFieldLabel>My Tips:&nbsp;&nbsp;&nbsp;<a href=MyCodeSubmissions.asp?aid=52C3EA41A7C225E5A3921A7C2252C3EA41A7C225E5A3921A7C225E5A3921A7C22|32A5DF|1829BD target=_blank class=forumroll>lokesh kumar's Articles, Tips & Tricks, and Code Snippets</a></td></tr><tr align=left><td colspan=2 ></td></tr><tr align=left><td align=left colspan=2><table width='100%' border=0 align=center bordercolor=#FFFFFF cellspacing=1></table></td></tr>
+
+   </table>
+</td></tr>
+</table>
+ 
+     
+
+ 
+      
+			</DIV>
+   
+					</td>
+	
+				</tr>
+				</table>
+			</td>
+<td valign="top" align="right" background="/images/template2/linebg.gif"><img src="/images/template2/linebg.gif"></td>
+			<td width="100%" valign="top">
+
+			 <table cellpadding="1" cellspacing="0" border="0">
+ 
+			     <tr><td align="left" valign="top" class="homepagetext8">You could win a share of <a href="/forums/merit.asp" target="_self" class=bright>$500</a> by taking part in our message board quality post program!&nbsp;&nbsp;<a href="/forums/merit.asp" target="_self" class=bright>Learn more</a></td></tr>
+     
+                </table>
+
+			 <table cellpadding="1" cellspacing="0" border="0">
+ 
+			     <tr><td align="left" valign="top"><a href="/rss.asp" target="_self"><img src="/images/xml_anim.gif" border="0"></a></td></tr>
+     
+                </table>
+
+	 <table cellpadding="1" cellspacing="0" border="0">
+
+ </table>
+
+	       
+
+			
+			</td>
+		</tr>
+		</table>
+	</td>
+</tr>
+</table>
+
+
+<script>
+var iFr;
+function log() { 
+var theAd=""+ escape(window.status.substring(6)) ;
+var format=queryString('format',iFr.src);
+var channel=queryString('channel',iFr.src);
+//alert(iFr.src);
+var bug = new Image();
+var bug = new Image();
+var thetitle='/forums/ForumPost.asp' + '?' + 'ID=50412&INTID=8';
+bug.src = '/pix.aspx?ref=' + document.referrer + '&url=' +theAd +'&title=' + thetitle+ '&format=' + format +'&channel='+channel ; 
+}  
+ 
+	var elements; 
+	elements = document.getElementsByTagName("iframe"); 
+	for (var i = 0; i < elements.length; i++) 
+		{ 
+		if(elements[i].src.indexOf('googlesyndication.com') > -1) 
+			{ 
+				elements[i].attachEvent("onfocus",log) 
+				iFr=elements[i];
+				 
+			} 
+		} 
+
+function queryString(item, source)
+{
+var itemLoc=source.indexOf(item);
+var newSrc=source.substring(itemLoc);
+var endLoc=newSrc.indexOf("&");
+ var lstSrc=newSrc.substring(0,endLoc);
+ var itm=lstSrc.substring(item.length+1);
+ return itm;
+} 
+</script> 
+</form>
+</body>
+</html>
+
